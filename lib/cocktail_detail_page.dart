@@ -2,12 +2,24 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/models/models.dart';
 
 class CocktailDetailPage extends StatelessWidget {
-  const CocktailDetailPage(
+   CocktailDetailPage(
     this.cocktail, {
     Key key,
-  }) : super(key: key);
+      }) : super(key: key);
 
   final Cocktail cocktail;
+  final backColor = Colors.black;
+  final backColorSec = Color.fromARGB(255, 26, 25, 39);
+
+  final mainTitleFontSize=20.0;
+  final titleFontSize=15.0;
+  final descriptionFontSize=10.0;
+
+  final textColor = Colors.white;
+  final textMargin = 5.0;
+  final textLeftMargin = 20.0;
+
+  var screenWidth = 0.0;
 
   @override
   Widget build(BuildContext context) {
@@ -18,106 +30,153 @@ class CocktailDetailPage extends StatelessWidget {
     ///
     ///
     final screenHeight = MediaQuery.of(context).size.height;
-
+    this.screenWidth = MediaQuery.of(context).size.width;
     return Container(
+        width: screenWidth,
         height: screenHeight,
         child:SingleChildScrollView(
-          child: Stack(
-            overflow: Overflow.visible,
+          child: Column(
+            //overflow: Overflow.visible,
             children: [
-              Positioned(
-                top: 0,
-                right: 0,
-                left: 0,
-                child: Image.network(
-                  'https://mircocktails.ru/wp-content/uploads/2019/02/Martini-Byanko-11-1.jpg',
-                  height: (screenHeight / 2) + 56,
-                  fit: BoxFit.cover,
-                ),
-              ),
-              Positioned(
-                right: 0.0,
-                left: 0.0,
-                top: 200,
-                child: Column(
-                  mainAxisSize: MainAxisSize.max,
-                  children: [
-                    Container(
-                      padding: const EdgeInsets.only(
-                          top: 16, left: 16, right: 16, bottom: 56.0 + 16.0),
-                      decoration: BoxDecoration(
-                          color: Colors.green,
-                          borderRadius: BorderRadius.only(
-                              topRight: Radius.circular(56),
-                              topLeft: Radius.circular(56))),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        crossAxisAlignment: CrossAxisAlignment.stretch,
-                        children: [
-                          Text('Text1', textAlign: TextAlign.center),
-                          Text('Text1', textAlign: TextAlign.center),
-                          Text('Text1', textAlign: TextAlign.center),
-                        ],
-                      ),
-                    ),
-                    Container(
-                      color: Colors.green,
-                      child: Container(
-                        padding: const EdgeInsets.all(16),
-                        decoration: BoxDecoration(
-                            color: Colors.red,
-                            borderRadius: BorderRadius.only(
-                                topRight: Radius.circular(56),
-                                topLeft: Radius.circular(56))),
-                        child: Column(
-                          mainAxisSize: MainAxisSize.max,
-                          mainAxisAlignment: MainAxisAlignment.start,
-                          crossAxisAlignment: CrossAxisAlignment.stretch,
-                          children: [
-                            Text('Text1', textAlign: TextAlign.center),
-                            Text('Text1', textAlign: TextAlign.center),
-                            Text('Text1', textAlign: TextAlign.center),
-                          ],
-                        ),
-                      ),
-                    ),
-                    Container(
-                      color: Colors.red,
-                      child: Container(
-                        padding: const EdgeInsets.all(16),
-                        decoration: BoxDecoration(
-                            color: Colors.green,
-                            borderRadius: BorderRadius.only(
-                                topRight: Radius.circular(56),
-                                topLeft: Radius.circular(56))),
-                        child: Column(
-                          mainAxisSize: MainAxisSize.max,
-                          mainAxisAlignment: MainAxisAlignment.start,
-                          crossAxisAlignment: CrossAxisAlignment.stretch,
-                          children: [
-                            Text('Text1', textAlign: TextAlign.center),
-                            Text('Text1', textAlign: TextAlign.center),
-                            Text('Text1', textAlign: TextAlign.center),
-                            Text('Text1', textAlign: TextAlign.center),
-                            Text('Text1', textAlign: TextAlign.center),
-                            Text('Text1', textAlign: TextAlign.center),
-                            Text('Text1', textAlign: TextAlign.center),
-                            Text('Text1', textAlign: TextAlign.center),
-                            Text('Text1', textAlign: TextAlign.center),
-                            Text('Text1', textAlign: TextAlign.center),
-                            Text('Text1', textAlign: TextAlign.center),
-                            Text('Text1', textAlign: TextAlign.center),
-                          ],
-                        ),
-                      ),
-                    )
-                  ],
-                ),
-              ),
+              getImageWidget(screenHeight, this.cocktail.drinkThumbUrl),//это картинка коктейля
+              getCocktailDescription(),//описание коктейля
+              getIngridientsWidget(),//описание ингридиентов
+              getInstructionWidget(),//виджет приготовления
+              getStarsWidget(),//звездочки
             ],
           ),
       ),
     );
   }
+
+  Widget getImageWidget(double screenHeight, String url){
+    return  Container(
+        width: screenWidth,
+        decoration: BoxDecoration(
+        color: backColor,
+        ),
+        child: Image.network(
+          url,
+          height: (screenHeight / 3) + 56,
+          fit: BoxFit.cover,
+        )
+    );
+  }
+
+  Widget generateText(String text, double fontSize, TextAlign align, double leftMargin){
+    return Container(
+        margin: EdgeInsets.only(left: leftMargin, right: textMargin, top: textMargin, bottom: textMargin),
+        child:
+          Text(text, textAlign: align, style: TextStyle(color: textColor, fontSize: fontSize),
+        )
+    );
+  }
+
+   Widget getCocktailDescription() {//описание коктейля
+    return Container(
+      width: screenWidth,
+      padding: const EdgeInsets.all(10.0),
+      decoration: BoxDecoration(
+          color: backColorSec,
+          ),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          generateText(this.cocktail.name, mainTitleFontSize, TextAlign.left, textMargin),
+          generateText("id: " + this.cocktail.id, descriptionFontSize, TextAlign.left, textLeftMargin),
+          generateText('Категория коктейля:', titleFontSize, TextAlign.left, textMargin),
+          generateText(this.cocktail.category.name, descriptionFontSize, TextAlign.left, textLeftMargin),
+          generateText('Тип коктейля:', titleFontSize, TextAlign.left, textMargin),
+          generateText(this.cocktail.cocktailType.name, descriptionFontSize, TextAlign.left, textLeftMargin),
+          generateText('Тип стекла:', titleFontSize, TextAlign.left, textMargin),
+          generateText(this.cocktail.glassType.name, descriptionFontSize, TextAlign.left, textLeftMargin),
+        ],
+      ),
+    );
+  }
+
+   Widget getStarsWidget(){//линейка звездочек
+      return Container(
+          width: screenWidth,
+        padding: const EdgeInsets.all(10.0),
+        decoration: BoxDecoration(
+        color: backColor,
+       ),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisSize: MainAxisSize.max,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Icon(Icons.star, color: Colors.white),
+              Icon(Icons.star, color: Colors.white),
+              Icon(Icons.star, color: Colors.white),
+              Icon(Icons.star, color: backColorSec),
+              Icon(Icons.star, color: backColorSec),
+            ],
+        )
+
+      );
+   }
+
+   List<Widget> getIngridientList() {
+     //виджет для списка ингридиентов
+     List<Widget> res = [];
+     res.add(generateText(
+         "Ингредиенты:", mainTitleFontSize, TextAlign.center, textMargin));
+     for (IngredientDefinition ingredient in this.cocktail.ingredients) {
+       res.add(Container(
+           width: screenWidth,
+            child: Row( //а это виджет одного ингридиента
+              mainAxisAlignment: MainAxisAlignment.center,
+             mainAxisSize: MainAxisSize.max,
+             children: [
+               Expanded(child: generateText(ingredient.ingredientName,
+                titleFontSize, TextAlign.left,textMargin),
+               ),
+               generateText(
+                   ingredient.measure, titleFontSize, TextAlign.right, textMargin),
+             ],
+           )
+         )
+       );
+     }
+     return res;
+   }
+
+   Widget getIngridientsWidget(){//виджет списка ингридиентов
+     return Container(
+       width: screenWidth,
+       padding: const EdgeInsets.all(16.0),
+       decoration: BoxDecoration(
+         color: backColor,
+       ),
+       child: Column(
+          mainAxisSize: MainAxisSize.min,
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+         children: getIngridientList(),
+       ),
+     );
+   }
+
+   Widget getInstructionWidget(){//виджет приготовления
+     return Container(
+       width: screenWidth,
+       padding: const EdgeInsets.all(16.0),
+       decoration: BoxDecoration(
+         color: backColorSec,
+       ),
+       child: Column(
+         mainAxisSize: MainAxisSize.min,
+         mainAxisAlignment: MainAxisAlignment.center,
+         crossAxisAlignment: CrossAxisAlignment.stretch,
+         children: [
+           generateText("Инструкция по приготовлению:", mainTitleFontSize, TextAlign.center, textMargin),
+           generateText(this.cocktail.instruction, titleFontSize, TextAlign.left, textMargin),
+         ],
+       ),
+     );
+   }
 }
