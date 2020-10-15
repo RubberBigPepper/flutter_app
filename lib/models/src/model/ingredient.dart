@@ -16,6 +16,7 @@
 ///       ]
 ///   }
 ///  ```
+///  запустить в терминале flutter packages pub run build_runner build
 ///
 class Ingredient {
   final String id;
@@ -23,6 +24,7 @@ class Ingredient {
   final String description;
   final String ingredientType;
   final bool isAlcoholic;
+  final String ABV;
 
   Ingredient({
     this.id,
@@ -30,5 +32,6 @@ class Ingredient {
     this.description,
     this.ingredientType,
     this.isAlcoholic,
+    this.ABV,
   });
 }

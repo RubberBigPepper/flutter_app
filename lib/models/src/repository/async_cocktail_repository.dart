@@ -12,7 +12,7 @@ import '../../src/model/cocktail_definition.dart';
 import '../../src/model/cocktail_type.dart';
 import '../../src/model/glass_type.dart';
 import '../../src/model/ingredient_definition.dart';
-import 'package: http/http.dart' as http;
+import 'package:http/http.dart' as http;
 
 class AsyncCocktailRepository {
   static const String _apiKey = 'e5b7f97a78msh3b1ba27c40d8ccdp105034jsn34e2da32d50b';
@@ -154,9 +154,8 @@ class AsyncCocktailRepository {
       var response = await http.get(url, headers: _headers);
       if (response.statusCode == 200) {
         final jsonResponse = convert.jsonDecode(response.body);
-        var drinks = jsonResponse['drinks'] as Iterable<dynamic>;
-
-        final dtos = drinks.cast<Map<String, dynamic>>().map((json) => IngredientsDto.fromJson(json));
+        var ingredients = jsonResponse['ingredients'] as Iterable<dynamic>;
+        final dtos = ingredients.cast<Map<String, dynamic>>().map((json) => IngredientsDto.fromJson(json));
         if (dtos.length > 0) {
           result = _createIngredientFromDto(dtos.first);
         }
@@ -176,7 +175,8 @@ class AsyncCocktailRepository {
       name: dto.strIngredient,
       description: dto.strDescription,
       ingredientType: dto.strType,
-      isAlcoholic: dto.strAlcohol.toLowerCase()=="true" //пришлось такое использовать для конвертации, а вообще надо бы завести Extension для такого
+      isAlcoholic: dto.strAlcohol.toLowerCase()=="true", //пришлось такое использовать для конвертации, а вообще надо бы завести Extension для такого
+      ABV: dto.strABV,
     );
   }
 
