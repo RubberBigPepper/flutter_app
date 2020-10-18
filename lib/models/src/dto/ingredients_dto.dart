@@ -10,13 +10,8 @@ class IngredientsDto {
   final String strType;
   final String strAlcohol;
   final String strABV;
-  IngredientsDto(
-      this.idIngredient,
-      this.strIngredient,
-      this.strDescription,
-      this.strType,
-      this.strAlcohol,
-      this.strABV
-      );
-  factory IngredientsDto.fromJson(Map<String, dynamic> json) => _$IngredientsDtoFromJson(json);
+  IngredientsDto(this.idIngredient, this.strIngredient, this.strDescription,
+      this.strType, this.strAlcohol, this.strABV);
+  factory IngredientsDto.fromJson(Map<String, dynamic> json) =>
+      _$IngredientsDtoFromJson(json);
 }

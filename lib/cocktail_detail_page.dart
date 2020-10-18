@@ -2,28 +2,33 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/models/models.dart';
 
 class CocktailDetailPage extends StatelessWidget {
-   CocktailDetailPage(
+  CocktailDetailPage(
     this.cocktail, {
     Key key,
-      }) : super(key: key);
+  }) : super(key: key);
 
   final Cocktail cocktail;
-  final backColor = Colors.black;//основной цвет фона
-  final backColorSec = Color.fromARGB(255, 26, 25, 39);//альтернативный цвет фона
-  final backColorFrame = Color.fromARGB(255, 21, 21, 28);//цвет фона рамки (закругленной)
-   final backIngridientFrame = Color.fromRGBO(32,31,44,1);//цвет фона рамки ингридиентов
+  final backColor = Colors.black; //основной цвет фона
+  final backColorSec =
+      Color.fromARGB(255, 26, 25, 39); //альтернативный цвет фона
+  final backColorFrame =
+      Color.fromARGB(255, 21, 21, 28); //цвет фона рамки (закругленной)
+  final backIngridientFrame =
+      Color.fromRGBO(32, 31, 44, 1); //цвет фона рамки ингридиентов
 
-  final mainTitleFontSize=20.0;
-  final titleFontSize=14.0;
-  final descriptionFontSize=15.0;
-   final idFontSize=13.0;
-   final ingridientFontSize=16.0;
+  final mainTitleFontSize = 20.0;
+  final titleFontSize = 14.0;
+  final descriptionFontSize = 15.0;
+  final idFontSize = 13.0;
+  final ingridientFontSize = 16.0;
 
   final textColor = Colors.white;
   final textMargin = 5.0;
   final textLeftMargin = 20.0;
 
   var screenWidth = 0.0;
+  var marginHor = 0.0;
+  var marginVert = 0.0;
 
   @override
   Widget build(BuildContext context) {
@@ -35,171 +40,238 @@ class CocktailDetailPage extends StatelessWidget {
     ///
     final screenHeight = MediaQuery.of(context).size.height;
     this.screenWidth = MediaQuery.of(context).size.width;
+    this.marginHor =
+        screenWidth * 32 / 373; //расчетный по макету отступ слева для текста
+    this.marginVert =
+        screenWidth * 24 / 373; //расчетный по макету отступ сверху для текста
     return Container(
-        width: screenWidth,
-        height: screenHeight,
-        child:SingleChildScrollView(
-          child: Column(
-            //overflow: Overflow.visible,
-            children: [
-              getImageWidget(screenHeight, this.cocktail.drinkThumbUrl),//это картинка коктейля
-              getCocktailDescription(),//описание коктейля
-              getIngridientsWidget(),//описание ингридиентов
-              getInstructionWidget(),//виджет приготовления
-              getStarsWidget(),//звездочки
-            ],
-          ),
+      width: screenWidth,
+      height: screenHeight,
+      child: SingleChildScrollView(
+        child: Column(
+          //overflow: Overflow.visible,
+          children: [
+            getImageWidget(screenHeight, this.cocktail.drinkThumbUrl),
+            //это картинка коктейля
+            getCocktailDescription(),
+            //описание коктейля
+            getIngridientsWidget(),
+            //описание ингридиентов
+            getInstructionWidget(),
+            //виджет приготовления
+            getStarsWidget(),
+            //звездочки
+          ],
+        ),
       ),
     );
   }
 
-  Widget getImageWidget(double screenHeight, String url){
-    return  Container(
+  Widget getImageWidget(double screenHeight, String url) {
+    return Container(
         width: screenWidth,
         decoration: BoxDecoration(
-        color: backColor,
+          color: backColor,
         ),
-        child: Image.network(
-          url,
-          height: (screenHeight / 3) + 56,
-          fit: BoxFit.cover,
-        )
-    );
+        child: Stack(alignment: AlignmentDirectional.topCenter, children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisSize: MainAxisSize.max,
+            children: [
+              Icon(Icons.backspace, color: Colors.white),
+              Icon(Icons.open_in_new, color: Colors.white)
+            ],
+          ),
+          Image.network(
+            url,
+            height: (screenHeight / 3) + 56,
+            fit: BoxFit.cover,
+          )
+        ]));
   }
 
-  Widget generateText(String text, double fontSize, TextAlign align, double leftMargin){
+  Widget generateText(
+      String text, double fontSize, TextAlign align, double leftMargin,
+      {underlined: false}) {
     return Container(
-        margin: EdgeInsets.only(left: leftMargin, right: textMargin, top: textMargin, bottom: textMargin),
-        child:
-          Text(text, textAlign: align, style: TextStyle(color: textColor, fontSize: fontSize),
-        )
+        margin: EdgeInsets.only(
+            left: leftMargin,
+            right: textMargin,
+            top: textMargin,
+            bottom: textMargin),
+        child: Text(
+          text,
+          textAlign: align,
+          style: TextStyle(
+              color: textColor,
+              fontSize: fontSize,
+              decoration:
+                  underlined ? TextDecoration.underline : TextDecoration.none),
+        ));
+  }
+
+  Widget textInOvalFrame(String text, double fontSize, double leftMargin) {
+    //текст в овальной рамке
+    return ClipOval(
+        child: Container(
+        alignment: Alignment.centerLeft,
+        padding: EdgeInsets.only(left: marginHor, right: 0, top: 0, bottom: 0),
+        width: 100,
+      height: 50,
+      /*  decoration:
+            BoxDecoration(shape: BoxShape.circle, color: backColorFrame),*/
+        child: generateText(text, fontSize, TextAlign.center, 0.0)
+    )
     );
   }
 
-   Widget getCocktailDescription() {//описание коктейля
+  Widget getCocktailDescription() {
+    //описание коктейля
     return Container(
       width: screenWidth,
-      padding: const EdgeInsets.all(10.0),
+      padding: EdgeInsets.only(
+          left: this.marginHor,
+          right: this.marginHor,
+          top: this.marginHor,
+          bottom: 18*screenWidth/375.0),
       decoration: BoxDecoration(
-          color: backColorSec,
-          ),
+        color: backColorSec,
+      ),
       child: Column(
         mainAxisSize: MainAxisSize.min,
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Row(
-            children: [generateText(this.cocktail.name, mainTitleFontSize, TextAlign.left, textMargin)]
-          ),
-          generateText("id: " + this.cocktail.id, idFontSize, TextAlign.left, textLeftMargin),
-          generateText('Категория коктейля:', titleFontSize, TextAlign.left, textMargin),
-          generateText(this.cocktail.category.name, descriptionFontSize, TextAlign.left, textLeftMargin),
-          generateText('Тип коктейля:', titleFontSize, TextAlign.left, textMargin),
-          generateText(this.cocktail.cocktailType.name, descriptionFontSize, TextAlign.left, textLeftMargin),
-          generateText('Тип стекла:', titleFontSize, TextAlign.left, textMargin),
-          generateText(this.cocktail.glassType.name, descriptionFontSize, TextAlign.left, textLeftMargin),
+          Row(mainAxisSize: MainAxisSize.max, children: [
+            Expanded(
+                child: generateText(this.cocktail.name, mainTitleFontSize,
+                    TextAlign.left, textMargin)),
+            Icon(Icons.favorite, color: Colors.white),
+          ]),
+          generateText("id: " + this.cocktail.id, idFontSize, TextAlign.left,
+              textLeftMargin),
+          generateText(
+              'Категория коктейля:', titleFontSize, TextAlign.left, textMargin),
+          textInOvalFrame(
+              this.cocktail.category.name, descriptionFontSize, textMargin),
+          generateText(
+              'Тип коктейля:', titleFontSize, TextAlign.left, textMargin),
+          textInOvalFrame(
+              this.cocktail.cocktailType.name, descriptionFontSize, textMargin),
+          generateText(
+              'Тип стекла:', titleFontSize, TextAlign.left, textMargin),
+          textInOvalFrame(
+              this.cocktail.glassType.name, descriptionFontSize, textMargin),
         ],
       ),
     );
   }
 
-    Widget getOneStartWidget(var color){//одна звезда
-      return Container(
-        width: 48,
-        height: 48,
+  Widget getOneStartWidget(var color) {
+    //одна звезда
+    return Container(
+      width: 48,
+      height: 48,
+      alignment: Alignment.center,
+      decoration: BoxDecoration(
+          shape: BoxShape.circle, color: Color.fromRGBO(42, 41, 58, 1)),
+      child: Icon(Icons.star, color: color),
+    );
+  }
+
+  Widget getStarsWidget() {
+    //линейка звездочек
+    return Container(
+        width: screenWidth,
+        height: 100,
         alignment: Alignment.center,
         decoration: BoxDecoration(
-          shape: BoxShape.circle,
-          color: Color.fromRGBO(42,41,58,1)
-          ),
-        child: Icon(Icons.star, color: color),
-        );
-    }
-
-   Widget getStarsWidget(){//линейка звездочек
-      return Container(
-          width: screenWidth,
-          height: 100,
-          alignment: Alignment.center,
-          decoration: BoxDecoration(
-            color: backColorSec,
+          color: backColorSec,
         ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisSize: MainAxisSize.max,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            getOneStartWidget(Colors.white),
+            getOneStartWidget(Colors.white),
+            getOneStartWidget(Colors.white),
+            getOneStartWidget(backColorSec),
+            getOneStartWidget(backColorSec),
+          ],
+        ));
+  }
+
+  List<Widget> getIngridientList() {
+    //виджет для списка ингридиентов
+    List<Widget> res = [];
+    res.add(generateText(
+        "Ингредиенты:", ingridientFontSize, TextAlign.center, 0.0));
+    for (IngredientDefinition ingredient in this.cocktail.ingredients) {
+      res.add(Container(
+          width: screenWidth,
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            //а это виджет одного ингридиента
+            mainAxisAlignment: MainAxisAlignment.center,
             mainAxisSize: MainAxisSize.max,
-            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              getOneStartWidget(Colors.white),
-              getOneStartWidget(Colors.white),
-              getOneStartWidget(Colors.white),
-              getOneStartWidget(backColorSec),
-              getOneStartWidget(backColorSec),
+              Expanded(
+                child: generateText(ingredient.ingredientName, titleFontSize,
+                    TextAlign.left, 0.0,
+                    underlined: true),
+              ),
+              generateText(
+                  ingredient.measure, titleFontSize, TextAlign.right, 0.0),
             ],
-        )
+          )));
+    }
+    return res;
+  }
 
-      );
-   }
+  Widget getIngridientsWidget() {
+    //виджет списка ингридиентов
+    return Container(
+      width: screenWidth,
+      padding: EdgeInsets.only(
+          left: marginHor,
+          right: marginHor,
+          top: marginVert,
+          bottom: marginVert),
+      decoration: BoxDecoration(
+        color: backColor,
+      ),
+      child: Column(
+        mainAxisSize: MainAxisSize.max,
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: getIngridientList(),
+      ),
+    );
+  }
 
-   List<Widget> getIngridientList() {
-     //виджет для списка ингридиентов
-     List<Widget> res = [];
-     res.add(generateText(
-         "Ингредиенты:", ingridientFontSize, TextAlign.center, textMargin));
-     for (IngredientDefinition ingredient in this.cocktail.ingredients) {
-       res.add(Container(
-           width: screenWidth,
-            child: Row( //а это виджет одного ингридиента
-              mainAxisAlignment: MainAxisAlignment.center,
-             mainAxisSize: MainAxisSize.max,
-             children: [
-               Expanded(child: generateText(ingredient.ingredientName,
-                   titleFontSize, TextAlign.left,textMargin),
-               ),
-               generateText(
-                   ingredient.measure, titleFontSize, TextAlign.right, textMargin),
-             ],
-           )
-         )
-       );
-     }
-     return res;
-   }
-
-   Widget getIngridientsWidget(){//виджет списка ингридиентов
-     var marginHor=screenWidth*32/373; //расчтеный по макету отступ слева для текста
-     var marginVert=screenWidth*24/373; //расчтеный по макету отступ слева для текста
-     return Container(
-       width: screenWidth,
-       padding: EdgeInsets.only(left: marginHor, right: marginHor, top: marginVert, bottom: marginVert),
-       decoration: BoxDecoration(
-         color: backColor,
-       ),
-       child: Column(
-          mainAxisSize: MainAxisSize.min,
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-         children: getIngridientList(),
-       ),
-     );
-   }
-
-   Widget getInstructionWidget(){//виджет приготовления
-     var marginLeft=screenWidth*32/373; //расчтеный по макету отступ слева для текста
-     return Container(
-       width: screenWidth,
-       padding: const EdgeInsets.all(16.0),
-       decoration: BoxDecoration(
-         color: backIngridientFrame,
-       ),
-       child: Column(
-         mainAxisSize: MainAxisSize.max,
-         mainAxisAlignment: MainAxisAlignment.center,
-         crossAxisAlignment: CrossAxisAlignment.stretch,
-         children: [
-           generateText("Инструкция для приготовления", titleFontSize, TextAlign.left, screenWidth*32/373),
-           generateText(this.cocktail.instruction, titleFontSize, TextAlign.left, screenWidth*32/373),
-         ],
-       ),
-     );
-   }
+  Widget getInstructionWidget() {
+    //виджет приготовления
+    return Container(
+      width: screenWidth,
+      padding: EdgeInsets.only(
+          left: marginHor,
+          right: marginHor,
+          top: 24 * screenWidth / 375,
+          bottom: 40 * screenWidth / 375),
+      decoration: BoxDecoration(
+        color: backIngridientFrame,
+      ),
+      child: Column(
+        mainAxisSize: MainAxisSize.max,
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          generateText("Инструкция для приготовления", titleFontSize,
+              TextAlign.left, 0.0),
+          generateText(
+              this.cocktail.instruction, titleFontSize, TextAlign.left, 0.0),
+        ],
+      ),
+    );
+  }
 }
