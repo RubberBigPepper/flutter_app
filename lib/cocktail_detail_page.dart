@@ -74,19 +74,27 @@ class CocktailDetailPage extends StatelessWidget {
           color: backColor,
         ),
         child: Stack(alignment: AlignmentDirectional.topCenter, children: [
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              Icon(Icons.backspace, color: Colors.white),
-              Icon(Icons.open_in_new, color: Colors.white)
-            ],
-          ),
           Image.network(
             url,
             height: (screenHeight / 3) + 56,
             fit: BoxFit.cover,
-          )
+          ),
+          Container(
+              margin: EdgeInsets.only(
+                left: marginHor,
+                right: marginHor,
+                top: marginVert,
+                bottom: marginVert),
+              child:Row(
+
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              mainAxisSize: MainAxisSize.max,
+              children: [
+                Icon(Icons.backspace, color: Colors.white),
+                Icon(Icons.open_in_new, color: Colors.white)
+              ],
+            ),
+          ),
         ]));
   }
 
@@ -112,16 +120,13 @@ class CocktailDetailPage extends StatelessWidget {
 
   Widget textInOvalFrame(String text, double fontSize, double leftMargin) {
     //текст в овальной рамке
-    return ClipOval(
-        child: Container(
-        alignment: Alignment.centerLeft,
-        padding: EdgeInsets.only(left: marginHor, right: 0, top: 0, bottom: 0),
-        width: 100,
-      height: 50,
-      /*  decoration:
-            BoxDecoration(shape: BoxShape.circle, color: backColorFrame),*/
-        child: generateText(text, fontSize, TextAlign.center, 0.0)
-    )
+    return new Container(
+      margin: EdgeInsets.only(left: marginHor),
+      child: generateText(text, fontSize, TextAlign.left, leftMargin),
+      decoration: new BoxDecoration (
+          borderRadius: new BorderRadius.all(new Radius.circular(30.0)),
+          color: Colors.black
+      ),
     );
   }
 
@@ -140,7 +145,7 @@ class CocktailDetailPage extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.stretch,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(mainAxisSize: MainAxisSize.max, children: [
             Expanded(
