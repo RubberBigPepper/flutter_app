@@ -9,12 +9,9 @@ class CocktailDetailPage extends StatelessWidget {
 
   final Cocktail cocktail;
   final backColor = Colors.black; //основной цвет фона
-  final backColorSec =
-      Color.fromARGB(255, 26, 25, 39); //альтернативный цвет фона
-  final backColorFrame =
-      Color.fromARGB(255, 21, 21, 28); //цвет фона рамки (закругленной)
-  final backIngridientFrame =
-      Color.fromRGBO(32, 31, 44, 1); //цвет фона рамки ингридиентов
+  final backColorSec = Color.fromARGB(255, 26, 25, 39); //альтернативный цвет фона
+  final backColorFrame = Color.fromARGB(255, 21, 21, 28); //цвет фона рамки (закругленной)
+  final backIngridientFrame = Color.fromRGBO(32, 31, 44, 1); //цвет фона рамки ингридиентов
 
   final mainTitleFontSize = 20.0;
   final titleFontSize = 14.0;
@@ -40,10 +37,8 @@ class CocktailDetailPage extends StatelessWidget {
     ///
     final screenHeight = MediaQuery.of(context).size.height;
     this.screenWidth = MediaQuery.of(context).size.width;
-    this.marginHor =
-        screenWidth * 32 / 373; //расчетный по макету отступ слева для текста
-    this.marginVert =
-        screenWidth * 24 / 373; //расчетный по макету отступ сверху для текста
+    this.marginHor = screenWidth * 32 / 373; //расчетный по макету отступ слева для текста
+    this.marginVert = screenWidth * 24 / 373; //расчетный по макету отступ сверху для текста
     return Container(
       width: screenWidth,
       height: screenHeight,
@@ -80,40 +75,26 @@ class CocktailDetailPage extends StatelessWidget {
             fit: BoxFit.cover,
           ),
           Container(
-            margin: EdgeInsets.only(
-                left: marginHor,
-                right: marginHor,
-                top: marginVert,
-                bottom: marginVert),
+            margin: EdgeInsets.only(left: marginHor, right: marginHor, top: marginVert, bottom: marginVert),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               mainAxisSize: MainAxisSize.max,
-              children: [
-                Icon(Icons.backspace, color: Colors.white),
-                Icon(Icons.open_in_new, color: Colors.white)
-              ],
+              children: [Icon(Icons.backspace, color: Colors.white), Icon(Icons.open_in_new, color: Colors.white)],
             ),
           ),
         ]));
   }
 
-  Widget generateText(
-      String text, double fontSize, TextAlign align, double leftMargin,
-      {underlined: false}) {
+  Widget generateText(String text, double fontSize, TextAlign align, double leftMargin, {underlined: false}) {
     return Container(
-        margin: EdgeInsets.only(
-            left: leftMargin,
-            right: textMargin,
-            top: textMargin,
-            bottom: textMargin),
+        margin: EdgeInsets.only(left: leftMargin, right: textMargin, top: textMargin, bottom: textMargin),
         child: Text(
           text,
           textAlign: align,
           style: TextStyle(
               color: textColor,
               fontSize: fontSize,
-              decoration:
-                  underlined ? TextDecoration.underline : TextDecoration.none),
+              decoration: underlined ? TextDecoration.underline : TextDecoration.none),
         ));
   }
 
@@ -122,9 +103,7 @@ class CocktailDetailPage extends StatelessWidget {
     return new Container(
       margin: EdgeInsets.only(left: marginHor),
       child: generateText(text, fontSize, TextAlign.left, leftMargin),
-      decoration: new BoxDecoration(
-          borderRadius: new BorderRadius.all(new Radius.circular(30.0)),
-          color: Colors.black),
+      decoration: new BoxDecoration(borderRadius: new BorderRadius.all(new Radius.circular(30.0)), color: Colors.black),
     );
   }
 
@@ -133,10 +112,7 @@ class CocktailDetailPage extends StatelessWidget {
     return Container(
       width: screenWidth,
       padding: EdgeInsets.only(
-          left: this.marginHor,
-          right: this.marginHor,
-          top: this.marginHor,
-          bottom: 18 * screenWidth / 375.0),
+          left: this.marginHor, right: this.marginHor, top: this.marginHor, bottom: 18 * screenWidth / 375.0),
       decoration: BoxDecoration(
         color: backColorSec,
       ),
@@ -146,25 +122,16 @@ class CocktailDetailPage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(mainAxisSize: MainAxisSize.max, children: [
-            Expanded(
-                child: generateText(this.cocktail.name, mainTitleFontSize,
-                    TextAlign.left, textMargin)),
+            Expanded(child: generateText(this.cocktail.name, mainTitleFontSize, TextAlign.left, textMargin)),
             Icon(Icons.favorite, color: Colors.white),
           ]),
-          generateText("id: " + this.cocktail.id, idFontSize, TextAlign.left,
-              textLeftMargin),
-          generateText(
-              'Категория коктейля:', titleFontSize, TextAlign.left, textMargin),
-          textInOvalFrame(
-              this.cocktail.category.name, descriptionFontSize, textMargin),
-          generateText(
-              'Тип коктейля:', titleFontSize, TextAlign.left, textMargin),
-          textInOvalFrame(
-              this.cocktail.cocktailType.name, descriptionFontSize, textMargin),
-          generateText(
-              'Тип стекла:', titleFontSize, TextAlign.left, textMargin),
-          textInOvalFrame(
-              this.cocktail.glassType.name, descriptionFontSize, textMargin),
+          generateText("id: " + this.cocktail.id, idFontSize, TextAlign.left, textLeftMargin),
+          generateText('Категория коктейля:', titleFontSize, TextAlign.left, textMargin),
+          textInOvalFrame(this.cocktail.category.name, descriptionFontSize, textMargin),
+          generateText('Тип коктейля:', titleFontSize, TextAlign.left, textMargin),
+          textInOvalFrame(this.cocktail.cocktailType.name, descriptionFontSize, textMargin),
+          generateText('Тип стекла:', titleFontSize, TextAlign.left, textMargin),
+          textInOvalFrame(this.cocktail.glassType.name, descriptionFontSize, textMargin),
         ],
       ),
     );
@@ -176,8 +143,7 @@ class CocktailDetailPage extends StatelessWidget {
       width: 48,
       height: 48,
       alignment: Alignment.center,
-      decoration: BoxDecoration(
-          shape: BoxShape.circle, color: Color.fromRGBO(42, 41, 58, 1)),
+      decoration: BoxDecoration(shape: BoxShape.circle, color: Color.fromRGBO(42, 41, 58, 1)),
       child: Icon(Icons.star, color: color),
     );
   }
@@ -208,8 +174,7 @@ class CocktailDetailPage extends StatelessWidget {
   List<Widget> getIngridientList() {
     //виджет для списка ингридиентов
     List<Widget> res = [];
-    res.add(generateText(
-        "Ингредиенты:", ingridientFontSize, TextAlign.center, 0.0));
+    res.add(generateText("Ингредиенты:", ingridientFontSize, TextAlign.center, 0.0));
     for (IngredientDefinition ingredient in this.cocktail.ingredients) {
       res.add(Container(
           width: screenWidth,
@@ -219,12 +184,9 @@ class CocktailDetailPage extends StatelessWidget {
             mainAxisSize: MainAxisSize.max,
             children: [
               Expanded(
-                child: generateText(ingredient.ingredientName, titleFontSize,
-                    TextAlign.left, 0.0,
-                    underlined: true),
+                child: generateText(ingredient.ingredientName, titleFontSize, TextAlign.left, 0.0, underlined: true),
               ),
-              generateText(
-                  ingredient.measure, titleFontSize, TextAlign.right, 0.0),
+              generateText(ingredient.measure, titleFontSize, TextAlign.right, 0.0),
             ],
           )));
     }
@@ -235,11 +197,7 @@ class CocktailDetailPage extends StatelessWidget {
     //виджет списка ингридиентов
     return Container(
       width: screenWidth,
-      padding: EdgeInsets.only(
-          left: marginHor,
-          right: marginHor,
-          top: marginVert,
-          bottom: marginVert),
+      padding: EdgeInsets.only(left: marginHor, right: marginHor, top: marginVert, bottom: marginVert),
       decoration: BoxDecoration(
         color: backColor,
       ),
@@ -257,10 +215,7 @@ class CocktailDetailPage extends StatelessWidget {
     return Container(
       width: screenWidth,
       padding: EdgeInsets.only(
-          left: marginHor,
-          right: marginHor,
-          top: 24 * screenWidth / 375,
-          bottom: 40 * screenWidth / 375),
+          left: marginHor, right: marginHor, top: 24 * screenWidth / 375, bottom: 40 * screenWidth / 375),
       decoration: BoxDecoration(
         color: backIngridientFrame,
       ),
@@ -269,10 +224,8 @@ class CocktailDetailPage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          generateText("Инструкция для приготовления", titleFontSize,
-              TextAlign.left, 0.0),
-          generateText(
-              this.cocktail.instruction, titleFontSize, TextAlign.left, 0.0),
+          generateText("Инструкция для приготовления", titleFontSize, TextAlign.left, 0.0),
+          generateText(this.cocktail.instruction, titleFontSize, TextAlign.left, 0.0),
         ],
       ),
     );

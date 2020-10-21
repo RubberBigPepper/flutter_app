@@ -27,8 +27,7 @@ class SyncCocktailRepository {
         IngredientDefinition('Лед', '½ стакана'),
         IngredientDefinition('Мякоть арбуза', '120 г'),
       ],
-      drinkThumbUrl:
-          'https://www.macaobar.gr/images/cocktails/beetleFuzz.jpg',
+      drinkThumbUrl: 'https://www.macaobar.gr/images/cocktails/beetleFuzz.jpg',
     );
   }
 
@@ -49,8 +48,7 @@ class SyncCocktailRepository {
               IngredientDefinition('Creme de Cacao', '1 oz white '),
               IngredientDefinition('Vodka', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qyyvtu1468878544.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qyyvtu1468878544.jpg',
           ),
           Cocktail(
             id: '15395',
@@ -72,8 +70,7 @@ class SyncCocktailRepository {
               IngredientDefinition('Cranberry juice', '1/2 oz '),
               IngredientDefinition('Pineapple juice', '1/4 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uxywyw1468877224.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uxywyw1468877224.jpg',
           ),
           Cocktail(
             id: '15423',
@@ -89,8 +86,7 @@ class SyncCocktailRepository {
               IngredientDefinition('Lager', '16 oz '),
               IngredientDefinition('Tequila', '1.5 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xxyywq1454511117.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xxyywq1454511117.jpg',
           ),
           Cocktail(
             id: '14588',
@@ -112,8 +108,7 @@ class SyncCocktailRepository {
               IngredientDefinition('Coconut liqueur', '1 oz '),
               IngredientDefinition('Vanilla ice-cream', '1 cup '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rvwrvv1468877323.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rvwrvv1468877323.jpg',
           ),
           Cocktail(
             id: '15346',
@@ -131,8 +126,7 @@ class SyncCocktailRepository {
               IngredientDefinition('Vodka', '1 shot '),
               IngredientDefinition('Orange juice', '1 shot '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yqvvqs1475667388.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yqvvqs1475667388.jpg',
           ),
           Cocktail(
             id: '17060',
@@ -150,8 +144,7 @@ class SyncCocktailRepository {
               IngredientDefinition('Rumple Minze', '1/2 oz '),
               IngredientDefinition('151 proof rum', '1/2 oz Bacardi '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yyrwty1468877498.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yyrwty1468877498.jpg',
           ),
           Cocktail(
             id: '15288',
@@ -167,8 +160,7 @@ class SyncCocktailRepository {
               IngredientDefinition('151 proof rum', '1/2 shot Bacardi '),
               IngredientDefinition('Wild Turkey', '1/2 shot '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rtpxqw1468877562.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rtpxqw1468877562.jpg',
           ),
           Cocktail(
             id: '13899',
@@ -185,8 +177,7 @@ class SyncCocktailRepository {
               IngredientDefinition('Johnnie Walker', '1/3 oz '),
               IngredientDefinition('Jim Beam', '1/3 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wxqpyw1468877677.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wxqpyw1468877677.jpg',
           ),
           Cocktail(
             id: '15300',
@@ -209,8 +200,7 @@ class SyncCocktailRepository {
               IngredientDefinition('Bitters', '1 wedge '),
               IngredientDefinition('Lemon', 'Garnish with'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rrtssw1472668972.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rrtssw1472668972.jpg',
           ),
           Cocktail(
             id: '13581',
@@ -226,8 +216,7 @@ class SyncCocktailRepository {
               IngredientDefinition('Peach Vodka', '2-3 oz'),
               IngredientDefinition('Coca-Cola', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xtuyqv1472669026.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xtuyqv1472669026.jpg',
           ),
           Cocktail(
             id: '14598',
@@ -244,8 +233,7 @@ class SyncCocktailRepository {
               IngredientDefinition('Grand Marnier', '1 splash '),
               IngredientDefinition('Orange juice', 'Fill with '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wwpyvr1461919316.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wwpyvr1461919316.jpg',
           ),
           Cocktail(
             id: '17105',
@@ -264,8 +252,7 @@ class SyncCocktailRepository {
               IngredientDefinition('Sour mix', 'null'),
               IngredientDefinition('7-Up', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ywxwqs1461867097.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ywxwqs1461867097.jpg',
           ),
           Cocktail(
             id: '13940',
@@ -282,8 +269,7 @@ class SyncCocktailRepository {
               IngredientDefinition('7-Up', '4 oz '),
               IngredientDefinition('Lemon juice', '0.75 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vqyxqx1472669095.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vqyxqx1472669095.jpg',
           ),
           Cocktail(
             id: '14229',
@@ -300,8 +286,7 @@ class SyncCocktailRepository {
               IngredientDefinition('Baileys irish cream', '1/3 part '),
               IngredientDefinition('Frangelico', '1/3 part '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xxsxqy1472668106.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xxsxqy1472668106.jpg',
           ),
           Cocktail(
             id: '178318',
@@ -323,8 +308,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Sprite', 'Top'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/i9suxb1582474926.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/i9suxb1582474926.jpg',
           ),
           Cocktail(
             id: '16108',
@@ -342,8 +326,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Strawberry liqueur', '1 splash '),
               IngredientDefinition('Orange juice', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xvwusr1472669302.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xvwusr1472669302.jpg',
           ),
           Cocktail(
             id: '15200',
@@ -361,8 +344,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Orange juice', '4 oz '),
               IngredientDefinition('Grenadine', '1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/trptts1454514474.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/trptts1454514474.jpg',
           ),
           Cocktail(
             id: '17831',
@@ -379,8 +361,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Ginger beer', '4 oz '),
               IngredientDefinition('Lemon peel', '1 twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ssxvww1472669166.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ssxvww1472669166.jpg',
           ),
           Cocktail(
             id: '16943',
@@ -398,8 +379,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Orange juice', '3 oz '),
               IngredientDefinition('Cranberry juice', '3 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wysqut1461867176.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wysqut1461867176.jpg',
           ),
           Cocktail(
             id: '15675',
@@ -418,8 +398,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Strawberries', '5 '),
               IngredientDefinition('Schweppes Russchian', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ysqvqp1461867292.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ysqvqp1461867292.jpg',
           ),
           Cocktail(
             id: '17832',
@@ -439,8 +418,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Ginger ale', '3 oz '),
               IngredientDefinition('Lemon peel', '1 twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vyrvxt1461919380.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vyrvxt1461919380.jpg',
           ),
           Cocktail(
             id: '16405',
@@ -458,8 +436,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Ice', 'cubes'),
               IngredientDefinition('Sour mix', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/tqxyxx1472719737.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/tqxyxx1472719737.jpg',
           ),
           Cocktail(
             id: '14564',
@@ -477,8 +454,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Midori melon liqueur', '0.5 oz '),
               IngredientDefinition('Creme de Banane', '0.5 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rsvtrr1472668201.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rsvtrr1472668201.jpg',
           ),
           Cocktail(
             id: '17005',
@@ -496,8 +472,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Ice', 'null'),
               IngredientDefinition('Maraschino cherry', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rptuxy1472669372.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rptuxy1472669372.jpg',
           ),
           Cocktail(
             id: '17833',
@@ -513,8 +488,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Applejack', '1 1/2 oz '),
               IngredientDefinition('Grapefruit juice', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/l74qo91582480316.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/l74qo91582480316.jpg',
           ),
           Cocktail(
             id: '14560',
@@ -532,8 +506,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Vodka', '1/2 oz '),
               IngredientDefinition('Hot chocolate', 'Fill with '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ruxuvp1472669600.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ruxuvp1472669600.jpg',
           ),
           Cocktail(
             id: '17222',
@@ -551,8 +524,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Lemon Juice', '1/4 Shot'),
               IngredientDefinition('Grenadine', '1/8 Shot'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/2x8thr1504816928.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/2x8thr1504816928.jpg',
           ),
           Cocktail(
             id: '17834',
@@ -570,8 +542,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Orange', 'Juice of 1/4 '),
               IngredientDefinition('Cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/mr30ob1582479875.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/mr30ob1582479875.jpg',
           ),
           Cocktail(
             id: '17223',
@@ -589,8 +560,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Orange Juice', '1 shot '),
               IngredientDefinition('Angostura Bitters', '3 dashes '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/2mcozt1504817403.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/2mcozt1504817403.jpg',
           ),
           Cocktail(
             id: '13501',
@@ -607,8 +577,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Baileys irish cream', '1/3 '),
               IngredientDefinition('Cognac', '1/3 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/tqpvqp1472668328.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/tqpvqp1472668328.jpg',
           ),
           Cocktail(
             id: '17835',
@@ -625,8 +594,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Peach nectar', '2 oz '),
               IngredientDefinition('Orange juice', '3 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/smb2oe1582479072.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/smb2oe1582479072.jpg',
           ),
           Cocktail(
             id: '12790',
@@ -645,8 +613,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Licorice root', '1 tblsp '),
               IngredientDefinition('Wormwood', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uxxtrt1472667197.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uxxtrt1472667197.jpg',
           ),
           Cocktail(
             id: '14374',
@@ -664,8 +631,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Ice', 'cubes'),
               IngredientDefinition('Bitter lemon', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wrxrxp1472812609.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wrxrxp1472812609.jpg',
           ),
           Cocktail(
             id: '14372',
@@ -683,8 +649,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Ice', 'Fill with '),
               IngredientDefinition('Tonic water', 'Top it up with '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ssqpyw1472719844.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ssqpyw1472719844.jpg',
           ),
           Cocktail(
             id: '14360',
@@ -702,8 +667,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Cranberry juice', '1 oz '),
               IngredientDefinition('Sprite', '1 splash '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xtrvtx1472668436.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xtrvtx1472668436.jpg',
           ),
           Cocktail(
             id: '15597',
@@ -722,8 +686,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Cranberry juice', '1 1/2 oz '),
               IngredientDefinition('Pineapple juice', '1 1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xuyqrw1472811825.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xuyqrw1472811825.jpg',
           ),
           Cocktail(
             id: '14107',
@@ -742,8 +705,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Soda water', '3 oz '),
               IngredientDefinition('Lemon', '1 slice '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/trpxxs1472669662.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/trpxxs1472669662.jpg',
           ),
           Cocktail(
             id: '15024',
@@ -761,8 +723,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Ginger ale', '2 oz '),
               IngredientDefinition('Ice', 'Add '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vqwstv1472811884.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vqwstv1472811884.jpg',
           ),
           Cocktail(
             id: '17224',
@@ -779,8 +740,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Cranberry Juice', '2 shots '),
               IngredientDefinition('Champagne', 'Top up with'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/abcpwr1504817734.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/abcpwr1504817734.jpg',
           ),
           Cocktail(
             id: '16134',
@@ -798,8 +758,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Triple sec', '1 shot '),
               IngredientDefinition('Ginger ale', 'Fill to top '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yvxrwv1472669728.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yvxrwv1472669728.jpg',
           ),
           Cocktail(
             id: '17836',
@@ -819,8 +778,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Egg white', '1 '),
               IngredientDefinition('Mint', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/il9e0r1582478841.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/il9e0r1582478841.jpg',
           ),
           Cocktail(
             id: '17225',
@@ -839,8 +797,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Milk', '1/2 shot'),
               IngredientDefinition('Egg White', '1/2 Fresh'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/l3cd7f1504818306.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/l3cd7f1504818306.jpg',
           ),
           Cocktail(
             id: '14610',
@@ -856,8 +813,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('151 proof rum', '1 oz Bacardi '),
               IngredientDefinition('Wild Turkey', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xuxpxt1479209317.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xuxpxt1479209317.jpg',
           ),
           Cocktail(
             id: '17837',
@@ -874,8 +830,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Lemon juice', '1 oz '),
               IngredientDefinition('Grenadine', '1 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/v0at4i1582478473.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/v0at4i1582478473.jpg',
           ),
           Cocktail(
             id: '17226',
@@ -893,8 +848,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Creme de Cassis', '1 shot '),
               IngredientDefinition('Fresh Lemon Juice', '1/8 shot '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vfeumw1504819077.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vfeumw1504819077.jpg',
           ),
           Cocktail(
             id: '16333',
@@ -916,8 +870,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Salt', '1-3 pint '),
               IngredientDefinition('Fruit juice', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/tpxurs1454513016.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/tpxurs1454513016.jpg',
           ),
           Cocktail(
             id: '15567',
@@ -935,8 +888,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Water', '1/2 '),
               IngredientDefinition('Sugar', '10 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vtuyvu1472812112.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vtuyvu1472812112.jpg',
           ),
           Cocktail(
             id: '17227',
@@ -953,8 +905,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Dry Vermouth', '1 shot '),
               IngredientDefinition('Soda Water', 'Top up with'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ib0b7g1504818925.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ib0b7g1504818925.jpg',
           ),
           Cocktail(
             id: '17228',
@@ -970,8 +921,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Gin', '1 1/2 shot '),
               IngredientDefinition('Vermouth', '1 1/2 shot '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yzva7x1504820300.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yzva7x1504820300.jpg',
           ),
           Cocktail(
             id: '14272',
@@ -988,8 +938,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Grenadine', '1 tblsp '),
               IngredientDefinition('Orange juice', 'Fill with '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/4vo5651493068493.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/4vo5651493068493.jpg',
           ),
           Cocktail(
             id: '17229',
@@ -1010,8 +959,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Sugar Syrup', '1/4 shot'),
               IngredientDefinition('Water', '1/2 shot '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/8nk2mp1504819893.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/8nk2mp1504819893.jpg',
           ),
           Cocktail(
             id: '17838',
@@ -1028,8 +976,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Sherry', '1 1/2 oz dry '),
               IngredientDefinition('Orange bitters', '1 dash '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xrvruq1472812030.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xrvruq1472812030.jpg',
           ),
           Cocktail(
             id: '17839',
@@ -1047,8 +994,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Cranberry juice', '2 oz '),
               IngredientDefinition('Club soda', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/h5za6y1582477994.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/h5za6y1582477994.jpg',
           ),
           Cocktail(
             id: '17840',
@@ -1066,8 +1012,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Dry Vermouth', '1 oz '),
               IngredientDefinition('Orange bitters', '2 dashes '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wzdtnn1582477684.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wzdtnn1582477684.jpg',
           ),
           Cocktail(
             id: '11010',
@@ -1084,8 +1029,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Triple sec', '1 oz '),
               IngredientDefinition('Lime', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vtytxq1483387578.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vtytxq1483387578.jpg',
           ),
           Cocktail(
             id: '13807',
@@ -1102,8 +1046,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Kahlua', 'null'),
               IngredientDefinition('Baileys irish cream', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/sk3lr91493068595.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/sk3lr91493068595.jpg',
           ),
           Cocktail(
             id: '15182',
@@ -1120,8 +1063,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Creme de Banane', '1 cl '),
               IngredientDefinition('Orange juice', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xrl66i1493068702.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xrl66i1493068702.jpg',
           ),
           Cocktail(
             id: '11011',
@@ -1138,8 +1080,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Apricot brandy', '1 oz '),
               IngredientDefinition('Lemon juice', '1/2 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/quyxwu1483387610.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/quyxwu1483387610.jpg',
           ),
           Cocktail(
             id: '13162',
@@ -1158,8 +1099,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Coffee', '4 cl hot '),
               IngredientDefinition('Cream', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vyrurp1472667777.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vyrurp1472667777.jpg',
           ),
           Cocktail(
             id: '11012',
@@ -1177,8 +1117,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Sloe gin', '1/2 oz '),
               IngredientDefinition('Lemon juice', '1 dash '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qtwxwr1483387647.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qtwxwr1483387647.jpg',
           ),
           Cocktail(
             id: '11013',
@@ -1196,8 +1135,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Yellow Chartreuse', '3/4 oz '),
               IngredientDefinition('Lemon peel', 'Twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wsyryt1483387720.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wsyryt1483387720.jpg',
           ),
           Cocktail(
             id: '11014',
@@ -1215,8 +1153,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Light cream', '2 oz '),
               IngredientDefinition('Nutmeg', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/urystu1478253039.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/urystu1478253039.jpg',
           ),
           Cocktail(
             id: '11019',
@@ -1233,8 +1170,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Triple sec', '1 dash '),
               IngredientDefinition('Pineapple juice', '1 tblsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ypxsqy1483387829.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ypxsqy1483387829.jpg',
           ),
           Cocktail(
             id: '11020',
@@ -1251,8 +1187,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Dry Vermouth', '1 oz '),
               IngredientDefinition('Pineapple juice', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uwryxx1483387873.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uwryxx1483387873.jpg',
           ),
           Cocktail(
             id: '17094',
@@ -1269,8 +1204,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Grand Marnier', '1 shot '),
               IngredientDefinition('Southern Comfort', '1 shot '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/g12lj41493069391.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/g12lj41493069391.jpg',
           ),
           Cocktail(
             id: '11021',
@@ -1289,8 +1223,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Lemon juice', '1 1/2 tsp '),
               IngredientDefinition('Lemon peel', '1 twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uwvyts1483387934.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uwvyts1483387934.jpg',
           ),
           Cocktail(
             id: '11022',
@@ -1307,8 +1240,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Gin', '1 oz '),
               IngredientDefinition('Kummel', '1/2 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qvprvp1483388104.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qvprvp1483388104.jpg',
           ),
           Cocktail(
             id: '11023',
@@ -1325,8 +1257,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Kahlua', '1 oz '),
               IngredientDefinition('Egg white', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rwsyyu1483388181.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rwsyyu1483388181.jpg',
           ),
           Cocktail(
             id: '16082',
@@ -1343,8 +1274,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Dark Creme de Cacao', '1/2 oz '),
               IngredientDefinition('Coffee', '8 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/jls02c1493069441.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/jls02c1493069441.jpg',
           ),
           Cocktail(
             id: '11024',
@@ -1361,8 +1291,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Creme de Cacao', '1/2 oz white '),
               IngredientDefinition('Light cream', '2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xutuqs1483388296.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xutuqs1483388296.jpg',
           ),
           Cocktail(
             id: '11025',
@@ -1378,8 +1307,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Amaretto', '1 1/2 oz '),
               IngredientDefinition('Light cream', '1 1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/dj8n0r1504375018.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/dj8n0r1504375018.jpg',
           ),
           Cocktail(
             id: '178321',
@@ -1398,8 +1326,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Orange Peel', 'Garnish with'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/92h3jz1582474310.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/92h3jz1582474310.jpg',
           ),
           Cocktail(
             id: '12792',
@@ -1421,8 +1348,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Food coloring', '2 drops blue '),
               IngredientDefinition('Glycerine', '1/2 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/swqxuv1472719649.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/swqxuv1472719649.jpg',
           ),
           Cocktail(
             id: '11026',
@@ -1438,8 +1364,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Amaretto', '1 1/2 oz '),
               IngredientDefinition('Lime', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/utpxxq1483388370.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/utpxxq1483388370.jpg',
           ),
           Cocktail(
             id: '11027',
@@ -1456,8 +1381,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Lime juice', '1/2 oz '),
               IngredientDefinition('Club soda', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/3jm41q1493069578.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/3jm41q1493069578.jpg',
           ),
           Cocktail(
             id: '15194',
@@ -1474,8 +1398,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Brandy', '2 oz '),
               IngredientDefinition('Amaretto', '2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xk79al1493069655.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xk79al1493069655.jpg',
           ),
           Cocktail(
             id: '13731',
@@ -1491,8 +1414,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Amaretto', '1 1/2 oz '),
               IngredientDefinition('Sour mix', '3 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xnzc541493070211.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xnzc541493070211.jpg',
           ),
           Cocktail(
             id: '11028',
@@ -1508,8 +1430,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Amaretto', '1 1/2 oz '),
               IngredientDefinition('White Creme de Menthe', '3/4 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vvop4w1493069934.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vvop4w1493069934.jpg',
           ),
           Cocktail(
             id: '14306',
@@ -1526,8 +1447,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Sour mix', '1 part '),
               IngredientDefinition('Orange juice', '1 part '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xwryyx1472719921.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xwryyx1472719921.jpg',
           ),
           Cocktail(
             id: '16100',
@@ -1545,8 +1465,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Tequila', '2 oz '),
               IngredientDefinition('Orange juice', 'Add splash '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wutxqr1472720012.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wutxqr1472720012.jpg',
           ),
           Cocktail(
             id: '14578',
@@ -1563,8 +1482,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Orange juice', '4 oz '),
               IngredientDefinition('Grenadine', '1/4 cl '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/akcpsh1493070267.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/akcpsh1493070267.jpg',
           ),
           Cocktail(
             id: '17168',
@@ -1582,8 +1500,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Cider', '1/2 cup '),
               IngredientDefinition('Ice', 'Add 1/2 cup '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/apictz1493069760.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/apictz1493069760.jpg',
           ),
           Cocktail(
             id: '16202',
@@ -1601,8 +1518,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Midori melon liqueur', 'null'),
               IngredientDefinition('Pineapple juice', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vswwus1472668546.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vswwus1472668546.jpg',
           ),
           Cocktail(
             id: '11029',
@@ -1619,8 +1535,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Amaretto', '2 oz '),
               IngredientDefinition('Whipped cream', 'Chilled '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/b7qzo21493070167.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/b7qzo21493070167.jpg',
           ),
           Cocktail(
             id: '15941',
@@ -1638,8 +1553,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Lemon peel', 'Twist of '),
               IngredientDefinition('Orange peel', 'Twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/trwruu1478253126.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/trwruu1478253126.jpg',
           ),
           Cocktail(
             id: '11034',
@@ -1656,8 +1570,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Apple brandy', '1/2 oz '),
               IngredientDefinition('Gin', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vqpptp1478253178.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vqpptp1478253178.jpg',
           ),
           Cocktail(
             id: '12794',
@@ -1682,8 +1595,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Water', '1/4 cup '),
               IngredientDefinition('Food coloring', '1 drop green '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yuurps1472667672.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yuurps1472667672.jpg',
           ),
           Cocktail(
             id: '178325',
@@ -1701,8 +1613,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Soda Water', 'Top'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/iloasq1587661955.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/iloasq1587661955.jpg',
           ),
           Cocktail(
             id: '16289',
@@ -1718,8 +1629,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Tequila', '3 oz '),
               IngredientDefinition('Apple cider', '12 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wqrptx1472668622.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wqrptx1472668622.jpg',
           ),
           Cocktail(
             id: '16958',
@@ -1736,8 +1646,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Malibu rum', '1 part '),
               IngredientDefinition('Cinnamon', '3 dashes '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qspqxt1472720078.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qspqxt1472720078.jpg',
           ),
           Cocktail(
             id: '13683',
@@ -1753,8 +1662,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('7-Up', '1 part '),
               IngredientDefinition('Apple schnapps', '1 part '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/09yd5f1493069852.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/09yd5f1493069852.jpg',
           ),
           Cocktail(
             id: '11046',
@@ -1771,8 +1679,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Triple sec', '1 oz '),
               IngredientDefinition('Lemon juice', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/sbffau1504389764.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/sbffau1504389764.jpg',
           ),
           Cocktail(
             id: '16311',
@@ -1789,8 +1696,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Midori melon liqueur', '1/2 oz '),
               IngredientDefinition('Sour mix', '2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/sutyqp1479209062.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/sutyqp1479209062.jpg',
           ),
           Cocktail(
             id: '11050',
@@ -1810,8 +1716,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('Egg white', '1 '),
               IngredientDefinition('Orange', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/7ityp11582579598.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/7ityp11582579598.jpg',
           ),
           Cocktail(
             id: '15849',
@@ -1830,8 +1735,7 @@ Garnish with a Lime wheel or some cranberries
               IngredientDefinition('7-Up', '4 L '),
               IngredientDefinition('Orange juice', '1/2 gal '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/tuxxtp1472668667.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/tuxxtp1472668667.jpg',
           ),
           Cocktail(
             id: '178319',
@@ -1850,8 +1754,7 @@ Strain in a martini glass.
               IngredientDefinition('Banana Liqueur', '1 oz'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/zvsre31572902738.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/zvsre31572902738.jpg',
           ),
           Cocktail(
             id: '11052',
@@ -1869,8 +1772,7 @@ Strain in a martini glass.
               IngredientDefinition('Benedictine', '1 tsp '),
               IngredientDefinition('Lime', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/4g6xds1582579703.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/4g6xds1582579703.jpg',
           ),
           Cocktail(
             id: '14622',
@@ -1889,8 +1791,7 @@ Strain in a martini glass.
               IngredientDefinition('Ice', 'lots '),
               IngredientDefinition('Candy', '1 dash '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ttsvwy1472668781.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ttsvwy1472668781.jpg',
           ),
           Cocktail(
             id: '17118',
@@ -1907,8 +1808,7 @@ Strain in a martini glass.
               IngredientDefinition('Mountain Dew', '5 oz '),
               IngredientDefinition('Ice', 'cubes'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wqstwv1478963735.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wqstwv1478963735.jpg',
           ),
           Cocktail(
             id: '11053',
@@ -1924,8 +1824,7 @@ Strain in a martini glass.
               IngredientDefinition('Champagne', 'Chilled '),
               IngredientDefinition('Green Creme de Menthe', '1 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wyrrwv1441207432.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wyrrwv1441207432.jpg',
           ),
           Cocktail(
             id: '16354',
@@ -1942,8 +1841,7 @@ Strain in a martini glass.
               IngredientDefinition('Midori melon liqueur', '1/3 oz '),
               IngredientDefinition('Sweet and sour', '1/3 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/dbtylp1493067262.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/dbtylp1493067262.jpg',
           ),
           Cocktail(
             id: '14584',
@@ -1959,8 +1857,7 @@ Strain in a martini glass.
               IngredientDefinition('Absolut Vodka', '2 shots '),
               IngredientDefinition('Iced tea', '12 oz lemon '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/y7w0721493068255.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/y7w0721493068255.jpg',
           ),
           Cocktail(
             id: '17074',
@@ -1983,8 +1880,7 @@ Strain in a martini glass.
               IngredientDefinition('Ice', 'crushed '),
               IngredientDefinition('Pineapple', '1 wedge '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ido1j01493068134.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ido1j01493068134.jpg',
           ),
           Cocktail(
             id: '17066',
@@ -2002,8 +1898,7 @@ Strain in a martini glass.
               IngredientDefinition('Lime juice cordial', '45 ml '),
               IngredientDefinition('Ice', '1/2 glass crushed '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/55muhh1493068062.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/55muhh1493068062.jpg',
           ),
           Cocktail(
             id: '11054',
@@ -2021,8 +1916,7 @@ Strain in a martini glass.
               IngredientDefinition('Lemon juice', '2 tsp '),
               IngredientDefinition('Lemon peel', '1 twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/7onfhz1493067921.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/7onfhz1493067921.jpg',
           ),
           Cocktail(
             id: '11055',
@@ -2039,8 +1933,7 @@ Strain in a martini glass.
               IngredientDefinition('Gin', '1 1/2 oz '),
               IngredientDefinition('Bitters', '2 dashes '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/g1vnbe1493067747.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/g1vnbe1493067747.jpg',
           ),
           Cocktail(
             id: '12870',
@@ -2062,8 +1955,7 @@ Strain in a martini glass.
               IngredientDefinition('Orange juice', '1 pint '),
               IngredientDefinition('Lemon juice', '1/2 pint '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/9a4vqb1493067692.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/9a4vqb1493067692.jpg',
           ),
           Cocktail(
             id: '13938',
@@ -2080,8 +1972,7 @@ Strain in a martini glass.
               IngredientDefinition('Gin', '1 oz '),
               IngredientDefinition('Tonic water', '4 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rhhwmp1493067619.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rhhwmp1493067619.jpg',
           ),
           Cocktail(
             id: '13423',
@@ -2100,8 +1991,7 @@ Strain in a martini glass.
               IngredientDefinition('Sweet and sour', '6 cl '),
               IngredientDefinition('Club soda', '1 dash '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/doyxqb1493067556.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/doyxqb1493067556.jpg',
           ),
           Cocktail(
             id: '13086',
@@ -2121,8 +2011,7 @@ Strain in a martini glass.
               IngredientDefinition('Sugar', 'null'),
               IngredientDefinition('Ice', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/n3zfrh1493067412.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/n3zfrh1493067412.jpg',
           ),
           Cocktail(
             id: '17020',
@@ -2138,8 +2027,7 @@ Strain in a martini glass.
               IngredientDefinition('Jägermeister', '1 oz '),
               IngredientDefinition('Goldschlager', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vw7iv91493067320.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vw7iv91493067320.jpg',
           ),
           Cocktail(
             id: '12756',
@@ -2156,8 +2044,7 @@ Strain in a martini glass.
               IngredientDefinition('Lime juice', '1 dash '),
               IngredientDefinition('Soda water', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/7dkf0i1487602928.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/7dkf0i1487602928.jpg',
           ),
           Cocktail(
             id: '16419',
@@ -2174,8 +2061,7 @@ Strain in a martini glass.
               IngredientDefinition('Kahlua', '1 shot '),
               IngredientDefinition('Cream', 'Fill with '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uppqty1472720165.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uppqty1472720165.jpg',
           ),
           Cocktail(
             id: '15266',
@@ -2194,8 +2080,7 @@ Strain in a martini glass.
               IngredientDefinition('Lemon juice', '1 1/2 part '),
               IngredientDefinition('Lemonade', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/3k9qic1493068931.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/3k9qic1493068931.jpg',
           ),
           Cocktail(
             id: '17180',
@@ -2212,8 +2097,7 @@ Strain in a martini glass.
               IngredientDefinition('lemon juice', '1.5 cl'),
               IngredientDefinition('maraschino liqueur', '1.5 cl'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ruutxt1478253328.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ruutxt1478253328.jpg',
           ),
           Cocktail(
             id: '14364',
@@ -2231,8 +2115,7 @@ Strain in a martini glass.
               IngredientDefinition('Rum', '7 oz '),
               IngredientDefinition('Ginger ale', 'About 1 bottle '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uqwuyp1454514591.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uqwuyp1454514591.jpg',
           ),
           Cocktail(
             id: '15853',
@@ -2249,8 +2132,7 @@ Strain in a martini glass.
               IngredientDefinition('Grand Marnier', '1/3 '),
               IngredientDefinition('Kahlua', '1/4 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/5a3vg61504372070.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/5a3vg61504372070.jpg',
           ),
           Cocktail(
             id: '13332',
@@ -2267,8 +2149,7 @@ Strain in a martini glass.
               IngredientDefinition('Sambuca', '1/3 shot '),
               IngredientDefinition('Grand Marnier', '1/3 shot '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rwqxrv1461866023.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rwqxrv1461866023.jpg',
           ),
           Cocktail(
             id: '15511',
@@ -2285,8 +2166,7 @@ Strain in a martini glass.
               IngredientDefinition('Milk', '8 oz '),
               IngredientDefinition('Vanilla ice-cream', '2 scoops '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wywrtw1472720227.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wywrtw1472720227.jpg',
           ),
           Cocktail(
             id: '17079',
@@ -2302,8 +2182,7 @@ Strain in a martini glass.
               IngredientDefinition('Kahlua', '2 1/2 oz '),
               IngredientDefinition('Baileys irish cream', '1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rvyvxs1473482359.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rvyvxs1473482359.jpg',
           ),
           Cocktail(
             id: '17183',
@@ -2321,8 +2200,7 @@ Strain in a martini glass.
               IngredientDefinition('Sugar syrup', '1/2 tsp '),
               IngredientDefinition('Grenadine', '1 dash '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/n433t21504348259.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/n433t21504348259.jpg',
           ),
           Cocktail(
             id: '17267',
@@ -2345,8 +2223,7 @@ Mix it all together and pour over a bunch of ice. Drink with a straw.
               IngredientDefinition('Orange Juice', '2 parts'),
               IngredientDefinition('Sweet and Sour', '1 part'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/tyb4a41515793339.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/tyb4a41515793339.jpg',
           ),
           Cocktail(
             id: '14510',
@@ -2363,8 +2240,7 @@ Mix it all together and pour over a bunch of ice. Drink with a straw.
               IngredientDefinition('Vanilla ice-cream', '2 scoops '),
               IngredientDefinition('Cream', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qxrvqw1472718959.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qxrvqw1472718959.jpg',
           ),
           Cocktail(
             id: '11060',
@@ -2382,8 +2258,7 @@ Mix it all together and pour over a bunch of ice. Drink with a straw.
               IngredientDefinition('Dry Vermouth', '1/2 oz '),
               IngredientDefinition('Bitters', '2 dashes '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vysuyq1441206297.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vysuyq1441206297.jpg',
           ),
           Cocktail(
             id: '178320',
@@ -2401,8 +2276,7 @@ Mix it all together and pour over a bunch of ice. Drink with a straw.
               IngredientDefinition('Pineapple Juice', 'Top'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/m5p67n1582474609.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/m5p67n1582474609.jpg',
           ),
           Cocktail(
             id: '11064',
@@ -2422,8 +2296,7 @@ Mix it all together and pour over a bunch of ice. Drink with a straw.
               IngredientDefinition('Sugar', '1 tsp '),
               IngredientDefinition('Cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/k1xatq1504389300.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/k1xatq1504389300.jpg',
           ),
           Cocktail(
             id: '17209',
@@ -2442,8 +2315,7 @@ Mix it all together and pour over a bunch of ice. Drink with a straw.
               IngredientDefinition('Lime Juice', ' 1 dash'),
               IngredientDefinition('Prosecco', 'top up '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/jwmr1x1504372337.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/jwmr1x1504372337.jpg',
           ),
           Cocktail(
             id: '178317',
@@ -2464,8 +2336,7 @@ Garnish with orange peel
               IngredientDefinition('Triple Sec', '2 jiggers'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/tx8ne41582475326.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/tx8ne41582475326.jpg',
           ),
           Cocktail(
             id: '14071',
@@ -2483,8 +2354,7 @@ Garnish with orange peel
               IngredientDefinition('Blue Curacao', '1 cl '),
               IngredientDefinition('Sprite', 'Fill with '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/jylbrq1582580066.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/jylbrq1582580066.jpg',
           ),
           Cocktail(
             id: '17195',
@@ -2500,8 +2370,7 @@ Garnish with orange peel
               IngredientDefinition('Champagne', '6 oz '),
               IngredientDefinition('Peach schnapps', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/eaag491504367543.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/eaag491504367543.jpg',
           ),
           Cocktail(
             id: '16176',
@@ -2526,8 +2395,7 @@ Add lemon twist peel.
               IngredientDefinition('Peach schnapps', '1.5 oz '),
               IngredientDefinition('Lemon peel', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/3h9wv51504389379.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/3h9wv51504389379.jpg',
           ),
           Cocktail(
             id: '11084',
@@ -2546,8 +2414,7 @@ Add lemon twist peel.
               IngredientDefinition('Carbonated water', 'null'),
               IngredientDefinition('Lemon peel', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qrvtww1441206528.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qrvtww1441206528.jpg',
           ),
           Cocktail(
             id: '12876',
@@ -2565,8 +2432,7 @@ Add lemon twist peel.
               IngredientDefinition('Orange juice', '1/2 gal '),
               IngredientDefinition('Kool-Aid', '1 gal Tropical Berry '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/zk74k21593351065.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/zk74k21593351065.jpg',
           ),
           Cocktail(
             id: '17184',
@@ -2584,8 +2450,7 @@ Add lemon twist peel.
               IngredientDefinition('Triple sec', '1 oz '),
               IngredientDefinition('Lemon juice', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/of1rj41504348346.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/of1rj41504348346.jpg',
           ),
           Cocktail(
             id: '16986',
@@ -2603,8 +2468,7 @@ Add lemon twist peel.
               IngredientDefinition('Lime', '2 wedges '),
               IngredientDefinition('Sour mix', '2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/6bec6v1503563675.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/6bec6v1503563675.jpg',
           ),
           Cocktail(
             id: '13222',
@@ -2620,8 +2484,7 @@ Add lemon twist peel.
               IngredientDefinition('Irish cream', '1/2 oz '),
               IngredientDefinition('Goldschlager', '1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yqwuwu1441248116.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yqwuwu1441248116.jpg',
           ),
           Cocktail(
             id: '17254',
@@ -2640,8 +2503,7 @@ Add lemon twist peel.
               IngredientDefinition('Gin', '1 oz'),
               IngredientDefinition('Sweet Vermouth', '1 oz'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rysb3r1513706985.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rysb3r1513706985.jpg',
           ),
           Cocktail(
             id: '13282',
@@ -2657,8 +2519,7 @@ Add lemon twist peel.
               IngredientDefinition('Ale', '1 part Bass pale '),
               IngredientDefinition('Guinness stout', '1 part '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rwpswp1454511017.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rwpswp1454511017.jpg',
           ),
           Cocktail(
             id: '16403',
@@ -2674,8 +2535,7 @@ Add lemon twist peel.
               IngredientDefinition('Guinness stout', '1/2 '),
               IngredientDefinition('Root beer', '1/2 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wwuvxv1472668899.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wwuvxv1472668899.jpg',
           ),
           Cocktail(
             id: '15951',
@@ -2694,8 +2554,7 @@ Add lemon twist peel.
               IngredientDefinition('Vodka', 'null'),
               IngredientDefinition('Milk', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xxtxsu1472720505.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xxtxsu1472720505.jpg',
           ),
           Cocktail(
             id: '11102',
@@ -2711,8 +2570,7 @@ Add lemon twist peel.
               IngredientDefinition('Coffee liqueur', '3/4 oz '),
               IngredientDefinition('Vodka', '1 1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/2k5gbb1504367689.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/2k5gbb1504367689.jpg',
           ),
           Cocktail(
             id: '11106',
@@ -2729,8 +2587,7 @@ Add lemon twist peel.
               IngredientDefinition('Sloe gin', '1 1/2 oz '),
               IngredientDefinition('Lemon peel', '1 twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xvswvy1441209430.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xvswvy1441209430.jpg',
           ),
           Cocktail(
             id: '16295',
@@ -2748,8 +2605,7 @@ Add lemon twist peel.
               IngredientDefinition('Surge', '1/2 glass '),
               IngredientDefinition('Cranberry juice', '1/2 glass '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/usuvvr1472719118.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/usuvvr1472719118.jpg',
           ),
           Cocktail(
             id: '14356',
@@ -2768,8 +2624,7 @@ Add lemon twist peel.
               IngredientDefinition('Butterscotch schnapps', '1/2 oz '),
               IngredientDefinition('Milk', ' to fill'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wxuqvr1472720408.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wxuqvr1472720408.jpg',
           ),
           Cocktail(
             id: '11112',
@@ -2789,8 +2644,7 @@ Add lemon twist peel.
               IngredientDefinition('Celery salt', '1 dash '),
               IngredientDefinition('Lemon', '1 slice '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yz0j6z1504389461.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yz0j6z1504389461.jpg',
           ),
           Cocktail(
             id: '11113',
@@ -2810,8 +2664,7 @@ Add lemon twist peel.
               IngredientDefinition('Tabasco sauce', '2-3 drops '),
               IngredientDefinition('Lime', '1 wedge '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/t6caa21582485702.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/t6caa21582485702.jpg',
           ),
           Cocktail(
             id: '178312',
@@ -2843,8 +2696,7 @@ Add blueberries and raisins. They will float and look like bugs in the punch.
               IngredientDefinition('Raisins', '1 cup'),
               IngredientDefinition('Blueberries', '1 cup'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/5yhd3n1571687385.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/5yhd3n1571687385.jpg',
           ),
           Cocktail(
             id: '17268',
@@ -2869,8 +2721,7 @@ Drink it with a big straw if you have one.
               IngredientDefinition('Sweet and Sour', '6 parts'),
               IngredientDefinition('Ice', 'cubes'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/nwx02s1515795822.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/nwx02s1515795822.jpg',
           ),
           Cocktail(
             id: '11117',
@@ -2888,8 +2739,7 @@ Drink it with a big straw if you have one.
               IngredientDefinition('Lemonade', 'null'),
               IngredientDefinition('Cherry', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/5wm4zo1582579154.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/5wm4zo1582579154.jpg',
           ),
           Cocktail(
             id: '11118',
@@ -2907,8 +2757,7 @@ Drink it with a big straw if you have one.
               IngredientDefinition('Lime juice', '1 oz '),
               IngredientDefinition('Salt', 'Coarse '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg',
           ),
           Cocktail(
             id: '11119',
@@ -2927,8 +2776,7 @@ Drink it with a big straw if you have one.
               IngredientDefinition('Orange juice', '1 oz '),
               IngredientDefinition('Lemon juice', '1 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/bih7ln1582485506.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/bih7ln1582485506.jpg',
           ),
           Cocktail(
             id: '178336',
@@ -2948,8 +2796,7 @@ Drink it with a big straw if you have one.
               IngredientDefinition('Lemon-lime soda', 'Top'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/07iep51598719977.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/07iep51598719977.jpg',
           ),
           Cocktail(
             id: '11120',
@@ -2969,8 +2816,7 @@ Drink it with a big straw if you have one.
               IngredientDefinition('Maraschino cherry', '1 '),
               IngredientDefinition('Lemon peel', '1 twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/5jhyd01582579843.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/5jhyd01582579843.jpg',
           ),
           Cocktail(
             id: '13395',
@@ -2987,8 +2833,7 @@ Drink it with a big straw if you have one.
               IngredientDefinition('Jägermeister', '1/2 oz '),
               IngredientDefinition('Goldschlager', '1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rrqrst1477140664.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rrqrst1477140664.jpg',
           ),
           Cocktail(
             id: '11121',
@@ -3006,8 +2851,7 @@ Drink it with a big straw if you have one.
               IngredientDefinition('Benedictine', '1 1/4 tsp '),
               IngredientDefinition('Lemon peel', '1 twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/km6se51484411608.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/km6se51484411608.jpg',
           ),
           Cocktail(
             id: '17242',
@@ -3030,8 +2874,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Lime', '1'),
               IngredientDefinition('Ginger', '1 long strip'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/h1e0e51510136907.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/h1e0e51510136907.jpg',
           ),
           Cocktail(
             id: '11124',
@@ -3050,8 +2893,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Maraschino liqueur', '1/2 tsp '),
               IngredientDefinition('Maraschino cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/3m6yz81504389551.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/3m6yz81504389551.jpg',
           ),
           Cocktail(
             id: '17221',
@@ -3072,8 +2914,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('chocolate sauce', '4 tablespoons'),
               IngredientDefinition('Mini-snickers bars', '15'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/861tzm1504784164.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/861tzm1504784164.jpg',
           ),
           Cocktail(
             id: '11128',
@@ -3091,8 +2932,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Triple sec', '3/4 oz '),
               IngredientDefinition('Lime', 'Juice of 1/2 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qzs5d11504365962.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qzs5d11504365962.jpg',
           ),
           Cocktail(
             id: '11129',
@@ -3111,8 +2951,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Egg white', '1 '),
               IngredientDefinition('Cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/kxlgbi1504366100.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/kxlgbi1504366100.jpg',
           ),
           Cocktail(
             id: '17251',
@@ -3130,8 +2969,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Rye whiskey', '1 1/4 oz'),
               IngredientDefinition('Orange Peel', '1'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/km84qi1513705868.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/km84qi1513705868.jpg',
           ),
           Cocktail(
             id: '178331',
@@ -3151,8 +2989,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Prosecco', 'Top'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/t8bgxl1596018175.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/t8bgxl1596018175.jpg',
           ),
           Cocktail(
             id: '11146',
@@ -3171,8 +3008,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Bourbon', '2 oz '),
               IngredientDefinition('Lemon peel', '1 twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/3s36ql1504366260.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/3s36ql1504366260.jpg',
           ),
           Cocktail(
             id: '11147',
@@ -3191,8 +3027,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Orange', '1 '),
               IngredientDefinition('Maraschino cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/dms3io1504366318.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/dms3io1504366318.jpg',
           ),
           Cocktail(
             id: '11149',
@@ -3211,8 +3046,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Grenadine', '1/2 tsp '),
               IngredientDefinition('Egg white', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/pwgtpa1504366376.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/pwgtpa1504366376.jpg',
           ),
           Cocktail(
             id: '17120',
@@ -3232,8 +3066,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Lemon juice', '1 small bottle '),
               IngredientDefinition('Rum', '1 pint '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rz5aun1504389701.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rz5aun1504389701.jpg',
           ),
           Cocktail(
             id: '13405',
@@ -3250,8 +3083,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Erin Cream', '30 ml '),
               IngredientDefinition('Advocaat', '5 ml '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ruywtq1461866066.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ruywtq1461866066.jpg',
           ),
           Cocktail(
             id: '17210',
@@ -3269,8 +3101,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Sugar syrup', '1 cl'),
               IngredientDefinition('Creme de Mure', '1.5 cl'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/lvzl3r1504372526.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/lvzl3r1504372526.jpg',
           ),
           Cocktail(
             id: '16447',
@@ -3287,8 +3118,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Coca-Cola', '1 can '),
               IngredientDefinition('Bourbon', '2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xspxyr1472719185.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xspxyr1472719185.jpg',
           ),
           Cocktail(
             id: '11016',
@@ -3306,8 +3136,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Light cream', '1 oz '),
               IngredientDefinition('Nutmeg', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/tvqxvr1483387746.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/tvqxvr1483387746.jpg',
           ),
           Cocktail(
             id: '11157',
@@ -3327,8 +3156,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Maraschino cherry', '1 '),
               IngredientDefinition('Orange', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/5xgu591582580586.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/5xgu591582580586.jpg',
           ),
           Cocktail(
             id: '11164',
@@ -3347,8 +3175,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Light cream', '1/2 oz '),
               IngredientDefinition('Nutmeg', '1/8 tsp grated '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/6ty09d1504366461.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/6ty09d1504366461.jpg',
           ),
           Cocktail(
             id: '11170',
@@ -3366,8 +3193,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Powdered sugar', '1/2 tsp '),
               IngredientDefinition('Cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/b1bxgq1582484872.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/b1bxgq1582484872.jpg',
           ),
           Cocktail(
             id: '13068',
@@ -3383,8 +3209,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Tequila', '1/2 oz '),
               IngredientDefinition('Tabasco sauce', '1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yrtypx1473344625.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yrtypx1473344625.jpg',
           ),
           Cocktail(
             id: '17825',
@@ -3401,8 +3226,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Green Chartreuse', '1 oz'),
               IngredientDefinition('Cherry Heering', '1 oz'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/nl89tf1518947401.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/nl89tf1518947401.jpg',
           ),
           Cocktail(
             id: '178311',
@@ -3422,8 +3246,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Ice', 'cubes'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/l2o6xu1582476870.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/l2o6xu1582476870.jpg',
           ),
           Cocktail(
             id: '178310',
@@ -3442,8 +3265,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Angostura Bitters', '3 dashes'),
               IngredientDefinition('Maraschino Cherry', '1'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ojsezf1582477277.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ojsezf1582477277.jpg',
           ),
           Cocktail(
             id: '13066',
@@ -3460,8 +3282,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Kahlua', 'null'),
               IngredientDefinition('Baileys irish cream', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/svsvqv1473344558.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/svsvqv1473344558.jpg',
           ),
           Cocktail(
             id: '16998',
@@ -3479,8 +3300,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Peachtree schnapps', '1/2 oz '),
               IngredientDefinition('Cranberry juice', '1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/7if5kq1503564209.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/7if5kq1503564209.jpg',
           ),
           Cocktail(
             id: '14730',
@@ -3498,8 +3318,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Orange juice', '1/4 '),
               IngredientDefinition('Peach schnapps', '1/4 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/spuurv1468878783.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/spuurv1468878783.jpg',
           ),
           Cocktail(
             id: '17035',
@@ -3515,8 +3334,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Corona', '1 '),
               IngredientDefinition('Bacardi Limon', '1 shot '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/upvtyt1441249023.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/upvtyt1441249023.jpg',
           ),
           Cocktail(
             id: '14538',
@@ -3533,8 +3351,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Kahlua', '1/3 oz '),
               IngredientDefinition('Sambuca', '1/3 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uwqpvv1461866378.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uwqpvv1461866378.jpg',
           ),
           Cocktail(
             id: '17220',
@@ -3552,8 +3369,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Milk', 'full glass '),
               IngredientDefinition('Vodka', '2 parts '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/1xhjk91504783763.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/1xhjk91504783763.jpg',
           ),
           Cocktail(
             id: '14181',
@@ -3571,8 +3387,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Triple sec', '1/2 oz '),
               IngredientDefinition('Brandy', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vqwptt1441247711.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vqwptt1441247711.jpg',
           ),
           Cocktail(
             id: '11202',
@@ -3589,8 +3404,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Lime', '1 '),
               IngredientDefinition('Cachaca', '2 1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/jgvn7p1582484435.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/jgvn7p1582484435.jpg',
           ),
           Cocktail(
             id: '13206',
@@ -3608,8 +3422,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('White rum', '2-3 oz '),
               IngredientDefinition('Ice', 'crushed '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yd47111503565515.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yd47111503565515.jpg',
           ),
           Cocktail(
             id: '11205',
@@ -3629,8 +3442,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Grenadine', '1/4 tsp'),
               IngredientDefinition('Carbonated water', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/q5z4841582484168.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/q5z4841582484168.jpg',
           ),
           Cocktail(
             id: '14282',
@@ -3647,8 +3459,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Galliano', '3/4 oz '),
               IngredientDefinition('Soda water', 'Fill with '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rsxuyr1472719526.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rsxuyr1472719526.jpg',
           ),
           Cocktail(
             id: '16047',
@@ -3664,8 +3475,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Lager', '1 bottle '),
               IngredientDefinition('Campari', '1 1/2 cl '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xsqrup1441249130.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xsqrup1441249130.jpg',
           ),
           Cocktail(
             id: '178329',
@@ -3686,8 +3496,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Nutmeg', 'Top'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/d83spj1596017390.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/d83spj1596017390.jpg',
           ),
           Cocktail(
             id: '17065',
@@ -3703,8 +3512,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Corona', '1 bottle '),
               IngredientDefinition('Light rum', '1 shot '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/svsxsv1454511666.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/svsxsv1454511666.jpg',
           ),
           Cocktail(
             id: '12796',
@@ -3721,8 +3529,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Vodka', '3 cups '),
               IngredientDefinition('Sugar', '1 1/3 cup superfine '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qwxuwy1472667570.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qwxuwy1472667570.jpg',
           ),
           Cocktail(
             id: '11222',
@@ -3740,8 +3547,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Lime juice', '1 1/2 tsp '),
               IngredientDefinition('Maraschino liqueur', '1 1/2 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/usspxq1441553762.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/usspxq1441553762.jpg',
           ),
           Cocktail(
             id: '17185',
@@ -3760,8 +3566,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Orange bitters', '2 dashes '),
               IngredientDefinition('Cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/1mvjxg1504348579.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/1mvjxg1504348579.jpg',
           ),
           Cocktail(
             id: '11224',
@@ -3780,8 +3585,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Orange bitters', '1 dash '),
               IngredientDefinition('Egg yolk', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/3qpv121504366699.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/3qpv121504366699.jpg',
           ),
           Cocktail(
             id: '11227',
@@ -3800,8 +3604,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Lemon peel', '1 twist of '),
               IngredientDefinition('Cognac', '1 dash'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ehh5df1504366811.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ehh5df1504366811.jpg',
           ),
           Cocktail(
             id: '17174',
@@ -3823,8 +3626,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Sweet and sour', '1 oz'),
               IngredientDefinition('Club soda', '3 oz'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/tquyyt1451299548.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/tquyyt1451299548.jpg',
           ),
           Cocktail(
             id: '11239',
@@ -3841,8 +3643,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Cherry brandy', '1 1/2 tsp '),
               IngredientDefinition('Light cream', '1 tblsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/twsuvr1441554424.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/twsuvr1441554424.jpg',
           ),
           Cocktail(
             id: '11242',
@@ -3862,8 +3663,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Egg white', '1 '),
               IngredientDefinition('Carbonated water', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qwvwqr1441207763.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qwvwqr1441207763.jpg',
           ),
           Cocktail(
             id: '11243',
@@ -3880,8 +3680,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Vodka', '1/2 oz '),
               IngredientDefinition('Chocolate ice-cream', '5 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yyvywx1472720879.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yyvywx1472720879.jpg',
           ),
           Cocktail(
             id: '13328',
@@ -3898,8 +3697,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Milk', '1/2 shot '),
               IngredientDefinition('Amaretto', '1 dash '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/j6q35t1504889399.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/j6q35t1504889399.jpg',
           ),
           Cocktail(
             id: '17135',
@@ -3915,8 +3713,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Bacardi Limon', '1 part '),
               IngredientDefinition('Coca-Cola', '2 parts '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uyrvut1479473214.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uyrvut1479473214.jpg',
           ),
           Cocktail(
             id: '11251',
@@ -3933,8 +3730,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Triple sec', '1/2 oz '),
               IngredientDefinition('Lemon juice', '1 tblsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/dazdlg1504366949.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/dazdlg1504366949.jpg',
           ),
           Cocktail(
             id: '11145',
@@ -3954,8 +3750,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Orange', '1 '),
               IngredientDefinition('Maraschino cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/w8cxqv1582485254.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/w8cxqv1582485254.jpg',
           ),
           Cocktail(
             id: '11255',
@@ -3972,8 +3767,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Sloe gin', '1/2 oz '),
               IngredientDefinition('Wine', '1/2 oz Muscatel '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qxvtst1461867579.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qxvtst1461867579.jpg',
           ),
           Cocktail(
             id: '17186',
@@ -3991,8 +3785,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Lemon', 'Juice of 1/2 '),
               IngredientDefinition('Egg white', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/t0aja61504348715.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/t0aja61504348715.jpg',
           ),
           Cocktail(
             id: '12798',
@@ -4011,8 +3804,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Vodka', '1 qt '),
               IngredientDefinition('Water', '2 1/2 cups '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ryvtsu1441253851.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ryvtsu1441253851.jpg',
           ),
           Cocktail(
             id: '12800',
@@ -4032,8 +3824,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Vodka', '1 1/2 cup'),
               IngredientDefinition('Caramel coloring', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qvrrvu1472667494.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qvrrvu1472667494.jpg',
           ),
           Cocktail(
             id: '17830',
@@ -4052,8 +3843,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Añejo rum', '1 oz'),
               IngredientDefinition('blackstrap rum', '1 oz'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/pk6dwi1592767243.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/pk6dwi1592767243.jpg',
           ),
           Cocktail(
             id: '17250',
@@ -4073,8 +3863,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Lemon Juice', '3/4 oz'),
               IngredientDefinition('Absinthe', '1 dash'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/gifgao1513704334.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/gifgao1513704334.jpg',
           ),
           Cocktail(
             id: '17196',
@@ -4092,8 +3881,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Cointreau', '1/4 oz '),
               IngredientDefinition('Cranberry juice', '1/4 cup '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/kpsajh1504368362.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/kpsajh1504368362.jpg',
           ),
           Cocktail(
             id: '14133',
@@ -4111,8 +3899,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Lime', 'Juice of 1/2 '),
               IngredientDefinition('Cranberry juice', '1 splash '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/upxxpq1439907580.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/upxxpq1439907580.jpg',
           ),
           Cocktail(
             id: '12802',
@@ -4129,8 +3916,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Sugar', '3/4 L '),
               IngredientDefinition('Light rum', '1/2 L '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qtspsx1472667392.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qtspsx1472667392.jpg',
           ),
           Cocktail(
             id: '14608',
@@ -4146,8 +3932,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Spiced rum', '1 oz '),
               IngredientDefinition('Ginger ale', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yqstxr1479209367.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yqstxr1479209367.jpg',
           ),
           Cocktail(
             id: '12808',
@@ -4166,8 +3951,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Peppermint extract', '1 oz pure '),
               IngredientDefinition('Food coloring', '1 tblsp green '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yxswtp1441253918.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yxswtp1441253918.jpg',
           ),
           Cocktail(
             id: '13751',
@@ -4185,8 +3969,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Coca-Cola', 'Fill with '),
               IngredientDefinition('Ice', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ck6d0p1504388696.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ck6d0p1504388696.jpg',
           ),
           Cocktail(
             id: '11288',
@@ -4203,8 +3986,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Lime', 'Juice of 1/2 '),
               IngredientDefinition('Coca-Cola', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uuxsrr1473201663.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uuxsrr1473201663.jpg',
           ),
           Cocktail(
             id: '11006',
@@ -4221,8 +4003,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Lime', 'Juice of 1/2 '),
               IngredientDefinition('Powdered sugar', '1 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/mrz9091589574515.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/mrz9091589574515.jpg',
           ),
           Cocktail(
             id: '13194',
@@ -4238,8 +4019,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Whiskey', '0.75 oz '),
               IngredientDefinition('Hot Damn', '0.25 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ql7bmx1503565106.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ql7bmx1503565106.jpg',
           ),
           Cocktail(
             id: '15409',
@@ -4255,8 +4035,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Coffee', '3 parts '),
               IngredientDefinition('Everclear', '1 part '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vurrxr1441246074.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vurrxr1441246074.jpg',
           ),
           Cocktail(
             id: '17211',
@@ -4272,8 +4051,7 @@ Gently stir to combine, top with a gently squeezed lime wedge and finish with a 
               IngredientDefinition('Dark Rum', '5 cl'),
               IngredientDefinition('Ginger Beer', '10 cl'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/t1tn0s1504374905.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/t1tn0s1504374905.jpg',
           ),
           Cocktail(
             id: '17177',
@@ -4293,8 +4071,7 @@ Stir well.
               IngredientDefinition('Lime', '1'),
               IngredientDefinition('Cachaca', '2 1/2 oz'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uwstrx1472406058.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uwstrx1472406058.jpg',
           ),
           Cocktail(
             id: '14482',
@@ -4312,8 +4089,7 @@ Stir well.
               IngredientDefinition('Orange juice', '1 part '),
               IngredientDefinition('Ice', 'cubes'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/sxxsyq1472719303.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/sxxsyq1472719303.jpg',
           ),
           Cocktail(
             id: '178334',
@@ -4329,8 +4105,7 @@ Stir well.
               IngredientDefinition('Absinthe', '2 shots'),
               IngredientDefinition('Champagne', 'Top'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/y7s3rh1598719574.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/y7s3rh1598719574.jpg',
           ),
           Cocktail(
             id: '17187',
@@ -4347,8 +4122,7 @@ Stir well.
               IngredientDefinition('Peach Bitters', '2 dashes'),
               IngredientDefinition('Mint', '2 Fresh leaves'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/i502ra1504349156.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/i502ra1504349156.jpg',
           ),
           Cocktail(
             id: '13128',
@@ -4365,8 +4139,7 @@ Stir well.
               IngredientDefinition('Cider', '1/2 pint '),
               IngredientDefinition('Blackcurrant cordial', '1 dash '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/sxrrqq1454512852.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/sxrrqq1454512852.jpg',
           ),
           Cocktail(
             id: '17181',
@@ -4388,8 +4161,7 @@ A dirty Martini contains a splash of olive brine or olive juice and is typically
               IngredientDefinition('Lemon', '1 wedge'),
               IngredientDefinition('Olive', '1'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vcyvpq1485083300.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vcyvpq1485083300.jpg',
           ),
           Cocktail(
             id: '14466',
@@ -4406,8 +4178,7 @@ A dirty Martini contains a splash of olive brine or olive juice and is typically
               IngredientDefinition('Sambuca', 'null'),
               IngredientDefinition('Baileys irish cream', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vtyqrt1461866508.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vtyqrt1461866508.jpg',
           ),
           Cocktail(
             id: '16991',
@@ -4425,8 +4196,7 @@ A dirty Martini contains a splash of olive brine or olive juice and is typically
               IngredientDefinition('Tequila', '2 shots '),
               IngredientDefinition('151 proof rum', 'Float Bacardi '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/y36z8c1503563911.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/y36z8c1503563911.jpg',
           ),
           Cocktail(
             id: '11320',
@@ -4443,8 +4213,7 @@ A dirty Martini contains a splash of olive brine or olive juice and is typically
               IngredientDefinition('Ginger ale', '4 oz '),
               IngredientDefinition('Lime', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uc63bh1582483589.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uc63bh1582483589.jpg',
           ),
           Cocktail(
             id: '11005',
@@ -4461,8 +4230,7 @@ A dirty Martini contains a splash of olive brine or olive juice and is typically
               IngredientDefinition('Dry Vermouth', '1/3 oz '),
               IngredientDefinition('Olive', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/6ck9yi1589574317.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/6ck9yi1589574317.jpg',
           ),
           Cocktail(
             id: '11324',
@@ -4479,8 +4247,7 @@ A dirty Martini contains a splash of olive brine or olive juice and is typically
               IngredientDefinition('Dry Vermouth', '1 1/2 tsp '),
               IngredientDefinition('Lemon peel', '1 twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/typuyq1439456976.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/typuyq1439456976.jpg',
           ),
           Cocktail(
             id: '11326',
@@ -4498,8 +4265,7 @@ A dirty Martini contains a splash of olive brine or olive juice and is typically
               IngredientDefinition('Bitters', '1 dash '),
               IngredientDefinition('Lemon peel', '1 twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/pfz3hz1582483111.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/pfz3hz1582483111.jpg',
           ),
           Cocktail(
             id: '17182',
@@ -4522,8 +4288,7 @@ Garnish with a couple of lavender sprigs
               IngredientDefinition('Pepper', 'Pinch'),
               IngredientDefinition('Lavender', '2 sprigs'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/g51naw1485084685.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/g51naw1485084685.jpg',
           ),
           Cocktail(
             id: '17246',
@@ -4563,8 +4328,7 @@ Garnish with 5 drops habanero tincture.
               IngredientDefinition('Chocolate liqueur', '3/4 oz'),
               IngredientDefinition('Coffee liqueur', '1/2 oz'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/osgvxt1513595509.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/osgvxt1513595509.jpg',
           ),
           Cocktail(
             id: '11338',
@@ -4583,8 +4347,7 @@ Garnish with 5 drops habanero tincture.
               IngredientDefinition('Carbonated water', 'null'),
               IngredientDefinition('Lemon peel', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/dhvr7d1504519752.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/dhvr7d1504519752.jpg',
           ),
           Cocktail(
             id: '11339',
@@ -4604,8 +4367,7 @@ Garnish with 5 drops habanero tincture.
               IngredientDefinition('Lemon juice', '1/4 tsp '),
               IngredientDefinition('Cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yxwrpp1441208697.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yxwrpp1441208697.jpg',
           ),
           Cocktail(
             id: '17212',
@@ -4622,8 +4384,7 @@ Garnish with 5 drops habanero tincture.
               IngredientDefinition('Kahlua', '1 cl'),
               IngredientDefinition('Sugar syrup', '1 dash'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/n0sx531504372951.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/n0sx531504372951.jpg',
           ),
           Cocktail(
             id: '178309',
@@ -4641,8 +4402,7 @@ Garnish with 5 drops habanero tincture.
               IngredientDefinition('Espresso', '1 shot'),
               IngredientDefinition('Coffee', '1 shot'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/acvf171561574403.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/acvf171561574403.jpg',
           ),
           Cocktail(
             id: '13070',
@@ -4659,8 +4419,7 @@ Garnish with 5 drops habanero tincture.
               IngredientDefinition('Absolut Peppar', '1/2 oz '),
               IngredientDefinition('Tabasco sauce', '1 dash '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/tysssx1473344692.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/tysssx1473344692.jpg',
           ),
           Cocktail(
             id: '13202',
@@ -4679,8 +4438,7 @@ Garnish with 5 drops habanero tincture.
               IngredientDefinition('Dr. Pepper', '1 oz '),
               IngredientDefinition('Beer', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/d30z931503565384.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/d30z931503565384.jpg',
           ),
           Cocktail(
             id: '16485',
@@ -4698,8 +4456,7 @@ Garnish with 5 drops habanero tincture.
               IngredientDefinition('Blue Curacao', '1 oz '),
               IngredientDefinition('Baileys irish cream', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yywpss1461866587.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yywpss1461866587.jpg',
           ),
           Cocktail(
             id: '13675',
@@ -4715,8 +4472,7 @@ Garnish with 5 drops habanero tincture.
               IngredientDefinition('Sambuca', '1/4 glass '),
               IngredientDefinition('Sarsaparilla', '3/4 glass '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/sqvqrx1461866705.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/sqvqrx1461866705.jpg',
           ),
           Cocktail(
             id: '11368',
@@ -4732,8 +4488,7 @@ Garnish with 5 drops habanero tincture.
               IngredientDefinition('Gin', '2 oz '),
               IngredientDefinition('Triple sec', '1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/mwko4q1582482903.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/mwko4q1582482903.jpg',
           ),
           Cocktail(
             id: '11369',
@@ -4751,8 +4506,7 @@ Garnish with 5 drops habanero tincture.
               IngredientDefinition('Bitters', '1 dash '),
               IngredientDefinition('Sugar syrup', '1/4 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/q53l911582482518.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/q53l911582482518.jpg',
           ),
           Cocktail(
             id: '11375',
@@ -4769,8 +4523,7 @@ Garnish with 5 drops habanero tincture.
               IngredientDefinition('Creme de Cacao', '1/2 oz '),
               IngredientDefinition('Light cream', '2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/r9cz3q1504519844.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/r9cz3q1504519844.jpg',
           ),
           Cocktail(
             id: '14688',
@@ -4787,8 +4540,7 @@ Garnish with 5 drops habanero tincture.
               IngredientDefinition('Sambuca', '1/2 oz '),
               IngredientDefinition('Vodka', '1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/tuppuq1461866798.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/tuppuq1461866798.jpg',
           ),
           Cocktail(
             id: '17197',
@@ -4808,8 +4560,7 @@ Garnish with 5 drops habanero tincture.
               IngredientDefinition('Orange', '1 '),
               IngredientDefinition('Maraschino cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/4qnyty1504368615.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/4qnyty1504368615.jpg',
           ),
           Cocktail(
             id: '17198',
@@ -4825,8 +4576,7 @@ Garnish with 5 drops habanero tincture.
               IngredientDefinition('Cognac', '1 1/2 oz '),
               IngredientDefinition('Amaretto', '3/4 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/zaqa381504368758.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/zaqa381504368758.jpg',
           ),
           Cocktail(
             id: '17213',
@@ -4843,8 +4593,7 @@ Garnish with 5 drops habanero tincture.
               IngredientDefinition('Raspberry Liqueur', '1.5 cl'),
               IngredientDefinition('pineapple juice', '1.5 cl'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/clth721504373134.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/clth721504373134.jpg',
           ),
           Cocktail(
             id: '17248',
@@ -4864,8 +4613,7 @@ Strain into a martini glass or over ice into a rocks glass. Garnish with orange 
               IngredientDefinition('Sweet Vermouth', '1 oz'),
               IngredientDefinition('Orange Peel', '1'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/x8lhp41513703167.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/x8lhp41513703167.jpg',
           ),
           Cocktail(
             id: '11382',
@@ -4883,8 +4631,7 @@ Strain into a martini glass or over ice into a rocks glass. Garnish with orange 
               IngredientDefinition('Lemon', '1 slice '),
               IngredientDefinition('Lime', '1 slice '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/acuvjz1582482022.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/acuvjz1582482022.jpg',
           ),
           Cocktail(
             id: '11387',
@@ -4904,8 +4651,7 @@ Strain into a martini glass or over ice into a rocks glass. Garnish with orange 
               IngredientDefinition('Cherry', '1 '),
               IngredientDefinition('Ice', '1 cup crushed '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/7oyrj91504884412.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/7oyrj91504884412.jpg',
           ),
           Cocktail(
             id: '11390',
@@ -4923,8 +4669,7 @@ Strain into a martini glass or over ice into a rocks glass. Garnish with orange 
               IngredientDefinition('Mint', '6 '),
               IngredientDefinition('Sugar', '1 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/jrhn1q1504884469.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/jrhn1q1504884469.jpg',
           ),
           Cocktail(
             id: '11391',
@@ -4942,8 +4687,7 @@ Strain into a martini glass or over ice into a rocks glass. Garnish with orange 
               IngredientDefinition('Lime juice', '1 tblsp '),
               IngredientDefinition('Sugar', '1/2 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/k3aecd1582481679.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/k3aecd1582481679.jpg',
           ),
           Cocktail(
             id: '178328',
@@ -4963,8 +4707,7 @@ Strain into a martini glass or over ice into a rocks glass. Garnish with orange 
               IngredientDefinition('Soda Water', 'Top'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qtv83q1596015790.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qtv83q1596015790.jpg',
           ),
           Cocktail(
             id: '15743',
@@ -4980,8 +4723,7 @@ Strain into a martini glass or over ice into a rocks glass. Garnish with orange 
               IngredientDefinition('Coffee', '1/2 '),
               IngredientDefinition('Peach schnapps', '1/2 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wrvpuu1472667898.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wrvpuu1472667898.jpg',
           ),
           Cocktail(
             id: '12758',
@@ -4999,8 +4741,7 @@ Strain into a martini glass or over ice into a rocks glass. Garnish with orange 
               IngredientDefinition('Galliano', '1 part '),
               IngredientDefinition('Sirup of roses', '1 part '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/lyloe91487602877.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/lyloe91487602877.jpg',
           ),
           Cocktail(
             id: '11396',
@@ -5018,8 +4759,7 @@ Strain into a martini glass or over ice into a rocks glass. Garnish with orange 
               IngredientDefinition('Sweet Vermouth', '1 oz '),
               IngredientDefinition('Club soda', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/k2r7wv1582481454.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/k2r7wv1582481454.jpg',
           ),
           Cocktail(
             id: '17002',
@@ -5039,8 +4779,7 @@ Strain into a martini glass or over ice into a rocks glass. Garnish with orange 
               IngredientDefinition('Melon liqueur', '1/2 oz '),
               IngredientDefinition('Mountain Dew', 'Fill with '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/p5r0tr1503564636.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/p5r0tr1503564636.jpg',
           ),
           Cocktail(
             id: '17255',
@@ -5062,8 +4801,7 @@ Garnish with a lime wheel.
               IngredientDefinition('Sugar Syrup', '1/2 oz'),
               IngredientDefinition('Lime', '1'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/3xgldt1513707271.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/3xgldt1513707271.jpg',
           ),
           Cocktail(
             id: '11403',
@@ -5080,8 +4818,7 @@ Garnish with a lime wheel.
               IngredientDefinition('Tonic water', '5 oz '),
               IngredientDefinition('Lime', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/z0omyp1582480573.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/z0omyp1582480573.jpg',
           ),
           Cocktail(
             id: '178314',
@@ -5101,8 +4838,7 @@ Filter and serve in a tumbler with ice
               IngredientDefinition('Basil', 'Whole'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/jqh2141572807327.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/jqh2141572807327.jpg',
           ),
           Cocktail(
             id: '11407',
@@ -5121,8 +4857,7 @@ Filter and serve in a tumbler with ice
               IngredientDefinition('Orange spiral', 'null'),
               IngredientDefinition('Lemon peel', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/678xt11582481163.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/678xt11582481163.jpg',
           ),
           Cocktail(
             id: '11408',
@@ -5142,8 +4877,7 @@ Filter and serve in a tumbler with ice
               IngredientDefinition('Maraschino cherry', '1 '),
               IngredientDefinition('Orange', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/z6e22f1582581155.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/z6e22f1582581155.jpg',
           ),
           Cocktail(
             id: '11410',
@@ -5161,8 +4895,7 @@ Filter and serve in a tumbler with ice
               IngredientDefinition('Powdered sugar', '1 tsp '),
               IngredientDefinition('Carbonated water', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xhl8q31504351772.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xhl8q31504351772.jpg',
           ),
           Cocktail(
             id: '17230',
@@ -5181,8 +4914,7 @@ Filter and serve in a tumbler with ice
               IngredientDefinition('Soda Water', 'Top up with'),
               IngredientDefinition('Lime', 'Garnish'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/s00d6f1504883945.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/s00d6f1504883945.jpg',
           ),
           Cocktail(
             id: '11415',
@@ -5201,8 +4933,7 @@ Filter and serve in a tumbler with ice
               IngredientDefinition('Water', '1 tsp '),
               IngredientDefinition('Orange peel', 'Twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/8cl9sm1582581761.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/8cl9sm1582581761.jpg',
           ),
           Cocktail(
             id: '11416',
@@ -5222,8 +4953,7 @@ Filter and serve in a tumbler with ice
               IngredientDefinition('Orange', '1 slice '),
               IngredientDefinition('Cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/hp41fi1504883656.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/hp41fi1504883656.jpg',
           ),
           Cocktail(
             id: '11417',
@@ -5242,8 +4972,7 @@ Filter and serve in a tumbler with ice
               IngredientDefinition('Orange', '1 '),
               IngredientDefinition('Maraschino cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/mt7l7m1504883523.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/mt7l7m1504883523.jpg',
           ),
           Cocktail(
             id: '11418',
@@ -5263,8 +4992,7 @@ Filter and serve in a tumbler with ice
               IngredientDefinition('Strawberries', '2 '),
               IngredientDefinition('Carbonated water', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xrbhz61504883702.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xrbhz61504883702.jpg',
           ),
           Cocktail(
             id: '11419',
@@ -5283,8 +5011,7 @@ Filter and serve in a tumbler with ice
               IngredientDefinition('Bitters', '1 dash '),
               IngredientDefinition('Club soda', '3 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/sybce31504884026.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/sybce31504884026.jpg',
           ),
           Cocktail(
             id: '11420',
@@ -5302,8 +5029,7 @@ Filter and serve in a tumbler with ice
               IngredientDefinition('Powdered sugar', '1/2 tsp '),
               IngredientDefinition('Lemon peel', '1 twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/jxstwf1582582101.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/jxstwf1582582101.jpg',
           ),
           Cocktail(
             id: '17175',
@@ -5321,8 +5047,7 @@ Filter and serve in a tumbler with ice
               IngredientDefinition('Agave Syrup', '10 ml'),
               IngredientDefinition('Champagne', 'top up with'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xypspq1469090633.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xypspq1469090633.jpg',
           ),
           Cocktail(
             id: '11422',
@@ -5339,8 +5064,7 @@ Filter and serve in a tumbler with ice
               IngredientDefinition('Amaretto', '1 oz '),
               IngredientDefinition('Heavy cream', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/m5nhtr1504820829.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/m5nhtr1504820829.jpg',
           ),
           Cocktail(
             id: '11423',
@@ -5356,8 +5080,7 @@ Filter and serve in a tumbler with ice
               IngredientDefinition('Scotch', '1 1/2 oz '),
               IngredientDefinition('Amaretto', '3/4 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/e5zgao1582582378.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/e5zgao1582582378.jpg',
           ),
           Cocktail(
             id: '11424',
@@ -5373,8 +5096,7 @@ Filter and serve in a tumbler with ice
               IngredientDefinition('Vodka', '1 1/2 oz '),
               IngredientDefinition('Amaretto', '3/4 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/quksqg1582582597.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/quksqg1582582597.jpg',
           ),
           Cocktail(
             id: '17199',
@@ -5392,8 +5114,7 @@ Filter and serve in a tumbler with ice
               IngredientDefinition('orange juice', '2 parts'),
               IngredientDefinition('Cream', '1 part'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qrot6j1504369425.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qrot6j1504369425.jpg',
           ),
           Cocktail(
             id: '15427',
@@ -5411,8 +5132,7 @@ Filter and serve in a tumbler with ice
               IngredientDefinition('Blue Curacao', '1 1/2 cl '),
               IngredientDefinition('Sweet and sour', '3 cl '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vsrsqu1472761749.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vsrsqu1472761749.jpg',
           ),
           Cocktail(
             id: '11433',
@@ -5431,8 +5151,7 @@ Filter and serve in a tumbler with ice
               IngredientDefinition('Grenadine', '1/2 tsp '),
               IngredientDefinition('Pineapple', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qyvprp1473891585.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qyvprp1473891585.jpg',
           ),
           Cocktail(
             id: '17200',
@@ -5449,8 +5168,7 @@ Filter and serve in a tumbler with ice
               IngredientDefinition('Creme de Cacao', '3/4 oz white '),
               IngredientDefinition('Light cream', '3/4 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/aqm9el1504369613.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/aqm9el1504369613.jpg',
           ),
           Cocktail(
             id: '13497',
@@ -5467,8 +5185,7 @@ Filter and serve in a tumbler with ice
               IngredientDefinition('Lager', '1/2 pint '),
               IngredientDefinition('Blue Curacao', '1 shot '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qxprxr1454511520.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qxprxr1454511520.jpg',
           ),
           Cocktail(
             id: '17252',
@@ -5487,8 +5204,7 @@ Top with grapefruit juice and stir.
               IngredientDefinition('Vodka', '1 1/2 oz'),
               IngredientDefinition('Grapefruit Juice', '3 oz'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/g5upn41513706732.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/g5upn41513706732.jpg',
           ),
           Cocktail(
             id: '14642',
@@ -5505,8 +5221,7 @@ Top with grapefruit juice and stir.
               IngredientDefinition('151 proof rum', '1 oz Bacardi '),
               IngredientDefinition('Grenadine', '1 dash '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/kztu161504883192.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/kztu161504883192.jpg',
           ),
           Cocktail(
             id: '12762',
@@ -5524,8 +5239,7 @@ Top with grapefruit juice and stir.
               IngredientDefinition('Kahlua', '1 part '),
               IngredientDefinition('Milk', '2 1/2 parts '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/k6v97f1487602550.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/k6v97f1487602550.jpg',
           ),
           Cocktail(
             id: '16262',
@@ -5542,8 +5256,7 @@ Top with grapefruit juice and stir.
               IngredientDefinition('Baileys irish cream', '8 cl '),
               IngredientDefinition('Coffee', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/upusyu1472667977.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/upusyu1472667977.jpg',
           ),
           Cocktail(
             id: '178313',
@@ -5566,8 +5279,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Vodka', '20 cl'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/7hcgyj1571687671.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/7hcgyj1571687671.jpg',
           ),
           Cocktail(
             id: '12766',
@@ -5585,8 +5297,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Lime', 'null'),
               IngredientDefinition('Ice', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/42w2g41487602448.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/42w2g41487602448.jpg',
           ),
           Cocktail(
             id: '11462',
@@ -5603,8 +5314,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Galliano', '1/2 oz '),
               IngredientDefinition('Orange juice', '4 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vg4bva1504369725.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vg4bva1504369725.jpg',
           ),
           Cocktail(
             id: '11470',
@@ -5621,8 +5331,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Pineapple juice', '1 oz '),
               IngredientDefinition('Lemon juice', '1 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/59splc1504882899.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/59splc1504882899.jpg',
           ),
           Cocktail(
             id: '11472',
@@ -5639,8 +5348,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Triple sec', '1/2 oz '),
               IngredientDefinition('Pineapple juice', '1 tblsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ujoh9x1504882987.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ujoh9x1504882987.jpg',
           ),
           Cocktail(
             id: '17201',
@@ -5658,8 +5366,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Maraschino Liqueur', '3 parts'),
               IngredientDefinition('Lime Juice', '3 parts'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/jfcvps1504369888.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/jfcvps1504369888.jpg',
           ),
           Cocktail(
             id: '15813',
@@ -5675,8 +5382,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Hot Damn', '5 shots '),
               IngredientDefinition('Tea', 'very sweet '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rrstxv1441246184.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rrstxv1441246184.jpg',
           ),
           Cocktail(
             id: '11476',
@@ -5694,8 +5400,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Orange bitters', '2 dashes '),
               IngredientDefinition('Olive', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/0bkwca1492975553.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/0bkwca1492975553.jpg',
           ),
           Cocktail(
             id: '17044',
@@ -5715,8 +5420,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Water', '3 cups boiling '),
               IngredientDefinition('Vodka', '1 fifth '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uwtsst1441254025.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uwtsst1441254025.jpg',
           ),
           Cocktail(
             id: '178316',
@@ -5735,8 +5439,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Lemon Juice', '2 cl'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vu8l7t1582475673.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vu8l7t1582475673.jpg',
           ),
           Cocktail(
             id: '17202',
@@ -5754,8 +5457,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Ginger ale', '5 oz '),
               IngredientDefinition('Bitters', '2 dashes '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/006k4e1504370092.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/006k4e1504370092.jpg',
           ),
           Cocktail(
             id: '14782',
@@ -5772,8 +5474,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Baileys irish cream', '3/4 shot '),
               IngredientDefinition('Coffee', '6 oz hot '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/spvrtp1472668037.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/spvrtp1472668037.jpg',
           ),
           Cocktail(
             id: '17239',
@@ -5792,8 +5493,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Lemonade', '100 ml'),
               IngredientDefinition('Blackberries', '2'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/t0iugg1509556712.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/t0iugg1509556712.jpg',
           ),
           Cocktail(
             id: '13539',
@@ -5810,8 +5510,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Iced tea', '6 oz '),
               IngredientDefinition('Lemon juice', ' to taste'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ypsrqp1469091726.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ypsrqp1469091726.jpg',
           ),
           Cocktail(
             id: '12772',
@@ -5827,8 +5526,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Kahlua', '2 tsp '),
               IngredientDefinition('Coffee', 'Strong cold '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/sxtxrp1454514223.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/sxtxrp1454514223.jpg',
           ),
           Cocktail(
             id: '12706',
@@ -5845,8 +5543,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Gin', '2 cl '),
               IngredientDefinition('Aperol', '4 cl '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/bcsj2e1487603625.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/bcsj2e1487603625.jpg',
           ),
           Cocktail(
             id: '11524',
@@ -5865,8 +5562,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Powdered sugar', '1 tsp '),
               IngredientDefinition('Carbonated water', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/zj1usl1504884548.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/zj1usl1504884548.jpg',
           ),
           Cocktail(
             id: '13971',
@@ -5884,8 +5580,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Sugar', '1 tsp '),
               IngredientDefinition('Whipped cream', '1 tblsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/sywsqw1439906999.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/sywsqw1439906999.jpg',
           ),
           Cocktail(
             id: '12820',
@@ -5904,8 +5599,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Coconut syrup', '3 drops '),
               IngredientDefinition('Chocolate syrup', '1 tblsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/90etyl1504884699.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/90etyl1504884699.jpg',
           ),
           Cocktail(
             id: '16987',
@@ -5923,8 +5617,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Vodka', '3/4 oz '),
               IngredientDefinition('Orange juice', '2-3 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yrhutv1503563730.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yrhutv1503563730.jpg',
           ),
           Cocktail(
             id: '17015',
@@ -5942,8 +5635,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Coca-Cola', '1 dash '),
               IngredientDefinition('Guinness stout', 'Fill with '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/swqurw1454512730.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/swqurw1454512730.jpg',
           ),
           Cocktail(
             id: '11528',
@@ -5963,8 +5655,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Orange', '1 slice '),
               IngredientDefinition('Cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/sot8v41504884783.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/sot8v41504884783.jpg',
           ),
           Cocktail(
             id: '11542',
@@ -5981,8 +5672,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Grenadine', '1 tsp '),
               IngredientDefinition('Lime', 'Juice of 1/2 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uuqqrv1439907068.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uuqqrv1439907068.jpg',
           ),
           Cocktail(
             id: '16275',
@@ -6000,8 +5690,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Vanilla extract', '1 tsp '),
               IngredientDefinition('Coca-Cola', '10-12 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/kjnt7z1504793319.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/kjnt7z1504793319.jpg',
           ),
           Cocktail(
             id: '13847',
@@ -6017,8 +5706,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Jack Daniels', '1 oz '),
               IngredientDefinition('Amaretto', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/9von5j1504388896.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/9von5j1504388896.jpg',
           ),
           Cocktail(
             id: '17178',
@@ -6036,8 +5724,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Sugar syrup', '1 tsp'),
               IngredientDefinition('Sugar', '2 pinches'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uuytrp1474039804.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uuytrp1474039804.jpg',
           ),
           Cocktail(
             id: '14095',
@@ -6055,8 +5742,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Ice', 'cubes'),
               IngredientDefinition('Milk', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/urpvvv1441249549.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/urpvvv1441249549.jpg',
           ),
           Cocktail(
             id: '15825',
@@ -6074,8 +5760,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Water', '1/2 glass cold '),
               IngredientDefinition('Whipped cream', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xqptps1441247257.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xqptps1441247257.jpg',
           ),
           Cocktail(
             id: '11558',
@@ -6095,8 +5780,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Egg white', '1 '),
               IngredientDefinition('Carbonated water', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/37vzv11504884831.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/37vzv11504884831.jpg',
           ),
           Cocktail(
             id: '14956',
@@ -6113,8 +5797,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Jello', '3 packages '),
               IngredientDefinition('Water', '3 cups '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/l0smzo1504884904.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/l0smzo1504884904.jpg',
           ),
           Cocktail(
             id: '13775',
@@ -6130,8 +5813,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Blackberry brandy', '1 oz '),
               IngredientDefinition('Anis', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/bglc6y1504388797.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/bglc6y1504388797.jpg',
           ),
           Cocktail(
             id: '11566',
@@ -6148,8 +5830,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Green Chartreuse', '1/2 oz '),
               IngredientDefinition('Yellow Chartreuse', '1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/hx4nrb1504884947.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/hx4nrb1504884947.jpg',
           ),
           Cocktail(
             id: '16178',
@@ -6170,8 +5851,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Sugar syrup', '3 dashes '),
               IngredientDefinition('Soda water', 'Fill to top with '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wwqvrq1441245318.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wwqvrq1441245318.jpg',
           ),
           Cocktail(
             id: '11580',
@@ -6191,8 +5871,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Maraschino cherry', '1 '),
               IngredientDefinition('Orange', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/u5yaxl1504350270.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/u5yaxl1504350270.jpg',
           ),
           Cocktail(
             id: '11600',
@@ -6209,8 +5888,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Triple sec', '1 oz '),
               IngredientDefinition('Lime juice', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xa58bb1504373204.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xa58bb1504373204.jpg',
           ),
           Cocktail(
             id: '12764',
@@ -6226,8 +5904,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Coffee', '1 part '),
               IngredientDefinition('Grain alcohol', '2 parts '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/808mxk1487602471.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/808mxk1487602471.jpg',
           ),
           Cocktail(
             id: '11602',
@@ -6243,8 +5920,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Bourbon', '2 oz '),
               IngredientDefinition('Benedictine', '1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/sqxsxp1478820236.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/sqxsxp1478820236.jpg',
           ),
           Cocktail(
             id: '11604',
@@ -6261,8 +5937,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Benedictine', '1/2 oz '),
               IngredientDefinition('Lemon peel', '1 twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/utqwpu1478820348.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/utqwpu1478820348.jpg',
           ),
           Cocktail(
             id: '16951',
@@ -6279,8 +5954,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Brandy', '1/2 oz '),
               IngredientDefinition('Coffee', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uppqty1441247374.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uppqty1441247374.jpg',
           ),
           Cocktail(
             id: '17203',
@@ -6296,8 +5970,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Creme de Cassis', '1 part '),
               IngredientDefinition('Champagne', '5 parts '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/apneom1504370294.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/apneom1504370294.jpg',
           ),
           Cocktail(
             id: '13837',
@@ -6313,8 +5986,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Creme de Cassis', '1 part '),
               IngredientDefinition('Champagne', '5 parts '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yt9i7n1504370388.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yt9i7n1504370388.jpg',
           ),
           Cocktail(
             id: '15026',
@@ -6333,8 +6005,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Apple juice', '8 cl '),
               IngredientDefinition('Ice', 'cubes'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/m7iaxu1504885119.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/m7iaxu1504885119.jpg',
           ),
           Cocktail(
             id: '14752',
@@ -6351,8 +6022,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Bitter lemon', '2 parts '),
               IngredientDefinition('Ice', 'cubes'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/tpupvr1478251697.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/tpupvr1478251697.jpg',
           ),
           Cocktail(
             id: '17006',
@@ -6368,8 +6038,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('151 proof rum', '2 oz light '),
               IngredientDefinition('Kool-Aid', '1/2 tsp Tropical '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/hfp6sv1503564824.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/hfp6sv1503564824.jpg',
           ),
           Cocktail(
             id: '13190',
@@ -6388,8 +6057,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Triple sec', '1 shot '),
               IngredientDefinition('Cranberry juice', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/fegm621503564966.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/fegm621503564966.jpg',
           ),
           Cocktail(
             id: '14446',
@@ -6405,8 +6073,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Kool-Aid', '1/2 oz Grape '),
               IngredientDefinition('Vodka', '1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/kugu2m1504735473.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/kugu2m1504735473.jpg',
           ),
           Cocktail(
             id: '14456',
@@ -6423,8 +6090,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Tea', 'Turkish apple '),
               IngredientDefinition('Sugar', ' (if needed)'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xrsrpr1441247464.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xrsrpr1441247464.jpg',
           ),
           Cocktail(
             id: '11634',
@@ -6444,8 +6110,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Egg white', '1 '),
               IngredientDefinition('Carbonated water', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/20d63k1504885263.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/20d63k1504885263.jpg',
           ),
           Cocktail(
             id: '178335',
@@ -6463,8 +6128,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Soda Water', 'Top'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rytuex1598719770.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rytuex1598719770.jpg',
           ),
           Cocktail(
             id: '14366',
@@ -6481,8 +6145,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Cointreau', '1 1/2 shot '),
               IngredientDefinition('Lemon', 'Juice of 1 wedge '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/mtpxgk1504373297.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/mtpxgk1504373297.jpg',
           ),
           Cocktail(
             id: '12752',
@@ -6501,8 +6164,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Sugar', 'Bacardi'),
               IngredientDefinition('151 proof rum', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/mx31hv1487602979.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/mx31hv1487602979.jpg',
           ),
           Cocktail(
             id: '15086',
@@ -6518,8 +6180,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Corona', '1 bottle '),
               IngredientDefinition('Bacardi Limon', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wwqrsw1441248662.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wwqrsw1441248662.jpg',
           ),
           Cocktail(
             id: '11658',
@@ -6537,8 +6198,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Dry Vermouth', '1/2 oz '),
               IngredientDefinition('Lemon peel', '1 twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rpvtpr1468923881.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rpvtpr1468923881.jpg',
           ),
           Cocktail(
             id: '11662',
@@ -6555,8 +6215,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Maraschino liqueur', '1/2 oz '),
               IngredientDefinition('Orange bitters', '2 dashes '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rpsrqv1468923507.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rpsrqv1468923507.jpg',
           ),
           Cocktail(
             id: '11664',
@@ -6572,8 +6231,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Sweet Vermouth', '3/4 oz '),
               IngredientDefinition('Gin', '1 1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/tsxpty1468923417.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/tsxpty1468923417.jpg',
           ),
           Cocktail(
             id: '11666',
@@ -6593,8 +6251,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Orange spiral', 'null'),
               IngredientDefinition('Lemon peel', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wsyqry1479298485.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wsyqry1479298485.jpg',
           ),
           Cocktail(
             id: '17204',
@@ -6614,8 +6271,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Coca-Cola', '1 dash '),
               IngredientDefinition('Lemon peel', 'Twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wx7hsg1504370510.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wx7hsg1504370510.jpg',
           ),
           Cocktail(
             id: '11002',
@@ -6635,8 +6291,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Lemon', 'Juice of 1/2 '),
               IngredientDefinition('Coca-Cola', '1 splash '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/tppn6i1589574695.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/tppn6i1589574695.jpg',
           ),
           Cocktail(
             id: '13196',
@@ -6655,8 +6310,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Tonic water', '1 dl Schweppes '),
               IngredientDefinition('Ice', '4 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/9179i01503565212.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/9179i01503565212.jpg',
           ),
           Cocktail(
             id: '11670',
@@ -6672,8 +6326,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Dark rum', '1 1/2 oz '),
               IngredientDefinition('Tia maria', '1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/quwrys1468923219.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/quwrys1468923219.jpg',
           ),
           Cocktail(
             id: '14378',
@@ -6690,8 +6343,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Amaretto', '1 shot '),
               IngredientDefinition('Orange juice', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qywpvt1454512546.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qywpvt1454512546.jpg',
           ),
           Cocktail(
             id: '11690',
@@ -6710,8 +6362,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Sweet and sour', '1 1/2 oz '),
               IngredientDefinition('Cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/twyrrp1439907470.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/twyrrp1439907470.jpg',
           ),
           Cocktail(
             id: '15224',
@@ -6728,8 +6379,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Tropicana', '2 parts '),
               IngredientDefinition('Cranberry juice', '1 part '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/2dwae41504885321.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/2dwae41504885321.jpg',
           ),
           Cocktail(
             id: '11008',
@@ -6749,8 +6399,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Maraschino cherry', '1 '),
               IngredientDefinition('Orange peel', '1 twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/hz7p4t1589575281.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/hz7p4t1589575281.jpg',
           ),
           Cocktail(
             id: '11007',
@@ -6768,8 +6417,7 @@ When you’re ready to serve, pour the juice into a jug. Serve in glass bottles 
               IngredientDefinition('Lime juice', '1 oz '),
               IngredientDefinition('Salt', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg',
           ),
           Cocktail(
             id: '17256',
@@ -6789,8 +6437,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('Maraschino Liqueur', '1 tsp'),
               IngredientDefinition('Angostura Bitters', '2 dashes'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/fs6kiq1513708455.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/fs6kiq1513708455.jpg',
           ),
           Cocktail(
             id: '11720',
@@ -6809,8 +6456,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('Orange bitters', '1 dash '),
               IngredientDefinition('Cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wwxwvr1439906452.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wwxwvr1439906452.jpg',
           ),
           Cocktail(
             id: '11728',
@@ -6827,8 +6473,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('Dry Vermouth', '1/3 oz '),
               IngredientDefinition('Olive', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/71t8581504353095.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/71t8581504353095.jpg',
           ),
           Cocktail(
             id: '17188',
@@ -6847,8 +6492,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('Grenadine', '1/2 tsp '),
               IngredientDefinition('Maraschino cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/f9erqb1504350557.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/f9erqb1504350557.jpg',
           ),
           Cocktail(
             id: '13936',
@@ -6865,8 +6509,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('Pina colada mix', 'frozen '),
               IngredientDefinition('Daiquiri mix', 'frozen '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qvuyqw1441208955.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qvuyqw1441208955.jpg',
           ),
           Cocktail(
             id: '11766',
@@ -6883,8 +6526,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('Dark rum', '1 oz '),
               IngredientDefinition('Heavy cream', '1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vsxxwy1441208133.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vsxxwy1441208133.jpg',
           ),
           Cocktail(
             id: '13825',
@@ -6903,8 +6545,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('Heavy cream', '2 oz '),
               IngredientDefinition('Coffee', '2 oz Hazlenut '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uqqurp1441208231.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uqqurp1441208231.jpg',
           ),
           Cocktail(
             id: '14842',
@@ -6921,8 +6562,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('White Creme de Menthe', '3/4 oz '),
               IngredientDefinition('Cream', '3/4 oz double '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/svuvrq1441208310.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/svuvrq1441208310.jpg',
           ),
           Cocktail(
             id: '17205',
@@ -6938,8 +6578,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('Champagne', 'Chilled '),
               IngredientDefinition('Orange juice', '2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/juhcuu1504370685.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/juhcuu1504370685.jpg',
           ),
           Cocktail(
             id: '17206',
@@ -6957,8 +6596,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('Powdered sugar', '1 tsp '),
               IngredientDefinition('Water', '2 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/squyyq1439907312.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/squyyq1439907312.jpg',
           ),
           Cocktail(
             id: '11786',
@@ -6978,8 +6616,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('Powdered sugar', '1 tblsp'),
               IngredientDefinition('Carbonated water', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/urpyqs1439907531.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/urpyqs1439907531.jpg',
           ),
           Cocktail(
             id: '14209',
@@ -6997,8 +6634,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('Cocoa powder', '2 tblsp '),
               IngredientDefinition('Whipped cream', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vtwyyx1441246448.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vtwyyx1441246448.jpg',
           ),
           Cocktail(
             id: '11000',
@@ -7017,8 +6653,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('Mint', '2-4 '),
               IngredientDefinition('Soda water', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/3z6xdi1589574603.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/3z6xdi1589574603.jpg',
           ),
           Cocktail(
             id: '15841',
@@ -7037,8 +6672,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('Club soda', '1/8 L '),
               IngredientDefinition('Angostura bitters', '8 drops '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vwxrsw1478251483.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vwxrsw1478251483.jpg',
           ),
           Cocktail(
             id: '17189',
@@ -7056,8 +6690,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('Orange juice', '1/2 oz '),
               IngredientDefinition('Grenadine', '1 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/94psp81504350690.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/94psp81504350690.jpg',
           ),
           Cocktail(
             id: '11798',
@@ -7074,8 +6707,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('Grapefruit juice', '3 oz '),
               IngredientDefinition('Bitters', '1 dash '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/bw2noj1582473243.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/bw2noj1582473243.jpg',
           ),
           Cocktail(
             id: '16196',
@@ -7092,8 +6724,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('Tequila', '2/5 '),
               IngredientDefinition('Grenadine', '1/5 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/urpsyq1475667335.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/urpsyq1475667335.jpg',
           ),
           Cocktail(
             id: '11009',
@@ -7110,8 +6741,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('Lime juice', '2 oz '),
               IngredientDefinition('Ginger ale', '8 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/3pylqc1504370988.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/3pylqc1504370988.jpg',
           ),
           Cocktail(
             id: '14053',
@@ -7128,8 +6758,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('Butterscotch schnapps', '1 oz '),
               IngredientDefinition('Milk', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/7stuuh1504885399.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/7stuuh1504885399.jpg',
           ),
           Cocktail(
             id: '16041',
@@ -7146,8 +6775,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('Orange juice', '1 L '),
               IngredientDefinition('Pepsi Cola', '750 ml '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/hepk6h1504885554.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/hepk6h1504885554.jpg',
           ),
           Cocktail(
             id: '12988',
@@ -7168,8 +6796,7 @@ Stir until chilled, and strain into a chilled coupe glass.
               IngredientDefinition('Red wine', '750 ml '),
               IngredientDefinition('Brandy', '1/4 cup '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/iuwi6h1504735724.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/iuwi6h1504735724.jpg',
           ),
           Cocktail(
             id: '178315',
@@ -7192,8 +6819,7 @@ Garnish with Cucumer and Lime slice
               IngredientDefinition('lemon', 'Chopped'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rj55pl1582476101.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rj55pl1582476101.jpg',
           ),
           Cocktail(
             id: '13192',
@@ -7213,8 +6839,7 @@ Garnish with Cucumer and Lime slice
               IngredientDefinition('Sour mix', '2 oz '),
               IngredientDefinition('Lemon-lime soda', '1 splash '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/dlw0om1503565021.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/dlw0om1503565021.jpg',
           ),
           Cocktail(
             id: '11003',
@@ -7231,8 +6856,7 @@ Garnish with Cucumer and Lime slice
               IngredientDefinition('Campari', '1 oz '),
               IngredientDefinition('Sweet Vermouth', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qgdu971561574065.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qgdu971561574065.jpg',
           ),
           Cocktail(
             id: '13204',
@@ -7250,8 +6874,7 @@ Garnish with Cucumer and Lime slice
               IngredientDefinition('Lemon juice', '2 oz sweetened '),
               IngredientDefinition('Club soda', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/b3n0ge1503565473.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/b3n0ge1503565473.jpg',
           ),
           Cocktail(
             id: '11844',
@@ -7270,8 +6893,7 @@ Garnish with Cucumer and Lime slice
               IngredientDefinition('Red wine', ' (Claret)'),
               IngredientDefinition('Cherry', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/61wgch1504882795.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/61wgch1504882795.jpg',
           ),
           Cocktail(
             id: '13861',
@@ -7288,8 +6910,7 @@ Garnish with Cucumer and Lime slice
               IngredientDefinition('Frangelico', '1 part '),
               IngredientDefinition('Milk', '1 part '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xspupx1441248014.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xspupx1441248014.jpg',
           ),
           Cocktail(
             id: '17266',
@@ -7311,8 +6932,7 @@ Tastes like an oatmeal cookie.
               IngredientDefinition('Jagermeister', '1 part'),
               IngredientDefinition('Goldschlager', '1/2 part'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/bsvmlg1515792693.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/bsvmlg1515792693.jpg',
           ),
           Cocktail(
             id: '11001',
@@ -7333,8 +6953,7 @@ Garnish with orange twist, and a cocktail cherry.
               IngredientDefinition('Sugar', '1 cube'),
               IngredientDefinition('Water', 'dash'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg',
           ),
           Cocktail(
             id: '17827',
@@ -7351,8 +6970,7 @@ Garnish with orange twist, and a cocktail cherry.
               IngredientDefinition('Campari', '1 oz'),
               IngredientDefinition('Dry Vermouth', '1 oz'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/x03td31521761009.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/x03td31521761009.jpg',
           ),
           Cocktail(
             id: '15330',
@@ -7369,8 +6987,7 @@ Garnish with orange twist, and a cocktail cherry.
               IngredientDefinition('Triple sec', '1 oz '),
               IngredientDefinition('Orange juice', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/zvoics1504885926.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/zvoics1504885926.jpg',
           ),
           Cocktail(
             id: '11870',
@@ -7388,8 +7005,7 @@ Garnish with orange twist, and a cocktail cherry.
               IngredientDefinition('Orange juice', '4 oz '),
               IngredientDefinition('Ginger ale', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/su1olx1582473812.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/su1olx1582473812.jpg',
           ),
           Cocktail(
             id: '14586',
@@ -7407,8 +7023,7 @@ Garnish with orange twist, and a cocktail cherry.
               IngredientDefinition('Orange juice', '4 oz '),
               IngredientDefinition('Sour mix', '1 splash '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/mgf0y91503565781.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/mgf0y91503565781.jpg',
           ),
           Cocktail(
             id: '16995',
@@ -7427,8 +7042,7 @@ Garnish with orange twist, and a cocktail cherry.
               IngredientDefinition('Cream', '1 package '),
               IngredientDefinition('Ice', 'Over '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ttyrxr1454514759.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ttyrxr1454514759.jpg',
           ),
           Cocktail(
             id: '13499',
@@ -7447,8 +7061,7 @@ Garnish with orange twist, and a cocktail cherry.
               IngredientDefinition('Vanilla ice-cream', '2 scoops '),
               IngredientDefinition('Oreo cookie', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/tpwwut1468925017.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/tpwwut1468925017.jpg',
           ),
           Cocktail(
             id: '11872',
@@ -7467,8 +7080,7 @@ Garnish with orange twist, and a cocktail cherry.
               IngredientDefinition('Vodka', '1/2 oz '),
               IngredientDefinition('Light cream', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vr6kle1504886114.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vr6kle1504886114.jpg',
           ),
           Cocktail(
             id: '13200',
@@ -7486,8 +7098,7 @@ Garnish with orange twist, and a cocktail cherry.
               IngredientDefinition('Lemonade', '12 oz frozen '),
               IngredientDefinition('Ice', '1 cup crushed '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/0wt4uo1503565321.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/0wt4uo1503565321.jpg',
           ),
           Cocktail(
             id: '17253',
@@ -7503,8 +7114,7 @@ Garnish with orange twist, and a cocktail cherry.
               IngredientDefinition('Grape Soda', '3 oz'),
               IngredientDefinition('Tequila', '1 1/2 oz'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/samm5j1513706393.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/samm5j1513706393.jpg',
           ),
           Cocktail(
             id: '17190',
@@ -7521,8 +7131,7 @@ Garnish with orange twist, and a cocktail cherry.
               IngredientDefinition('Apricot Brandy', '4 parts'),
               IngredientDefinition('Orange Juice', '3 parts '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ejozd71504351060.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ejozd71504351060.jpg',
           ),
           Cocktail(
             id: '178323',
@@ -7540,8 +7149,7 @@ Garnish with orange twist, and a cocktail cherry.
               IngredientDefinition('Passion fruit juice', 'Full Glass'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/6trfve1582473527.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/6trfve1582473527.jpg',
           ),
           Cocktail(
             id: '17249',
@@ -7560,8 +7168,7 @@ Garnish with orange twist, and a cocktail cherry.
               IngredientDefinition('Angostura Bitters', '1 dash'),
               IngredientDefinition('Orange Bitters', '1 dash'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/jfkemm1513703902.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/jfkemm1513703902.jpg',
           ),
           Cocktail(
             id: '17829',
@@ -7580,8 +7187,7 @@ Garnish with orange twist, and a cocktail cherry.
               IngredientDefinition('Ginger Syrup', '2 tsp'),
               IngredientDefinition('Islay single malt Scotch', '1/4 oz'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/hc9b1a1521853096.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/hc9b1a1521853096.jpg',
           ),
           Cocktail(
             id: '17207',
@@ -7598,8 +7204,7 @@ Garnish with orange twist, and a cocktail cherry.
               IngredientDefinition('Coconut milk', '3 tblsp '),
               IngredientDefinition('Pineapple', '3 tblsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/cpf4j51504371346.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/cpf4j51504371346.jpg',
           ),
           Cocktail(
             id: '178327',
@@ -7623,8 +7228,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Pepper', 'Rimmed'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/pg8iw31593351601.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/pg8iw31593351601.jpg',
           ),
           Cocktail(
             id: '11936',
@@ -7640,8 +7244,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Bitters', '3 dashes '),
               IngredientDefinition('Gin', '2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qyr51e1504888618.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qyr51e1504888618.jpg',
           ),
           Cocktail(
             id: '11938',
@@ -7659,8 +7262,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Light cream', '1 tsp '),
               IngredientDefinition('Egg white', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/5ia6j21504887829.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/5ia6j21504887829.jpg',
           ),
           Cocktail(
             id: '13535',
@@ -7677,8 +7279,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Pink lemonade', '2 cups '),
               IngredientDefinition('Vodka', '2 cups '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/squsuy1468926657.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/squsuy1468926657.jpg',
           ),
           Cocktail(
             id: '16992',
@@ -7697,8 +7298,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Orange juice', '1 gal '),
               IngredientDefinition('Cranberry juice', '1 gal '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/6vigjx1503564007.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/6vigjx1503564007.jpg',
           ),
           Cocktail(
             id: '13214',
@@ -7716,8 +7316,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Sugar', '1-2 tblsp '),
               IngredientDefinition('Ice', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/tsssur1439907622.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/tsssur1439907622.jpg',
           ),
           Cocktail(
             id: '17191',
@@ -7735,8 +7334,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Orange juice', '2 parts '),
               IngredientDefinition('Pineapple juice', '1 part '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yvos231504351384.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yvos231504351384.jpg',
           ),
           Cocktail(
             id: '13072',
@@ -7754,8 +7352,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Cranberry juice', '4 oz '),
               IngredientDefinition('Orange juice', '4 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/sxvrwv1473344825.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/sxvrwv1473344825.jpg',
           ),
           Cocktail(
             id: '11959',
@@ -7771,8 +7368,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Gin', '1 1/2 oz '),
               IngredientDefinition('Creme de Cacao', '3/4 oz white '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/cslw1w1504389915.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/cslw1w1504389915.jpg',
           ),
           Cocktail(
             id: '11961',
@@ -7788,8 +7384,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Grenadine', '1 tblsp '),
               IngredientDefinition('Green Creme de Menthe', '1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wxvupx1441553911.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wxvupx1441553911.jpg',
           ),
           Cocktail(
             id: '11963',
@@ -7805,8 +7400,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Port', '2 1/2 oz '),
               IngredientDefinition('Brandy', '1/2 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qruprq1441553976.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qruprq1441553976.jpg',
           ),
           Cocktail(
             id: '11965',
@@ -7825,8 +7419,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Egg', '1 whole '),
               IngredientDefinition('Nutmeg', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vrprxu1441553844.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vrprxu1441553844.jpg',
           ),
           Cocktail(
             id: '17192',
@@ -7843,8 +7436,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Port', '9 parts'),
               IngredientDefinition('Egg Yolk', '2 parts'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/64x5j41504351518.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/64x5j41504351518.jpg',
           ),
           Cocktail(
             id: '11983',
@@ -7862,8 +7454,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Lemon', 'Juice of 1/4 '),
               IngredientDefinition('Raspberry syrup', '2 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yrqppx1478962314.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yrqppx1478962314.jpg',
           ),
           Cocktail(
             id: '11985',
@@ -7880,8 +7471,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Sherry', '1/3 oz cream '),
               IngredientDefinition('Lime', 'Juice of 1/2 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qrwvps1478963017.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qrwvps1478963017.jpg',
           ),
           Cocktail(
             id: '11987',
@@ -7898,8 +7488,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Lime vodka', '1 1/2 oz '),
               IngredientDefinition('Sherry', '1/2 oz cream '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rvvpxu1478963194.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rvvpxu1478963194.jpg',
           ),
           Cocktail(
             id: '11989',
@@ -7916,8 +7505,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Grenadine', '1 oz '),
               IngredientDefinition('Lemon-lime soda', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vqruyt1478963249.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vqruyt1478963249.jpg',
           ),
           Cocktail(
             id: '11991',
@@ -7934,8 +7522,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Gin', '1 1/2 oz '),
               IngredientDefinition('Benedictine', '1 1/2 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vpqspv1478963339.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vpqspv1478963339.jpg',
           ),
           Cocktail(
             id: '11993',
@@ -7953,8 +7540,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Light cream', '1 oz '),
               IngredientDefinition('Nutmeg', '1/8 tsp grated '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/spxtqp1478963398.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/spxtqp1478963398.jpg',
           ),
           Cocktail(
             id: '13198',
@@ -7971,8 +7557,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Midori melon liqueur', '1 part '),
               IngredientDefinition('Baileys irish cream', '1 part '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wvtwpp1478963454.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wvtwpp1478963454.jpg',
           ),
           Cocktail(
             id: '15761',
@@ -7988,8 +7573,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Black Sambuca', '25 ml '),
               IngredientDefinition('Orange juice', 'Add 250 ml '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vprxqv1478963533.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vprxqv1478963533.jpg',
           ),
           Cocktail(
             id: '16984',
@@ -8011,8 +7595,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Midori melon liqueur', '1 oz '),
               IngredientDefinition('Malibu rum', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rdvqmh1503563512.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rdvqmh1503563512.jpg',
           ),
           Cocktail(
             id: '16031',
@@ -8028,8 +7611,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Beer', '12 oz '),
               IngredientDefinition('7-Up', '12 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xz8igv1504888995.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xz8igv1504888995.jpg',
           ),
           Cocktail(
             id: '17167',
@@ -8046,8 +7628,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Lemon-lime soda', '4 oz '),
               IngredientDefinition('Ice', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/suqyyx1441254346.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/suqyyx1441254346.jpg',
           ),
           Cocktail(
             id: '178333',
@@ -8065,8 +7646,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Mint', '8'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/hyztmx1598719265.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/hyztmx1598719265.jpg',
           ),
           Cocktail(
             id: '14087',
@@ -8083,8 +7663,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Amaretto', '1 shot '),
               IngredientDefinition('Cranberry juice', '1 shot '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/7p607y1504735343.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/7p607y1504735343.jpg',
           ),
           Cocktail(
             id: '17208',
@@ -8104,8 +7683,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Grenadine', '1 tsp '),
               IngredientDefinition('Powdered sugar', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/8kxbvq1504371462.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/8kxbvq1504371462.jpg',
           ),
           Cocktail(
             id: '17245',
@@ -8125,8 +7703,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Tonic Water', '100 ml'),
               IngredientDefinition('Rosemary', 'Garnish with'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qwc5f91512406543.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qwc5f91512406543.jpg',
           ),
           Cocktail(
             id: '17122',
@@ -8142,8 +7719,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Frangelico', '1 part '),
               IngredientDefinition('Crown Royal', '1 part '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qupuyr1441210090.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qupuyr1441210090.jpg',
           ),
           Cocktail(
             id: '12055',
@@ -8161,8 +7737,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Egg', '1 whole '),
               IngredientDefinition('Coca-Cola', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wrh44j1504390609.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wrh44j1504390609.jpg',
           ),
           Cocktail(
             id: '15082',
@@ -8180,8 +7755,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Chambord raspberry liqueur', '1/2 oz '),
               IngredientDefinition('Cranberry juice', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/7rnm8u1504888527.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/7rnm8u1504888527.jpg',
           ),
           Cocktail(
             id: '12057',
@@ -8200,8 +7774,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Egg', '1 whole '),
               IngredientDefinition('Carbonated water', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/pe1x1c1504735672.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/pe1x1c1504735672.jpg',
           ),
           Cocktail(
             id: '17114',
@@ -8218,8 +7791,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Cranberry juice', '5 oz '),
               IngredientDefinition('Grenadine', '2 splashes '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qsyqqq1441553437.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qsyqqq1441553437.jpg',
           ),
           Cocktail(
             id: '12067',
@@ -8239,8 +7811,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Maraschino cherry', '1 '),
               IngredientDefinition('Orange', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/5vh9ld1504390683.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/5vh9ld1504390683.jpg',
           ),
           Cocktail(
             id: '12071',
@@ -8257,8 +7828,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Lemon-lime soda', '4 oz '),
               IngredientDefinition('Lemon', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/2hgwsb1504888674.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/2hgwsb1504888674.jpg',
           ),
           Cocktail(
             id: '12087',
@@ -8276,8 +7846,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Powdered sugar', '1 tsp '),
               IngredientDefinition('Nutmeg', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/w64lqm1504888810.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/w64lqm1504888810.jpg',
           ),
           Cocktail(
             id: '12089',
@@ -8297,8 +7866,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Water', '1 tsp '),
               IngredientDefinition('Lime peel', 'Twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/otn2011504820649.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/otn2011504820649.jpg',
           ),
           Cocktail(
             id: '14978',
@@ -8317,8 +7885,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Orange juice', '355 ml frozen '),
               IngredientDefinition('Ice', 'crushed '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wyrsxu1441554538.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wyrsxu1441554538.jpg',
           ),
           Cocktail(
             id: '16250',
@@ -8337,8 +7904,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Pineapple juice', '3-4 oz '),
               IngredientDefinition('Cranberry juice', '3-4 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vqws6t1504888857.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vqws6t1504888857.jpg',
           ),
           Cocktail(
             id: '12091',
@@ -8354,8 +7920,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Light rum', '1 1/2 oz '),
               IngredientDefinition('Orange juice', '5 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/4c85zq1511782093.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/4c85zq1511782093.jpg',
           ),
           Cocktail(
             id: '12093',
@@ -8374,8 +7939,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Orange', '1 '),
               IngredientDefinition('Maraschino cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/bylfi21504886323.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/bylfi21504886323.jpg',
           ),
           Cocktail(
             id: '12097',
@@ -8393,8 +7957,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Lemon peel', '1 twist of '),
               IngredientDefinition('Water', '2 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/athdk71504886286.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/athdk71504886286.jpg',
           ),
           Cocktail(
             id: '17214',
@@ -8412,8 +7975,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Sugar Syrup', '1 cl'),
               IngredientDefinition('Lemon Juice', '2.5 cl'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ctt20s1504373488.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ctt20s1504373488.jpg',
           ),
           Cocktail(
             id: '12101',
@@ -8430,8 +7992,7 @@ Garnish with fresh pineapple or lime.
               IngredientDefinition('Drambuie', '1/2 oz '),
               IngredientDefinition('Lemon peel', '1 twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yqsvtw1478252982.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yqsvtw1478252982.jpg',
           ),
           Cocktail(
             id: '17233',
@@ -8452,8 +8013,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Chocolate Sauce', 'Garnish'),
               IngredientDefinition('Salted Chocolate', 'Grated'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/3s6mlr1509551211.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/3s6mlr1509551211.jpg',
           ),
           Cocktail(
             id: '12107',
@@ -8470,8 +8030,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Gin', '1 1/2 oz '),
               IngredientDefinition('Salt', '1/4 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/4vfge01504890216.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/4vfge01504890216.jpg',
           ),
           Cocktail(
             id: '15184',
@@ -8489,8 +8048,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Grenadine', 'null'),
               IngredientDefinition('Orange juice', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/szmj2d1504889961.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/szmj2d1504889961.jpg',
           ),
           Cocktail(
             id: '13020',
@@ -8510,8 +8068,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Cloves', 'null'),
               IngredientDefinition('Cinnamon', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xrvxpp1441249280.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xrvxpp1441249280.jpg',
           ),
           Cocktail(
             id: '13026',
@@ -8532,8 +8089,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Brandy', '3-4 oz plain '),
               IngredientDefinition('Soda water', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vysywu1468924264.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vysywu1468924264.jpg',
           ),
           Cocktail(
             id: '12127',
@@ -8553,8 +8109,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Bourbon', '2 oz '),
               IngredientDefinition('Lemon peel', '1 twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vvpxwy1439907208.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vvpxwy1439907208.jpg',
           ),
           Cocktail(
             id: '12130',
@@ -8571,8 +8126,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Amaretto', '1 oz '),
               IngredientDefinition('Light cream', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/twuptu1483388307.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/twuptu1483388307.jpg',
           ),
           Cocktail(
             id: '12138',
@@ -8591,8 +8145,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Orange', '1 slice '),
               IngredientDefinition('Mint', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/1q7coh1504736227.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/1q7coh1504736227.jpg',
           ),
           Cocktail(
             id: '12158',
@@ -8611,8 +8164,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Lemon', '1/2 slice '),
               IngredientDefinition('Cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/0dnb6k1504890436.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/0dnb6k1504890436.jpg',
           ),
           Cocktail(
             id: '12854',
@@ -8631,8 +8183,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Fennel seeds', '1/4 tsp crushed '),
               IngredientDefinition('Lemon peel', '2 2 inch strips '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/upqvvp1441253441.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/upqvvp1441253441.jpg',
           ),
           Cocktail(
             id: '13625',
@@ -8649,8 +8200,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Baileys irish cream', '1 1/2 oz '),
               IngredientDefinition('Kahlua', '1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/x894cs1504388670.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/x894cs1504388670.jpg',
           ),
           Cocktail(
             id: '12162',
@@ -8666,8 +8216,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Vodka', '2 oz '),
               IngredientDefinition('Orange juice', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/8xnyke1504352207.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/8xnyke1504352207.jpg',
           ),
           Cocktail(
             id: '13377',
@@ -8684,8 +8233,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Cranberry juice', '4 oz '),
               IngredientDefinition('Grapefruit juice', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/7rfuks1504371562.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/7rfuks1504371562.jpg',
           ),
           Cocktail(
             id: '12754',
@@ -8703,8 +8251,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Cranberry juice', 'null'),
               IngredientDefinition('Grapefruit juice', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/lijtw51551455287.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/lijtw51551455287.jpg',
           ),
           Cocktail(
             id: '12186',
@@ -8722,8 +8269,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Grenadine', '1/2 tsp '),
               IngredientDefinition('Lemon', 'Juice of 1/4 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ttyrxr1478820678.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ttyrxr1478820678.jpg',
           ),
           Cocktail(
             id: '16273',
@@ -8740,8 +8286,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Water', '3 cans '),
               IngredientDefinition('Vodka', '1 1/2 cup '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uv96zr1504793256.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uv96zr1504793256.jpg',
           ),
           Cocktail(
             id: '12188',
@@ -8760,8 +8305,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Milk', 'null'),
               IngredientDefinition('Nutmeg', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xwrpsv1478820541.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xwrpsv1478820541.jpg',
           ),
           Cocktail(
             id: '12190',
@@ -8780,8 +8324,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Egg', '1 whole '),
               IngredientDefinition('Nutmeg', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qrryvq1478820428.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qrryvq1478820428.jpg',
           ),
           Cocktail(
             id: '16985',
@@ -8798,8 +8341,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Jack Daniels', '1 part '),
               IngredientDefinition('Wild Turkey', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/2j1m881503563583.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/2j1m881503563583.jpg',
           ),
           Cocktail(
             id: '12196',
@@ -8816,8 +8358,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Cointreau', '1/2 oz '),
               IngredientDefinition('Lemon juice', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/stwxuq1439906852.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/stwxuq1439906852.jpg',
           ),
           Cocktail(
             id: '12198',
@@ -8834,8 +8375,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Triple sec', '1/2 oz '),
               IngredientDefinition('Lemon', 'Juice of 1/4 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ewjxui1504820428.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ewjxui1504820428.jpg',
           ),
           Cocktail(
             id: '12214',
@@ -8855,8 +8395,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Carbonated water', 'null'),
               IngredientDefinition('Cherry', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/7dozeg1582578095.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/7dozeg1582578095.jpg',
           ),
           Cocktail(
             id: '178306',
@@ -8872,8 +8411,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Sambuca', '1 part'),
               IngredientDefinition('Irish cream', '1 part'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/l9tgru1551439725.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/l9tgru1551439725.jpg',
           ),
           Cocktail(
             id: '12224',
@@ -8890,8 +8428,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Dry Vermouth', '1/4 tsp '),
               IngredientDefinition('Orange bitters', '1 dash '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/d7mo481504889531.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/d7mo481504889531.jpg',
           ),
           Cocktail(
             id: '178332',
@@ -8910,8 +8447,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Lime', 'Juice of 1/2'),
               IngredientDefinition('Tequila', '1 shot'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/dztcv51598717861.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/dztcv51598717861.jpg',
           ),
           Cocktail(
             id: '17141',
@@ -8929,8 +8465,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Pepsi Cola', '1/3 part '),
               IngredientDefinition('Orange juice', '1/3 part '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rx8k8e1504365812.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rx8k8e1504365812.jpg',
           ),
           Cocktail(
             id: '13389',
@@ -8946,8 +8481,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Lager', '1/2 pint '),
               IngredientDefinition('Cider', '1/2 pint sweet or dry '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xuwpyu1441248734.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xuwpyu1441248734.jpg',
           ),
           Cocktail(
             id: '15789',
@@ -8964,8 +8498,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Cider', '1/2 pint '),
               IngredientDefinition('Blackcurrant squash', 'A little bit of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rssvwv1441248863.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rssvwv1441248863.jpg',
           ),
           Cocktail(
             id: '14195',
@@ -8983,8 +8516,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Lemon', '1 slice '),
               IngredientDefinition('Ice', 'cubes'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/7ibfs61504735416.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/7ibfs61504735416.jpg',
           ),
           Cocktail(
             id: '12256',
@@ -9000,8 +8532,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Brandy', '1 1/2 oz '),
               IngredientDefinition('Anisette', '1 1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/3gz2vw1503425983.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/3gz2vw1503425983.jpg',
           ),
           Cocktail(
             id: '15226',
@@ -9021,8 +8552,7 @@ Pour the contents of the shaker into your chocolatey glass and sprinkle with mor
               IngredientDefinition('Grenadine', 'null'),
               IngredientDefinition('Cherries', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vxtjbx1504817842.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vxtjbx1504817842.jpg',
           ),
           Cocktail(
             id: '178322',
@@ -9045,8 +8575,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('Orange spiral', 'Garnish with'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/0108c41576797064.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/0108c41576797064.jpg',
           ),
           Cocktail(
             id: '17215',
@@ -9063,8 +8592,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('Campari', '4 cl'),
               IngredientDefinition('Soda Water', 'splash'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/j9evx11504373665.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/j9evx11504373665.jpg',
           ),
           Cocktail(
             id: '178308',
@@ -9081,8 +8609,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('Aperol', '4 cl'),
               IngredientDefinition('Soda Water', 'Top'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/51ezka1551456113.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/51ezka1551456113.jpg',
           ),
           Cocktail(
             id: '17193',
@@ -9098,8 +8625,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('Brandy', '1 1/2 oz '),
               IngredientDefinition('White Creme de Menthe', '1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/2ahv791504352433.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/2ahv791504352433.jpg',
           ),
           Cocktail(
             id: '12308',
@@ -9116,8 +8642,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('Orange juice', '1 oz '),
               IngredientDefinition('Sweet and sour', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vruvtp1472719895.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vruvtp1472719895.jpg',
           ),
           Cocktail(
             id: '12316',
@@ -9136,8 +8661,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('Powdered sugar', '1 tsp '),
               IngredientDefinition('Strawberries', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/deu59m1504736135.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/deu59m1504736135.jpg',
           ),
           Cocktail(
             id: '12322',
@@ -9157,8 +8681,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('Strawberries', '1 oz '),
               IngredientDefinition('Salt', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/tqyrpw1439905311.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/tqyrpw1439905311.jpg',
           ),
           Cocktail(
             id: '12760',
@@ -9176,8 +8699,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('Gin', '2 parts '),
               IngredientDefinition('Grand Marnier', '1/2 part '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/2rzfer1487602699.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/2rzfer1487602699.jpg',
           ),
           Cocktail(
             id: '15521',
@@ -9194,8 +8716,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('Aquavit', '4 cl '),
               IngredientDefinition('Sugar', 'By taste '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ywtrvt1441246783.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ywtrvt1441246783.jpg',
           ),
           Cocktail(
             id: '13024',
@@ -9217,8 +8738,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('Lemon', 'null'),
               IngredientDefinition('Fresca', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uqqvsp1468924228.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uqqvsp1468924228.jpg',
           ),
           Cocktail(
             id: '16990',
@@ -9234,8 +8754,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('Godiva liqueur', '2 shots '),
               IngredientDefinition('Milk', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/j6rq6h1503563821.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/j6rq6h1503563821.jpg',
           ),
           Cocktail(
             id: '14860',
@@ -9251,8 +8770,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('Grand Marnier', '3 parts '),
               IngredientDefinition('Coffee', '1 part '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rswqpy1441246518.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rswqpy1441246518.jpg',
           ),
           Cocktail(
             id: '15515',
@@ -9270,8 +8788,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('Amaretto', '4 oz '),
               IngredientDefinition('Whipped cream', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/txruqv1441245770.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/txruqv1441245770.jpg',
           ),
           Cocktail(
             id: '12362',
@@ -9290,8 +8807,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('Egg white', '1 '),
               IngredientDefinition('Ginger ale', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/2bcase1504889637.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/2bcase1504889637.jpg',
           ),
           Cocktail(
             id: '178307',
@@ -9307,8 +8823,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('Tequila', '1 shot'),
               IngredientDefinition('7-up', '1 part'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/43uhr51551451311.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/43uhr51551451311.jpg',
           ),
           Cocktail(
             id: '12370',
@@ -9326,8 +8841,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('Powdered sugar', '1 tsp '),
               IngredientDefinition('Cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ek0mlq1504820601.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ek0mlq1504820601.jpg',
           ),
           Cocktail(
             id: '13621',
@@ -9344,8 +8858,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('Orange juice', 'null'),
               IngredientDefinition('Grenadine', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/quqyqp1480879103.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/quqyqp1480879103.jpg',
           ),
           Cocktail(
             id: '14602',
@@ -9361,8 +8874,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('Tequila', 'full glass '),
               IngredientDefinition('Tabasco sauce', 'About 8 drops '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/8189p51504735581.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/8189p51504735581.jpg',
           ),
           Cocktail(
             id: '15178',
@@ -9380,8 +8892,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('Southern Comfort', '1 part '),
               IngredientDefinition('Sweet and sour', '1 splash '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rtohqp1504889750.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rtohqp1504889750.jpg',
           ),
           Cocktail(
             id: '15639',
@@ -9400,8 +8911,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('151 proof rum', '1/2 oz Bacardi '),
               IngredientDefinition('Cream', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ypl13s1504890158.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ypl13s1504890158.jpg',
           ),
           Cocktail(
             id: '16271',
@@ -9418,8 +8928,7 @@ Pour 60ml of the spiced syrup into a cocktail shaker along with 200ml rum and 90
               IngredientDefinition('Blue Curacao', '1 oz '),
               IngredientDefinition('Light rum', '1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ojnpz71504793059.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ojnpz71504793059.jpg',
           ),
           Cocktail(
             id: '17826',
@@ -9439,8 +8948,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Amaretto', '50 ml'),
               IngredientDefinition('Cranberry Juice', '4 oz'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wbcvyo1535794478.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wbcvyo1535794478.jpg',
           ),
           Cocktail(
             id: '17247',
@@ -9457,8 +8965,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Maraschino Liqueur', '1 oz'),
               IngredientDefinition('Lime Juice', '1 oz'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/91oule1513702624.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/91oule1513702624.jpg',
           ),
           Cocktail(
             id: '17824',
@@ -9485,8 +8992,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Ginger', '1 Slice'),
               IngredientDefinition('Mint', '1 Large Sprig'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/6xfj5t1517748412.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/6xfj5t1517748412.jpg',
           ),
           Cocktail(
             id: '178330',
@@ -9506,8 +9012,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Prosecco', 'Top'),
               IngredientDefinition('', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/sp8hkp1596017787.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/sp8hkp1596017787.jpg',
           ),
           Cocktail(
             id: '12388',
@@ -9524,8 +9029,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Wine', '1 oz Green Ginger '),
               IngredientDefinition('Orange juice', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rvuswq1461867714.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rvuswq1461867714.jpg',
           ),
           Cocktail(
             id: '12856',
@@ -9544,8 +9048,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Rum', '1 cup '),
               IngredientDefinition('Vanilla extract', '4 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/sih81u1504367097.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/sih81u1504367097.jpg',
           ),
           Cocktail(
             id: '17828',
@@ -9562,8 +9065,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Sweet Vermouth', '1 oz'),
               IngredientDefinition('Green Chartreuse', '1/2 oz'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/b522ek1521761610.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/b522ek1521761610.jpg',
           ),
           Cocktail(
             id: '12402',
@@ -9583,8 +9085,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Maraschino cherry', '1 '),
               IngredientDefinition('Orange', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qystvv1439907682.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qystvv1439907682.jpg',
           ),
           Cocktail(
             id: '17216',
@@ -9601,8 +9102,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Lime Juice', '1.5 cl'),
               IngredientDefinition('Agave syrup', '2 spoons'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/loezxn1504373874.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/loezxn1504373874.jpg',
           ),
           Cocktail(
             id: '12418',
@@ -9621,8 +9121,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Bitters', '2 dashes '),
               IngredientDefinition('Orange peel', 'Twist of '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/utypqq1441554367.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/utypqq1441554367.jpg',
           ),
           Cocktail(
             id: '15006',
@@ -9639,8 +9138,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Amaretto', '3/4 oz '),
               IngredientDefinition('Pineapple juice', '1 splash '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rxurpr1441554292.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rxurpr1441554292.jpg',
           ),
           Cocktail(
             id: '12420',
@@ -9660,8 +9158,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Orange bitters', '2 dashes '),
               IngredientDefinition('Cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/4u0nbl1504352551.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/4u0nbl1504352551.jpg',
           ),
           Cocktail(
             id: '12434',
@@ -9678,8 +9175,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Orange juice', '1 tblsp '),
               IngredientDefinition('Orange bitters', '2 dashes '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/9myuc11492975640.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/9myuc11492975640.jpg',
           ),
           Cocktail(
             id: '17217',
@@ -9699,8 +9195,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Sugar Syrup', '1 dash'),
               IngredientDefinition('Salt', '1 pinch'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yfhn371504374246.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yfhn371504374246.jpg',
           ),
           Cocktail(
             id: '12436',
@@ -9717,8 +9212,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Maple syrup', '1 oz '),
               IngredientDefinition('Lemon juice', '1 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/fgq2bl1492975771.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/fgq2bl1492975771.jpg',
           ),
           Cocktail(
             id: '12442',
@@ -9735,8 +9229,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Creme de Cassis', '3/4 oz '),
               IngredientDefinition('Carbonated water', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/tswpxx1441554674.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/tswpxx1441554674.jpg',
           ),
           Cocktail(
             id: '17218',
@@ -9753,8 +9246,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Vodka', '1.5 cl'),
               IngredientDefinition('Lillet Blanc', '0.75 cl'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/mtdxpa1504374514.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/mtdxpa1504374514.jpg',
           ),
           Cocktail(
             id: '12444',
@@ -9773,8 +9265,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Powdered sugar', '1 tsp '),
               IngredientDefinition('Egg white', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/26cq601492976203.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/26cq601492976203.jpg',
           ),
           Cocktail(
             id: '12446',
@@ -9790,8 +9281,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Dark rum', '2 oz '),
               IngredientDefinition('Cherry brandy', '1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/iwml9t1492976255.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/iwml9t1492976255.jpg',
           ),
           Cocktail(
             id: '12450',
@@ -9808,8 +9298,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Sweet Vermouth', '1/2 oz '),
               IngredientDefinition('Brandy', '1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/voapgc1492976416.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/voapgc1492976416.jpg',
           ),
           Cocktail(
             id: '12452',
@@ -9828,8 +9317,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Powdered sugar', '1 tsp '),
               IngredientDefinition('Orange', '1 slice '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/lx0lvs1492976619.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/lx0lvs1492976619.jpg',
           ),
           Cocktail(
             id: '12460',
@@ -9845,8 +9333,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Vodka', '2 oz '),
               IngredientDefinition('Tonic water', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/lmj2yt1504820500.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/lmj2yt1504820500.jpg',
           ),
           Cocktail(
             id: '16967',
@@ -9865,8 +9352,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Ice', 'null'),
               IngredientDefinition('Nutmeg', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xwxyux1441254243.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xwxyux1441254243.jpg',
           ),
           Cocktail(
             id: '14167',
@@ -9883,8 +9369,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Dry Vermouth', '3/4 oz '),
               IngredientDefinition('Olive', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qyxrqw1439906528.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qyxrqw1439906528.jpg',
           ),
           Cocktail(
             id: '15403',
@@ -9900,8 +9385,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Vodka', '2 oz '),
               IngredientDefinition('Schweppes Russchian', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rpttur1454515129.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rpttur1454515129.jpg',
           ),
           Cocktail(
             id: '12474',
@@ -9918,8 +9402,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Gin', '3/4 oz '),
               IngredientDefinition('Pineapple juice', '1 tblsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ysuqus1441208583.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ysuqus1441208583.jpg',
           ),
           Cocktail(
             id: '11004',
@@ -9937,8 +9420,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Powdered sugar', '1/2 tsp '),
               IngredientDefinition('Cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/hbkfsh1589574990.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/hbkfsh1589574990.jpg',
           ),
           Cocktail(
             id: '12518',
@@ -9954,8 +9436,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Scotch', '1 1/2 oz '),
               IngredientDefinition('Wine', '1 oz Green Ginger '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yvvwys1461867858.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yvvwys1461867858.jpg',
           ),
           Cocktail(
             id: '17194',
@@ -9972,8 +9453,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Triple Sec', '3cl'),
               IngredientDefinition('Lemon Juice', '2cl'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/jofsaz1504352991.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/jofsaz1504352991.jpg',
           ),
           Cocktail(
             id: '12528',
@@ -9990,8 +9470,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Coffee liqueur', '1 oz '),
               IngredientDefinition('Light cream', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vsrupw1472405732.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vsrupw1472405732.jpg',
           ),
           Cocktail(
             id: '178326',
@@ -10012,8 +9491,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Apple Brandy', '3 shots'),
               IngredientDefinition('Soda Water', 'Top'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/hnuod91587851576.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/hnuod91587851576.jpg',
           ),
           Cocktail(
             id: '16158',
@@ -10031,8 +9509,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Cream of coconut', '1/4 cup '),
               IngredientDefinition('Lime juice', '3 tblsp fresh '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/srpxxp1441209622.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/srpxxp1441209622.jpg',
           ),
           Cocktail(
             id: '13058',
@@ -10051,8 +9528,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Orange', '3 '),
               IngredientDefinition('Pineapple juice', '1 cup '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/txustu1473344310.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/txustu1473344310.jpg',
           ),
           Cocktail(
             id: '17219',
@@ -10070,8 +9546,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Triple Sec', '1.5 cl'),
               IngredientDefinition('Lime Juice', '1.5 cl'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/2t9r6w1504374811.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/2t9r6w1504374811.jpg',
           ),
           Cocktail(
             id: '15933',
@@ -10088,8 +9563,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Root beer', 'Add 10 oz '),
               IngredientDefinition('Ice', 'cubes'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/bje5401485619578.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/bje5401485619578.jpg',
           ),
           Cocktail(
             id: '15254',
@@ -10105,8 +9579,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Jägermeister', '1/2 oz '),
               IngredientDefinition('Root beer', '1/2 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qyuvsu1479209462.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qyuvsu1479209462.jpg',
           ),
           Cocktail(
             id: '14157',
@@ -10122,8 +9595,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Vermouth', '4 cl '),
               IngredientDefinition('Apple juice', '16 cl '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xnzr2p1485619687.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xnzr2p1485619687.jpg',
           ),
           Cocktail(
             id: '17027',
@@ -10139,8 +9611,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Zima', '12 oz '),
               IngredientDefinition('Chambord raspberry liqueur', '3 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/1wifuv1485619797.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/1wifuv1485619797.jpg',
           ),
           Cocktail(
             id: '15801',
@@ -10156,8 +9627,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Midori melon liqueur', '1.5 oz '),
               IngredientDefinition('Zima', '12 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/bw8gzx1485619920.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/bw8gzx1485619920.jpg',
           ),
           Cocktail(
             id: '14888',
@@ -10173,8 +9643,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Peachtree schnapps', '4 shots '),
               IngredientDefinition('Surge', '4 shots '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/iixv4l1485620014.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/iixv4l1485620014.jpg',
           ),
           Cocktail(
             id: '16942',
@@ -10191,8 +9660,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Vodka', '1 shot '),
               IngredientDefinition('Soda water', 'Fill with '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/r2qzhu1485620235.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/r2qzhu1485620235.jpg',
           ),
           Cocktail(
             id: '14065',
@@ -10209,8 +9677,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Rum', '2 oz '),
               IngredientDefinition('Kool-Aid', '4 oz Grape '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/1sqm7n1485620312.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/1sqm7n1485620312.jpg',
           ),
           Cocktail(
             id: '14594',
@@ -10228,8 +9695,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Ice', 'cubes'),
               IngredientDefinition('Lemon', ' or lime'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/0fbo2t1485620752.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/0fbo2t1485620752.jpg',
           ),
           Cocktail(
             id: '15691',
@@ -10250,8 +9716,7 @@ Garnish with a slice of lemon…Enjoy!
               IngredientDefinition('Creme de Cassis', 'null'),
               IngredientDefinition('Lemon', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ft8ed01485620930.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ft8ed01485620930.jpg',
           ),
           Cocktail(
             id: '17241',
@@ -10281,8 +9746,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Lime Juice', '1 tsp'),
               IngredientDefinition('Angostura Bitters', '1 drop'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/2en3jk1509557725.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/2en3jk1509557725.jpg',
           ),
           Cocktail(
             id: '16963',
@@ -10298,8 +9762,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Vodka', '1 1/4 oz Stoli '),
               IngredientDefinition('Ouzo', '1/4 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wtkqgb1485621155.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wtkqgb1485621155.jpg',
           ),
           Cocktail(
             id: '15328',
@@ -10316,8 +9779,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Baileys irish cream', '2 cl '),
               IngredientDefinition('White Creme de Menthe', '2 cl '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/kvvd4z1485621283.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/kvvd4z1485621283.jpg',
           ),
           Cocktail(
             id: '12560',
@@ -10334,8 +9796,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Orange juice', '4 parts '),
               IngredientDefinition('Pineapple juice', '4 parts '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vuquyv1468876052.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vuquyv1468876052.jpg',
           ),
           Cocktail(
             id: '12562',
@@ -10353,8 +9814,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Pineapple juice', '2 cl '),
               IngredientDefinition('Cream', '4 cl '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qyqtpv1468876144.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qyqtpv1468876144.jpg',
           ),
           Cocktail(
             id: '12862',
@@ -10375,8 +9835,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Sugar', '1 cup '),
               IngredientDefinition('Pineapple juice', '3-4 cups '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wsyvrt1468876267.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wsyvrt1468876267.jpg',
           ),
           Cocktail(
             id: '15106',
@@ -10394,8 +9853,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Apple juice', '1 cl '),
               IngredientDefinition('Maraschino cherry', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uptxtv1468876415.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uptxtv1468876415.jpg',
           ),
           Cocktail(
             id: '12710',
@@ -10411,8 +9869,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Berries', '1 cup '),
               IngredientDefinition('Apple', '2 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xwqvur1468876473.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xwqvur1468876473.jpg',
           ),
           Cocktail(
             id: '12564',
@@ -10428,8 +9885,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Apple juice', '2 cups '),
               IngredientDefinition('Carrot', '1 large '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/syusvw1468876634.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/syusvw1468876634.jpg',
           ),
           Cocktail(
             id: '12708',
@@ -10445,8 +9901,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Cantaloupe', 'Juice of 1/2 '),
               IngredientDefinition('Banana', '1 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uqxqsy1468876703.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uqxqsy1468876703.jpg',
           ),
           Cocktail(
             id: '12654',
@@ -10464,8 +9919,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Sugar syrup', '2 tsp '),
               IngredientDefinition('Banana', '1/2 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rtwwsx1472720307.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rtwwsx1472720307.jpg',
           ),
           Cocktail(
             id: '12656',
@@ -10484,8 +9938,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Milk', '1 cup '),
               IngredientDefinition('Honey', ' to taste'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vqquwx1472720634.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vqquwx1472720634.jpg',
           ),
           Cocktail(
             id: '12658',
@@ -10502,8 +9955,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Banana', '1 frozen '),
               IngredientDefinition('Apple juice', '2 cups fresh '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uvypss1472720581.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uvypss1472720581.jpg',
           ),
           Cocktail(
             id: '12572',
@@ -10521,8 +9973,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Lemon juice', '1 cl '),
               IngredientDefinition('Grenadine', '1 cl '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xwuqvw1473201811.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xwuqvw1473201811.jpg',
           ),
           Cocktail(
             id: '12730',
@@ -10541,8 +9992,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Water', '1/2 cup '),
               IngredientDefinition('Milk', '1 qt '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/3nbu4a1487603196.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/3nbu4a1487603196.jpg',
           ),
           Cocktail(
             id: '12732',
@@ -10560,8 +10010,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Cinnamon', '1 tsp powdered '),
               IngredientDefinition('Egg', '3 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/jbqrhv1487603186.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/jbqrhv1487603186.jpg',
           ),
           Cocktail(
             id: '12734',
@@ -10578,8 +10027,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Milk', '3/4 L '),
               IngredientDefinition('Water', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/q7w4xu1487603180.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/q7w4xu1487603180.jpg',
           ),
           Cocktail(
             id: '17108',
@@ -10595,8 +10043,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Coca-Cola', '1 dl '),
               IngredientDefinition('Lemon juice', '7 drops '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yrtxxp1472719367.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yrtxxp1472719367.jpg',
           ),
           Cocktail(
             id: '12890',
@@ -10615,8 +10062,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Almond flavoring', '1 tblsp '),
               IngredientDefinition('Ginger ale', '2 qt '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/mzgaqu1504389248.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/mzgaqu1504389248.jpg',
           ),
           Cocktail(
             id: '12736',
@@ -10636,8 +10082,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Chocolate', '2 oz finely chopped dark '),
               IngredientDefinition('Whipped cream', 'Fresh '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/u6jrdf1487603173.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/u6jrdf1487603173.jpg',
           ),
           Cocktail(
             id: '12668',
@@ -10654,8 +10099,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Milk', '6 oz whole '),
               IngredientDefinition('Soda water', '6 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/mvis731484430445.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/mvis731484430445.jpg',
           ),
           Cocktail(
             id: '12768',
@@ -10672,8 +10116,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Milk', '1/2 cup '),
               IngredientDefinition('Sugar', '1-2 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vqwryq1441245927.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vqwryq1441245927.jpg',
           ),
           Cocktail(
             id: '12670',
@@ -10694,8 +10137,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Soda water', '1 L '),
               IngredientDefinition('Ice', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/i3tfn31484430499.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/i3tfn31484430499.jpg',
           ),
           Cocktail(
             id: '12672',
@@ -10711,8 +10153,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Yoghurt', '1 cup '),
               IngredientDefinition('Fruit juice', '1 cup '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/nfdx6p1484430633.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/nfdx6p1484430633.jpg',
           ),
           Cocktail(
             id: '12674',
@@ -10731,8 +10172,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Fruit', '1/2 piece textural '),
               IngredientDefinition('Ice', '6 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/q0fg2m1484430704.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/q0fg2m1484430704.jpg',
           ),
           Cocktail(
             id: '12712',
@@ -10749,8 +10189,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Lemon', '1/4 '),
               IngredientDefinition('Pineapple', '1/2 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/54z5h71487603583.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/54z5h71487603583.jpg',
           ),
           Cocktail(
             id: '12954',
@@ -10767,8 +10206,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Carbonated soft drink', ', orange'),
               IngredientDefinition('Sherbet', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/lfeoe41504888925.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/lfeoe41504888925.jpg',
           ),
           Cocktail(
             id: '12738',
@@ -10787,8 +10225,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Half-and-half', '1 cup '),
               IngredientDefinition('Marshmallows', 'mini '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/0lrmjp1487603166.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/0lrmjp1487603166.jpg',
           ),
           Cocktail(
             id: '12770',
@@ -10806,8 +10243,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Water', '1/4 cup hot '),
               IngredientDefinition('Milk', '4 cups cold '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ytprxy1454513855.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ytprxy1454513855.jpg',
           ),
           Cocktail(
             id: '17176',
@@ -10826,8 +10262,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Ginger ale', 'top up with'),
               IngredientDefinition('Ice', 'fill'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yswuwp1469090992.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yswuwp1469090992.jpg',
           ),
           Cocktail(
             id: '12688',
@@ -10844,8 +10279,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Chocolate syrup', 'null'),
               IngredientDefinition('Mint syrup', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/znald61487604035.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/znald61487604035.jpg',
           ),
           Cocktail(
             id: '12720',
@@ -10862,8 +10296,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Lemon', '1/4 '),
               IngredientDefinition('Water', '1 cup hot '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/7j1z2e1487603414.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/7j1z2e1487603414.jpg',
           ),
           Cocktail(
             id: '12714',
@@ -10879,8 +10312,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Kiwi', '3 '),
               IngredientDefinition('Papaya', '1/2 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/jogv4w1487603571.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/jogv4w1487603571.jpg',
           ),
           Cocktail(
             id: '12690',
@@ -10899,8 +10331,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Salt', '1/4 tsp '),
               IngredientDefinition('Mint', '1/4 tsp dried '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/iq6scx1487603980.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/iq6scx1487603980.jpg',
           ),
           Cocktail(
             id: '12698',
@@ -10918,8 +10349,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Sugar', '1/2 cup '),
               IngredientDefinition('Water', '1 cup iced '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/1bw6sd1487603816.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/1bw6sd1487603816.jpg',
           ),
           Cocktail(
             id: '12696',
@@ -10938,8 +10368,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Salt', 'pinch '),
               IngredientDefinition('Lemon juice', '2 tblsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/9jeifz1487603885.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/9jeifz1487603885.jpg',
           ),
           Cocktail(
             id: '12692',
@@ -10957,8 +10386,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Salt', '1 tsp '),
               IngredientDefinition('Asafoetida', '1 pinch '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/m1suzm1487603970.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/m1suzm1487603970.jpg',
           ),
           Cocktail(
             id: '12694',
@@ -10977,8 +10405,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Lime', 'null'),
               IngredientDefinition('Salt', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/s4x0qj1487603933.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/s4x0qj1487603933.jpg',
           ),
           Cocktail(
             id: '12702',
@@ -10997,8 +10424,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Sugar', '1 cup '),
               IngredientDefinition('Cayenne pepper', 'ground '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/eirmo71487603745.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/eirmo71487603745.jpg',
           ),
           Cocktail(
             id: '12704',
@@ -11016,8 +10442,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Soda water', ' (seltzer water)'),
               IngredientDefinition('Lime peel', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/5jdp5r1487603680.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/5jdp5r1487603680.jpg',
           ),
           Cocktail(
             id: '12716',
@@ -11033,8 +10458,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Mango', '1 '),
               IngredientDefinition('Orange', '2 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vdp2do1487603520.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vdp2do1487603520.jpg',
           ),
           Cocktail(
             id: '12774',
@@ -11057,8 +10481,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Sugar', ' to taste'),
               IngredientDefinition('Milk', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/uyrpww1441246384.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uyrpww1441246384.jpg',
           ),
           Cocktail(
             id: '12776',
@@ -11075,8 +10498,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Honey', 'Unsweetened '),
               IngredientDefinition('Cocoa powder', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xwtptq1441247579.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xwtptq1441247579.jpg',
           ),
           Cocktail(
             id: '12744',
@@ -11096,8 +10518,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Milk', '2 cups '),
               IngredientDefinition('Vanilla extract', '1/4 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/8y4x5f1487603151.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/8y4x5f1487603151.jpg',
           ),
           Cocktail(
             id: '12746',
@@ -11115,8 +10536,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Vanilla extract', '1/2 tsp '),
               IngredientDefinition('Milk', '12 oz '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xcu6nb1487603142.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xcu6nb1487603142.jpg',
           ),
           Cocktail(
             id: '12748',
@@ -11130,14 +10550,12 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
             name: 'Orange Scented Hot Chocolate',
             ingredients: [
               IngredientDefinition('Milk', '2 cups '),
-              IngredientDefinition(
-                  'Chocolate', '4 oz chopped bittersweet or semi-sweet '),
+              IngredientDefinition('Chocolate', '4 oz chopped bittersweet or semi-sweet '),
               IngredientDefinition('Orange peel', '3 2-inch strips '),
               IngredientDefinition('Espresso', '1/2 tsp instant '),
               IngredientDefinition('Nutmeg', '1/8 tsp ground '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/hdzwrh1487603131.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/hdzwrh1487603131.jpg',
           ),
           Cocktail(
             id: '12618',
@@ -11155,8 +10573,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Sugar syrup', '2-3 cl '),
               IngredientDefinition('Soda water', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/ytsxxw1441167732.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ytsxxw1441167732.jpg',
           ),
           Cocktail(
             id: '12718',
@@ -11172,8 +10589,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Ginger', '1/4 inch '),
               IngredientDefinition('Pineapple', '1/2 '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/eg9i1d1487603469.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/eg9i1d1487603469.jpg',
           ),
           Cocktail(
             id: '15092',
@@ -11191,8 +10607,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Pineapple juice', '1 part '),
               IngredientDefinition('Ice', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xsqsxw1441553580.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xsqsxw1441553580.jpg',
           ),
           Cocktail(
             id: '12630',
@@ -11209,8 +10624,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Lemon juice', 'null'),
               IngredientDefinition('Ginger ale', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/stsuqq1441207660.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/stsuqq1441207660.jpg',
           ),
           Cocktail(
             id: '12750',
@@ -11228,8 +10642,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Cinnamon', '1/2 tsp '),
               IngredientDefinition('Egg yolk', '2 beaten '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/pra8vt1487603054.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/pra8vt1487603054.jpg',
           ),
           Cocktail(
             id: '13032',
@@ -11249,8 +10662,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Cloves', '1/2 tsp '),
               IngredientDefinition('Lime juice', '2 tblsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qxvypq1468924331.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qxvypq1468924331.jpg',
           ),
           Cocktail(
             id: '12780',
@@ -11266,8 +10678,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Coffee', 'null'),
               IngredientDefinition('Cinnamon', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/isql6y1487602375.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/isql6y1487602375.jpg',
           ),
           Cocktail(
             id: '13036',
@@ -11285,8 +10696,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Strawberries', '8-10 ripe '),
               IngredientDefinition('Water', '1 cup '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/spvvxp1468924425.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/spvvxp1468924425.jpg',
           ),
           Cocktail(
             id: '12722',
@@ -11303,8 +10713,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Honey', '4 tsp '),
               IngredientDefinition('Water', '1/2 cup '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/9h1vvt1487603404.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/9h1vvt1487603404.jpg',
           ),
           Cocktail(
             id: '12724',
@@ -11321,8 +10730,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Banana', '1 '),
               IngredientDefinition('Honey', '1 tblsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/sxpcj71487603345.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/sxpcj71487603345.jpg',
           ),
           Cocktail(
             id: '12782',
@@ -11342,8 +10750,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Whipping cream', 'null'),
               IngredientDefinition('Ice', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wquwxs1441247025.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wquwxs1441247025.jpg',
           ),
           Cocktail(
             id: '12784',
@@ -11361,8 +10768,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Cream', ' pods'),
               IngredientDefinition('Cardamom', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rqpypv1441245650.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rqpypv1441245650.jpg',
           ),
           Cocktail(
             id: '12786',
@@ -11381,8 +10787,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Ice', 'cubes'),
               IngredientDefinition('Mint', 'garnish'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/trvwpu1441245568.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/trvwpu1441245568.jpg',
           ),
           Cocktail(
             id: '12726',
@@ -11399,8 +10804,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Lemon juice', '1-2 tblsp '),
               IngredientDefinition('Celery salt', '1 dash '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/869qr81487603278.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/869qr81487603278.jpg',
           ),
           Cocktail(
             id: '12728',
@@ -11417,8 +10821,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Fruit', '1 cup '),
               IngredientDefinition('Ice', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/trttrv1441254466.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/trttrv1441254466.jpg',
           ),
           Cocktail(
             id: '12864',
@@ -11440,8 +10843,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Nutmeg', '1 tsp ground '),
               IngredientDefinition('Cinnamon', '3 sticks '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/xrqxuv1454513218.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/xrqxuv1454513218.jpg',
           ),
           Cocktail(
             id: '15615',
@@ -11463,8 +10865,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Cherry', '1 '),
               IngredientDefinition('Banana', '1 piece '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/tyvpxt1468875212.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/tyvpxt1468875212.jpg',
           ),
           Cocktail(
             id: '12910',
@@ -11488,8 +10889,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Egg white', '6 '),
               IngredientDefinition('Nutmeg', 'Ground '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/wpspsy1468875747.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wpspsy1468875747.jpg',
           ),
           Cocktail(
             id: '12916',
@@ -11510,8 +10910,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Rum', '1 tsp '),
               IngredientDefinition('Nutmeg', ''),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/qxuppv1468875308.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qxuppv1468875308.jpg',
           ),
           Cocktail(
             id: '12914',
@@ -11530,8 +10929,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Milk', '1 qt '),
               IngredientDefinition('Vanilla extract', '1 tsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/quxsvt1468875505.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/quxsvt1468875505.jpg',
           ),
           Cocktail(
             id: '15997',
@@ -11548,8 +10946,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Ginger ale', 'null'),
               IngredientDefinition('Ice', 'null'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vyxwut1468875960.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vyxwut1468875960.jpg',
           ),
           Cocktail(
             id: '12944',
@@ -11569,8 +10966,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Cloves', '3 '),
               IngredientDefinition('Lemon peel', '1 tblsp '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/vuxwvt1468875418.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vuxwvt1468875418.jpg',
           ),
           Cocktail(
             id: '13042',
@@ -11590,8 +10986,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Berries', '2 cups '),
               IngredientDefinition('Champagne', '1 bottle '),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/rywtwy1468924758.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/rywtwy1468924758.jpg',
           ),
           Cocktail(
             id: '13056',
@@ -11608,8 +11003,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
               IngredientDefinition('Lemon-lime soda', '5 oz '),
               IngredientDefinition('Ice', 'cubes'),
             ],
-            drinkThumbUrl:
-                'https://www.thecocktaildb.com/images/media/drink/yutxtv1473344210.jpg',
+            drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/yutxtv1473344210.jpg',
           ),
         ]);
   }
@@ -11633,8 +11027,7 @@ Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together.
           IngredientDefinition('Mint', '2-4 '),
           IngredientDefinition('Soda water', 'null'),
         ],
-        drinkThumbUrl:
-            'https://www.thecocktaildb.com/images/media/drink/3z6xdi1589574603.jpg',
+        drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/3z6xdi1589574603.jpg',
       ),
       Cocktail(
         id: '11001',
@@ -11655,8 +11048,7 @@ Garnish with orange twist, and a cocktail cherry.
           IngredientDefinition('Sugar', '1 cube'),
           IngredientDefinition('Water', 'dash'),
         ],
-        drinkThumbUrl:
-            'https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg',
+        drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg',
       ),
       Cocktail(
         id: '11002',
@@ -11676,8 +11068,7 @@ Garnish with orange twist, and a cocktail cherry.
           IngredientDefinition('Lemon', 'Juice of 1/2 '),
           IngredientDefinition('Coca-Cola', '1 splash '),
         ],
-        drinkThumbUrl:
-            'https://www.thecocktaildb.com/images/media/drink/tppn6i1589574695.jpg',
+        drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/tppn6i1589574695.jpg',
       ),
       Cocktail(
         id: '11003',
@@ -11694,8 +11085,7 @@ Garnish with orange twist, and a cocktail cherry.
           IngredientDefinition('Campari', '1 oz '),
           IngredientDefinition('Sweet Vermouth', '1 oz '),
         ],
-        drinkThumbUrl:
-            'https://www.thecocktaildb.com/images/media/drink/qgdu971561574065.jpg',
+        drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qgdu971561574065.jpg',
       ),
       Cocktail(
         id: '11004',
@@ -11713,8 +11103,7 @@ Garnish with orange twist, and a cocktail cherry.
           IngredientDefinition('Powdered sugar', '1/2 tsp '),
           IngredientDefinition('Cherry', '1 '),
         ],
-        drinkThumbUrl:
-            'https://www.thecocktaildb.com/images/media/drink/hbkfsh1589574990.jpg',
+        drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/hbkfsh1589574990.jpg',
       ),
       Cocktail(
         id: '11005',
@@ -11731,8 +11120,7 @@ Garnish with orange twist, and a cocktail cherry.
           IngredientDefinition('Dry Vermouth', '1/3 oz '),
           IngredientDefinition('Olive', '1 '),
         ],
-        drinkThumbUrl:
-            'https://www.thecocktaildb.com/images/media/drink/6ck9yi1589574317.jpg',
+        drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/6ck9yi1589574317.jpg',
       ),
       Cocktail(
         id: '11006',
@@ -11749,8 +11137,7 @@ Garnish with orange twist, and a cocktail cherry.
           IngredientDefinition('Lime', 'Juice of 1/2 '),
           IngredientDefinition('Powdered sugar', '1 tsp '),
         ],
-        drinkThumbUrl:
-            'https://www.thecocktaildb.com/images/media/drink/mrz9091589574515.jpg',
+        drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/mrz9091589574515.jpg',
       ),
       Cocktail(
         id: '11007',
@@ -11768,8 +11155,7 @@ Garnish with orange twist, and a cocktail cherry.
           IngredientDefinition('Lime juice', '1 oz '),
           IngredientDefinition('Salt', 'null'),
         ],
-        drinkThumbUrl:
-            'https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg',
+        drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg',
       ),
       Cocktail(
         id: '11008',
@@ -11789,8 +11175,7 @@ Garnish with orange twist, and a cocktail cherry.
           IngredientDefinition('Maraschino cherry', '1 '),
           IngredientDefinition('Orange peel', '1 twist of '),
         ],
-        drinkThumbUrl:
-            'https://www.thecocktaildb.com/images/media/drink/hz7p4t1589575281.jpg',
+        drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/hz7p4t1589575281.jpg',
       ),
       Cocktail(
         id: '11009',
@@ -11807,8 +11192,7 @@ Garnish with orange twist, and a cocktail cherry.
           IngredientDefinition('Lime juice', '2 oz '),
           IngredientDefinition('Ginger ale', '8 oz '),
         ],
-        drinkThumbUrl:
-            'https://www.thecocktaildb.com/images/media/drink/3pylqc1504370988.jpg',
+        drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/3pylqc1504370988.jpg',
       ),
       Cocktail(
         id: '11010',
@@ -11825,8 +11209,7 @@ Garnish with orange twist, and a cocktail cherry.
           IngredientDefinition('Triple sec', '1 oz '),
           IngredientDefinition('Lime', '1 '),
         ],
-        drinkThumbUrl:
-            'https://www.thecocktaildb.com/images/media/drink/vtytxq1483387578.jpg',
+        drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/vtytxq1483387578.jpg',
       ),
       Cocktail(
         id: '11011',
@@ -11843,8 +11226,7 @@ Garnish with orange twist, and a cocktail cherry.
           IngredientDefinition('Apricot brandy', '1 oz '),
           IngredientDefinition('Lemon juice', '1/2 tsp '),
         ],
-        drinkThumbUrl:
-            'https://www.thecocktaildb.com/images/media/drink/quyxwu1483387610.jpg',
+        drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/quyxwu1483387610.jpg',
       ),
       Cocktail(
         id: '11012',
@@ -11862,8 +11244,7 @@ Garnish with orange twist, and a cocktail cherry.
           IngredientDefinition('Sloe gin', '1/2 oz '),
           IngredientDefinition('Lemon juice', '1 dash '),
         ],
-        drinkThumbUrl:
-            'https://www.thecocktaildb.com/images/media/drink/qtwxwr1483387647.jpg',
+        drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qtwxwr1483387647.jpg',
       ),
       Cocktail(
         id: '11013',
@@ -11881,8 +11262,7 @@ Garnish with orange twist, and a cocktail cherry.
           IngredientDefinition('Yellow Chartreuse', '3/4 oz '),
           IngredientDefinition('Lemon peel', 'Twist of '),
         ],
-        drinkThumbUrl:
-            'https://www.thecocktaildb.com/images/media/drink/wsyryt1483387720.jpg',
+        drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/wsyryt1483387720.jpg',
       ),
       Cocktail(
         id: '11014',
@@ -11900,8 +11280,7 @@ Garnish with orange twist, and a cocktail cherry.
           IngredientDefinition('Light cream', '2 oz '),
           IngredientDefinition('Nutmeg', 'null'),
         ],
-        drinkThumbUrl:
-            'https://www.thecocktaildb.com/images/media/drink/urystu1478253039.jpg',
+        drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/urystu1478253039.jpg',
       ),
       Cocktail(
         id: '11016',
@@ -11919,8 +11298,7 @@ Garnish with orange twist, and a cocktail cherry.
           IngredientDefinition('Light cream', '1 oz '),
           IngredientDefinition('Nutmeg', 'null'),
         ],
-        drinkThumbUrl:
-            'https://www.thecocktaildb.com/images/media/drink/tvqxvr1483387746.jpg',
+        drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/tvqxvr1483387746.jpg',
       ),
       Cocktail(
         id: '11019',
@@ -11937,8 +11315,7 @@ Garnish with orange twist, and a cocktail cherry.
           IngredientDefinition('Triple sec', '1 dash '),
           IngredientDefinition('Pineapple juice', '1 tblsp '),
         ],
-        drinkThumbUrl:
-            'https://www.thecocktaildb.com/images/media/drink/ypxsqy1483387829.jpg',
+        drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/ypxsqy1483387829.jpg',
       ),
       Cocktail(
         id: '11020',
@@ -11955,8 +11332,7 @@ Garnish with orange twist, and a cocktail cherry.
           IngredientDefinition('Dry Vermouth', '1 oz '),
           IngredientDefinition('Pineapple juice', '1 oz '),
         ],
-        drinkThumbUrl:
-            'https://www.thecocktaildb.com/images/media/drink/uwryxx1483387873.jpg',
+        drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uwryxx1483387873.jpg',
       ),
       Cocktail(
         id: '11021',
@@ -11975,8 +11351,7 @@ Garnish with orange twist, and a cocktail cherry.
           IngredientDefinition('Lemon juice', '1 1/2 tsp '),
           IngredientDefinition('Lemon peel', '1 twist of '),
         ],
-        drinkThumbUrl:
-            'https://www.thecocktaildb.com/images/media/drink/uwvyts1483387934.jpg',
+        drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/uwvyts1483387934.jpg',
       ),
       Cocktail(
         id: '11022',
@@ -11993,8 +11368,7 @@ Garnish with orange twist, and a cocktail cherry.
           IngredientDefinition('Gin', '1 oz '),
           IngredientDefinition('Kummel', '1/2 tsp '),
         ],
-        drinkThumbUrl:
-            'https://www.thecocktaildb.com/images/media/drink/qvprvp1483388104.jpg',
+        drinkThumbUrl: 'https://www.thecocktaildb.com/images/media/drink/qvprvp1483388104.jpg',
       ),
     ];
   }
