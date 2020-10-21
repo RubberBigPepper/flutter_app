@@ -1,7 +1,8 @@
 import 'dart:convert' as convert;
 import 'dart:io';
 
-import 'package:flutter_app/models/src/dto/ingredients_dto.dart';
+import 'package:flutter_app/models/src/dto/ingredient_dto.dart';
+import 'package:http/http.dart' as http;
 
 import '../../models.dart';
 import '../../src/dto/cocktail_definition_dto.dart';
@@ -12,7 +13,6 @@ import '../../src/model/cocktail_definition.dart';
 import '../../src/model/cocktail_type.dart';
 import '../../src/model/glass_type.dart';
 import '../../src/model/ingredient_definition.dart';
-import 'package:http/http.dart' as http;
 
 class AsyncCocktailRepository {
   static const String _apiKey =
@@ -132,7 +132,7 @@ class AsyncCocktailRepository {
   Future<Cocktail> getRandomCocktail() async {
     Cocktail result;
 
-    var client = http.Client();
+    //var client = http.Client();
     try {
       const url = 'https://the-cocktail-db.p.rapidapi.com/random.php';
       var response = await http.get(url, headers: _headers);
@@ -151,7 +151,7 @@ class AsyncCocktailRepository {
             'Request failed with status: ${response.statusCode}');
       }
     } finally {
-      client.close();
+      //  client.close();
     }
 
     return result;
@@ -161,10 +161,11 @@ class AsyncCocktailRepository {
   /// TODO: implement Lookup ingredient by ID operation to get all details about Ingredient
   /// using an endpoint https://rapidapi.com/thecocktaildb/api/the-cocktail-db?endpoint=apiendpoint_0ee9572a-a259-4b6e-9e53-b97aa3d42b18
   ///
-  Future<Ingredient> lookupIngredientById(String id) async {//взял смелость добавить id для правильного вызова
+  Future<Ingredient> lookupIngredientById(String id) async {
+    //взял смелость добавить id для правильного вызова
     Ingredient result;
 
-    var client = http.Client();
+    //var client = http.Client(); //то есть это нам уже не нужно
     try {
       final url = 'https://the-cocktail-db.p.rapidapi.com/lookup.php?iid=$id';
       var response = await http.get(url, headers: _headers);
@@ -173,7 +174,7 @@ class AsyncCocktailRepository {
         var ingredients = jsonResponse['ingredients'] as Iterable<dynamic>;
         final dtos = ingredients
             .cast<Map<String, dynamic>>()
-            .map((json) => IngredientsDto.fromJson(json));
+            .map((json) => IngredientDto.fromJson(json));
         if (dtos.length > 0) {
           result = _createIngredientFromDto(dtos.first);
         }
@@ -181,23 +182,14 @@ class AsyncCocktailRepository {
         throw HttpException(
             'Request failed with status: ${response.statusCode}');
       }
-    } finally {
-      client.close();
+    } catch (error) {
+      print(error);
     }
+    /* finally {//как и это не нужно
+      client.close();
+    }*/
 
     return result;
-  }
-
-  Ingredient _createIngredientFromDto(IngredientsDto dto) {//формирование объекта из DTO
-    return Ingredient(
-      id: dto.idIngredient,
-      name: dto.strIngredient,
-      description: dto.strDescription,
-      ingredientType: dto.strType,
-      isAlcoholic: dto.strAlcohol.toLowerCase() ==
-          "true", //пришлось такое использовать для конвертации, а вообще надо бы завести Extension для такого
-      ABV: dto.strABV,
-    );
   }
 
   Cocktail _createCocktailFromDto(CocktailDto dto) {
@@ -220,6 +212,20 @@ class AsyncCocktailRepository {
       name: dto.strDrink,
       ingredients: ingredients,
       drinkThumbUrl: dto.strDrinkThumb,
+    );
+  }
+
+  Ingredient _createIngredientFromDto(IngredientDto dto) {
+    //формирование объекта из DTO
+    return Ingredient(
+      id: dto.idIngredient,
+      name: dto.strIngredient,
+      description: dto.strDescription,
+      ingredientType: dto.strType,
+      isAlcoholic: dto.strAlcohol != null
+          ? bool.fromEnvironment(dto.strAlcohol.toLowerCase())
+          : false,
+      ABV: dto.strABV,
     );
   }
 

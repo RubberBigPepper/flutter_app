@@ -1,13 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'ingredients_dto.dart';
+part of 'ingredient_dto.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
-IngredientsDto _$IngredientsDtoFromJson(Map<String, dynamic> json) {
-  return IngredientsDto(
+IngredientDto _$IngredientDtoFromJson(Map<String, dynamic> json) {
+  return IngredientDto(
     json['idIngredient'] as String,
     json['strIngredient'] as String,
     json['strDescription'] as String,

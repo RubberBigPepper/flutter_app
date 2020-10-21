@@ -80,13 +80,12 @@ class CocktailDetailPage extends StatelessWidget {
             fit: BoxFit.cover,
           ),
           Container(
-              margin: EdgeInsets.only(
+            margin: EdgeInsets.only(
                 left: marginHor,
                 right: marginHor,
                 top: marginVert,
                 bottom: marginVert),
-              child:Row(
-
+            child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               mainAxisSize: MainAxisSize.max,
               children: [
@@ -123,10 +122,9 @@ class CocktailDetailPage extends StatelessWidget {
     return new Container(
       margin: EdgeInsets.only(left: marginHor),
       child: generateText(text, fontSize, TextAlign.left, leftMargin),
-      decoration: new BoxDecoration (
+      decoration: new BoxDecoration(
           borderRadius: new BorderRadius.all(new Radius.circular(30.0)),
-          color: Colors.black
-      ),
+          color: Colors.black),
     );
   }
 
@@ -138,7 +136,7 @@ class CocktailDetailPage extends StatelessWidget {
           left: this.marginHor,
           right: this.marginHor,
           top: this.marginHor,
-          bottom: 18*screenWidth/375.0),
+          bottom: 18 * screenWidth / 375.0),
       decoration: BoxDecoration(
         color: backColorSec,
       ),
