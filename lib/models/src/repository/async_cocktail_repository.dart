@@ -25,7 +25,7 @@ class AsyncCocktailRepository {
   Future<Cocktail> fetchCocktailDetails(String id) async {
     Cocktail result;
 
-    var client = http.Client();
+   // var client = http.Client();
     try {
       final url = 'https://the-cocktail-db.p.rapidapi.com/lookup.php?i=$id';
       var response = await http.get(url, headers: _headers);
@@ -41,7 +41,7 @@ class AsyncCocktailRepository {
         throw HttpException('Request failed with status: ${response.statusCode}');
       }
     } finally {
-      client.close();
+    //  client.close();
     }
 
     return result;
@@ -49,16 +49,10 @@ class AsyncCocktailRepository {
 
   Future<Iterable<CocktailDefinition>> fetchCocktailsByCocktailType(CocktailType cocktailType) async {
     var result = <CocktailDefinition>[];
-
-    var client = http.Client();
+    //var client = http.Client();
     try {
       final url = 'https://the-cocktail-db.p.rapidapi.com/filter.php?a=${cocktailType.value}';
-      var response = await http.get(
-        url,
-        headers: {
-          'x-rapidapi-key': 'e5b7f97a78msh3b1ba27c40d8ccdp105034jsn34e2da32d50b',
-        },
-      );
+      var response = await http.get(url, headers: _headers);
       if (response.statusCode == 200) {
         final jsonResponse = convert.jsonDecode(response.body);
         var drinks = jsonResponse['drinks'] as Iterable<dynamic>;
@@ -77,7 +71,7 @@ class AsyncCocktailRepository {
         throw HttpException('Request failed with status: ${response.statusCode}');
       }
     } finally {
-      client.close();
+    //  client.close();
     }
 
     return result;
@@ -86,15 +80,10 @@ class AsyncCocktailRepository {
   Future<Iterable<Cocktail>> fetchPopularCocktails() async {
     var result = <Cocktail>[];
 
-    var client = http.Client();
+  //  var client = http.Client();
     try {
       const url = 'https://the-cocktail-db.p.rapidapi.com/popular.php';
-      var response = await http.get(
-        url,
-        headers: {
-          'x-rapidapi-key': 'e5b7f97a78msh3b1ba27c40d8ccdp105034jsn34e2da32d50b',
-        },
-      );
+      var response = await http.get(url, headers: _headers);
       if (response.statusCode == 200) {
         final jsonResponse = convert.jsonDecode(response.body);
         var drinks = jsonResponse['drinks'] as Iterable<dynamic>;
@@ -109,7 +98,7 @@ class AsyncCocktailRepository {
         throw HttpException('Request failed with status: ${response.statusCode}');
       }
     } finally {
-      client.close();
+     // client.close();
     }
 
     return result;
