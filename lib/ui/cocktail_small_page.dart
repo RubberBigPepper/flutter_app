@@ -1,17 +1,19 @@
 //класс для виджета маленькой карточки коктейля при поиске
 import 'package:flutter/material.dart';
 import 'package:flutter_app/models/models.dart';
+import 'package:flutter_app/models/src/model/cocktail_definition.dart';
+
 
 class CocktailSmallPage extends StatelessWidget {
   CocktailSmallPage(this.cocktail, {
     Key key,
   }) : super(key: key);
 
-  final Cocktail cocktail;
+  final CocktailDefinition cocktail;
   final width = 170.0;
   final height = 215.0;
 
-  final backColor = Colors.greenAccent; //основной цвет фона
+  final backColor = Color.fromRGBO(14, 13, 19, 1); //основной цвет фона
   final backColorFrame = Color.fromARGB(255, 21, 21, 28); //цвет фона рамки (закругленной)
 
   final titleFontSize = 14.0;
@@ -25,8 +27,9 @@ class CocktailSmallPage extends StatelessWidget {
     return Container(
         width: this.width,
         height: this.height,
-        color: backColor,
+        //color: backColor,
         constraints: BoxConstraints.tightFor(width: width,height: height),
+      decoration: new BoxDecoration(borderRadius: new BorderRadius.all(new Radius.circular(30.0)), color: backColor),
         child: Stack(
           children: [
             getImageWidget(this.cocktail.drinkThumbUrl),
