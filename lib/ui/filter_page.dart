@@ -20,22 +20,21 @@ import 'package:flutter/services.dart';
 
 class CocktailsFilterScreen extends StatefulWidget {
   @override
-  createState() => new CocktailFilterScreenWidgetState();
+  createState() => CocktailFilterScreenWidgetState();
 }
 
 class CocktailFilterScreenWidgetState extends State<CocktailsFilterScreen> {
   static const chipBackColor = Color.fromRGBO(41, 44, 44, 1);
   final categories = CocktailCategory.values;
-  var Category = null; //выбранная категория
-  var SearchStr = ""; //строка поиска
-  Iterable<CocktailDefinition> CocktailsSelected = null; //выбранные коктейли
-  var state =
-      0; //режим работы, 0 - нормальная работа, показ фильтра, 1 - ожидание подгрузки, -1 ошибка //надо бы сделать Enum, но некогда разбираться
+  var category; //выбранная категория
+  var searchStr = ""; //строка поиска
+  Iterable<CocktailDefinition> cocktailSelected; //выбранные коктейли
+  var state = 0; //режим работы, 0 - нормальная работа, показ фильтра, 1 - ожидание подгрузки, -1 ошибка //надо бы сделать Enum, но некогда разбираться
 
   void setFilteredCocktailList(Iterable<CocktailDefinition> iter) {
     setState(() {
       //установим список выбранных коктейлей и обновим галерею
-      CocktailsSelected = iter;
+      cocktailSelected = iter;
       state = 0;
     });
   }
@@ -43,20 +42,20 @@ class CocktailFilterScreenWidgetState extends State<CocktailsFilterScreen> {
   void setCategory(CocktailCategory newCat) {
     setState(() {
       state = 1;
-      Category = newCat;
-      AsyncCocktailRepository()
-          .fetchCocktailsByCocktailCategory(Category)
+      category = newCat;
+      /*AsyncCocktailRepository()
+          .fetchCocktailsByCocktailCategory(category)
           .then((value) => {setFilteredCocktailList(value)})
           .catchError((e) => {
                 //отразим ошибку
                 state = -1
-              });
+              });*/
     });
   }
 
   void setSearchString(String newStr) {
     setState(() {
-      SearchStr = newStr;
+      searchStr = newStr;
     });
   }
 
@@ -69,7 +68,10 @@ class CocktailFilterScreenWidgetState extends State<CocktailsFilterScreen> {
     return Container(
         width: screenHeight,
         height: screenHeight,
-        color: Color.fromRGBO(11, 11, 18, 1),
+        decoration: BoxDecoration(
+          gradient:
+              LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color.fromRGBO(26, 25, 39, 1), Color.fromRGBO(11, 11, 18, 1)]),
+        ),
         child: Column(
           children: [
             getSearchWidget(context),
@@ -103,11 +105,8 @@ class CocktailFilterScreenWidgetState extends State<CocktailsFilterScreen> {
               color: Color.fromRGBO(41, 44, 44, 1),
               child: TextField(
                 style: TextStyle(color: Colors.white, fontSize: 13, decoration: TextDecoration.none),
-                decoration: InputDecoration(
-                    border: InputBorder.none,
-                    hintText: 'Текст для поиска',
-                    hintStyle: TextStyle(color: Colors.blueGrey),
-                    labelText: SearchStr),
+                decoration:
+                    InputDecoration(border: InputBorder.none, hintText: 'Текст для поиска', hintStyle: TextStyle(color: Colors.blueGrey), labelText: searchStr),
                 onSubmitted: (String value) async {
                   setSearchString(value);
                 },
@@ -122,8 +121,7 @@ class CocktailFilterScreenWidgetState extends State<CocktailsFilterScreen> {
           child: Icon(Icons.close, color: Colors.white),
         ),
       ]),
-      decoration: new BoxDecoration(
-          borderRadius: new BorderRadius.all(new Radius.circular(30.0)), color: Color.fromRGBO(41, 44, 44, 1)),
+      decoration: BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(30.0)), color: Color.fromRGBO(41, 44, 44, 1)),
     );
   }
 
@@ -145,7 +143,7 @@ class CocktailFilterScreenWidgetState extends State<CocktailsFilterScreen> {
 
   Widget getChipWidget(CocktailCategory category, Color backColor) {
     return Material(
-        color: Color.fromRGBO(11, 11, 18, 1),
+        color: Colors.transparent, // Color.fromRGBO(11, 11, 18, 1),
         child: ActionChip(
             /*avatar: CircleAvatar(
             backgroundColor: backColor,
@@ -164,10 +162,8 @@ class CocktailFilterScreenWidgetState extends State<CocktailsFilterScreen> {
   List<Widget> getFilterList() {
     //виджет для списка ингридиентов
     List<Widget> res = [];
-    for (CocktailCategory cat in this.categories) {
-      res.add((Category != null && cat == Category)
-          ? getChipWidget(cat, Color.fromRGBO(59, 57, 83, 1))
-          : getChipWidget(cat, chipBackColor));
+    for (CocktailCategory cat in categories) {
+      res.add((category != null && cat == category) ? getChipWidget(cat, Color.fromRGBO(59, 57, 83, 1)) : getChipWidget(cat, chipBackColor));
       res.add(SizedBox(
         width: 8.0,
         height: 46.0,
@@ -176,34 +172,39 @@ class CocktailFilterScreenWidgetState extends State<CocktailsFilterScreen> {
     return res;
   }
 
-  Widget getGridResult() {
+  Widget getGridResult(BuildContext context) {
+    final screenWidth = MediaQuery.of(context).size.width;
     //виджет грида, можно было и Wrap сделать
     return Flexible(
-        child: GridView.count(
+        child: GridView(
             shrinkWrap: true,
             // Create a grid with 2 columns. If you change the scrollDirection to
             // horizontal, this produces 2 rows.
-            crossAxisCount: 2,
-            // Generate 100 widgets that display their index in the List.
+            //crossAxisCount: 2,
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: (screenWidth / 170.0).round(),
+              crossAxisSpacing: 3.0,
+              mainAxisSpacing: 3.0,
+            ),
             children: generateFilteredCoctailList()));
   }
 
   List<Widget> generateFilteredCoctailList() {
     var res = List<Widget>();
-    if (this.CocktailsSelected != null) {
-      for (CocktailDefinition cocktail in this.CocktailsSelected) {
+    if (cocktailSelected != null) {
+      for (CocktailDefinition cocktail in cocktailSelected) {
         res.add(Center(child: CocktailSmallPage(cocktail)));
       }
     }
     return res;
   }
 
-  Widget generateBodyWidget(BuildContext context) {
+  Widget generateBodyWidget_old(BuildContext context) {
     switch (state) {
       case 1: //идет загрузка
         return Flexible(child: Center(child: Icon(Icons.cloud_download, color: Colors.white)));
       case 0:
-        if (this.CocktailsSelected != null) return getGridResult();
+        if (cocktailSelected != null) return getGridResult(context);
     }
     return Flexible(
         child: Center(
@@ -212,5 +213,34 @@ class CocktailFilterScreenWidgetState extends State<CocktailsFilterScreen> {
         style: TextStyle(color: Colors.white, fontSize: 15.0, decoration: TextDecoration.none),
       ),
     ));
+  }
+
+  Widget generateBodyWidget(BuildContext context) {
+    return FutureBuilder(
+        initialData: null,
+        future: AsyncCocktailRepository().fetchCocktailsByCocktailCategory(category), //вот магия - вызов Futures
+        builder: (BuildContext context, AsyncSnapshot snapshot) {
+          //ну а здесь что именно происходит
+          switch (snapshot.connectionState) {
+            case ConnectionState.waiting:
+              return Flexible(
+                  child: Center(
+                child: CircularProgressIndicator(), // ну или Center(child: Icon(Icons.cloud_download, color: Colors.white))
+              ));
+            case ConnectionState.done:
+              cocktailSelected = snapshot.data;
+              if (cocktailSelected != null && cocktailSelected.isNotEmpty)
+                return getGridResult(context); //строим грид
+              else {
+                return Flexible(
+                    child: Center(
+                  child: Text(
+                    "Ошибка загрузки",
+                    style: TextStyle(color: Colors.white, fontSize: 15.0, decoration: TextDecoration.none),
+                  ),
+                ));
+              }
+          }
+        });
   }
 }

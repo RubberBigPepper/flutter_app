@@ -100,10 +100,10 @@ class CocktailDetailPage extends StatelessWidget {
 
   Widget textInOvalFrame(String text, double fontSize, double leftMargin) {
     //текст в овальной рамке
-    return new Container(
+    return Container(
       margin: EdgeInsets.only(left: marginHor),
       child: generateText(text, fontSize, TextAlign.left, leftMargin),
-      decoration: new BoxDecoration(borderRadius: new BorderRadius.all(new Radius.circular(30.0)), color: Colors.black),
+      decoration: BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(30.0)), color: Colors.black),
     );
   }
 

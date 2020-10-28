@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/models/models.dart';
 import 'package:flutter_app/models/src/model/cocktail_definition.dart';
 
-
 class CocktailSmallPage extends StatelessWidget {
-  CocktailSmallPage(this.cocktail, {
+  CocktailSmallPage(
+    this.cocktail, {
     Key key,
   }) : super(key: key);
 
@@ -25,29 +25,31 @@ class CocktailSmallPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        width: this.width,
-        height: this.height,
-        //color: backColor,
-        constraints: BoxConstraints.tightFor(width: width,height: height),
-      decoration: new BoxDecoration(borderRadius: new BorderRadius.all(new Radius.circular(30.0)), color: backColor),
-        child: Stack(
-          children: [
-            getImageWidget(this.cocktail.drinkThumbUrl),
-            //это картинка коктейля
-            getCocktailDescription(),
-            //описание коктейля
-          ],
-        ),
-    );
+        //width: this.width,
+        //height: this.height,
+        //padding: EdgeInsets.all(10.0),
+        // constraints: BoxConstraints.tightFor(width: width, height: height),
+        child: ClipRRect(
+      borderRadius: BorderRadius.circular(5.0),
+      child: Stack(
+        children: [
+          getImageWidget(this.cocktail.drinkThumbUrl),
+          //это картинка коктейля
+          getCocktailDescription(),
+          //описание коктейля
+        ],
+      ),
+    ));
   }
 
   Widget getImageWidget(String url) {
-    return Image.network(
-      url,
-      height: this.height,
-      width: this.width,
-      fit: BoxFit.scaleDown,
-    );
+    return Image.network(url, fit: BoxFit.contain, loadingBuilder: (BuildContext context, Widget child, ImageChunkEvent loadingProgress) {
+      if (loadingProgress == null) return child;
+      return Center(
+          child: CircularProgressIndicator(
+        value: loadingProgress.expectedTotalBytes != null ? loadingProgress.cumulativeBytesLoaded / loadingProgress.expectedTotalBytes : null,
+      ));
+    });
   }
 
   Widget generateText(String text, double fontSize, TextAlign align, double leftRightMargin) {
@@ -56,44 +58,39 @@ class CocktailSmallPage extends StatelessWidget {
         child: Text(
           text,
           textAlign: align,
-          style: TextStyle(
-              color: textColor,
-              fontSize: fontSize,
-              decoration: TextDecoration.none
-          ),
+          style: TextStyle(color: textColor, fontSize: fontSize, decoration: TextDecoration.none),
         ));
   }
 
   Widget textInOvalFrame(String text, double fontSize, double leftMargin) {
     //текст в овальной рамке
-    return new Container(
+    return Container(
       margin: EdgeInsets.only(left: 14.0),
       child: generateText(text, fontSize, TextAlign.left, leftMargin),
-      decoration: new BoxDecoration(borderRadius: new BorderRadius.all(new Radius.circular(30.0)), color: this.backColorFrame),
+      decoration: BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(30.0)), color: this.backColorFrame),
     );
   }
 
   Widget getCocktailDescription() {
     //описание коктейля
-    return SizedBox.expand(child:
-      Align(
+    return SizedBox.expand(
+      child: Align(
         alignment: Alignment.bottomLeft,
-        child:
-          Container(
-          width: width,
-          padding: EdgeInsets.only(
-              bottom: 16.0),
+        child: Container(
+          width: double.infinity,
+          padding: EdgeInsets.only(bottom: 16.0),
           decoration: BoxDecoration(
-            color: Colors.transparent,
+            gradient:
+                LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color.fromRGBO(14, 13, 19, 0), Color.fromRGBO(14, 13, 19, 1)]),
           ),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             mainAxisAlignment: MainAxisAlignment.end,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-             // Expanded(child: Container(width: 0, height: 0)),
+              // Expanded(child: Container(width: 0, height: 0)),
               generateText(this.cocktail.name, idFontSize, TextAlign.left, textMargin),
-              textInOvalFrame("id: "+this.cocktail.id, idFontSize, textMargin),
+              textInOvalFrame("id: " + this.cocktail.id, idFontSize, textMargin),
             ],
           ),
         ),
