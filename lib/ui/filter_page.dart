@@ -15,6 +15,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/models/models.dart';
 import 'package:flutter_app/models/src/model/cocktail_definition.dart';
 import 'package:flutter_app/models/src/repository/async_cocktail_repository.dart';
+import 'package:flutter_app/ui/CocktailProgressIndicator.dart';
 import 'package:flutter_app/ui/cocktail_small_page.dart';
 import 'package:flutter/services.dart';
 
@@ -225,7 +226,7 @@ class CocktailFilterScreenWidgetState extends State<CocktailsFilterScreen> {
             case ConnectionState.waiting:
               return Flexible(
                   child: Center(
-                child: CircularProgressIndicator(), // ну или Center(child: Icon(Icons.cloud_download, color: Colors.white))
+                child: CocktailProgressIndicator() //CircularProgressIndicator(), // ну или Center(child: Icon(Icons.cloud_download, color: Colors.white))
               ));
             case ConnectionState.done:
               cocktailSelected = snapshot.data;
